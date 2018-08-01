@@ -23,9 +23,15 @@ search: true
 
 # Introduction
 
-Welcome to the Divi Project developer documentation repository! This service provides a comprehensive overview of everything in the Divi ecosystem. Use the navigation pane at the left side of this page to select the documentation you would like to read. 
+Welcome to the Divi Project documentation repository! This service provides a comprehensive overview of everything in the Divi ecosystem. Use the navigation pane at the left side of this page to select the documentation you would like to read. 
 
-# Masternodes
+# Contribute
+
+If you would like to contribute to the Divi Project Documentation, fork [this repository](https://github.com/divicoin/docs) and check out the README to get started!
+
+# Masternode setup
+
+// TODO
 
 # Divi CLI
 
@@ -82,6 +88,10 @@ Returns the current number of synced blocks.
 Returns the current state of the mempool
 
 **gettxout < txid >**
+// TODO
+
+**gettxoutsetinfo**
+
 // TODO
 
 **verifychain**
