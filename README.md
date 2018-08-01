@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/images/logo.png" alt="Divi Docs: Contribute to Divi Development" width="226">
+  <img src="/source/images/logo.png" alt="Divi Docs: Contribute to Divi Development" width="226">
 </p>
 
 <p align="center">Contribute to Divi's documentation using the instructions in this README.</p>
