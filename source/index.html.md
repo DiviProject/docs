@@ -48,7 +48,7 @@ When you set up your wallet initially, always encrypt your wallet and dump your 
 
 ```shell
 TO DISPLAY YOUR SEED INFO:
-divi-cli dumphdwallet
+divi-cli dumphdinfo
 ```
 This will return a seed phrase that you can use later to recover your funds.
 
