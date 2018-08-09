@@ -41,6 +41,28 @@ The DIVI CLI commands listed here are the methods with which you can speak to th
 Note: You must call all of these commands with a preceding `divi-cli`
 </aside>
 
+## How to recover wallet from seed phrase
+When you set up your wallet initially, always encrypt your wallet and dump your HD Mnemonic. Save this and guard it with your life, it is the *only* way to recover your funds should your wallet be lost, stolen, or otherwise irreparably destroyed.
+
+`divi-cli dumphdwallet` can be run at any time to view your phrase
+
+```shell
+TO DISPLAY YOUR SEED INFO:
+divi-cli dumphdwallet
+```
+This will return a seed phrase that you can use later to recover your funds.
+
+Should you need to recover your wallet: 
+1. Make sure your `divid` is shut down.
+2. Make sure any other `wallet.dat` file is removed from the data directory.
+
+```shell
+TO RECOVER WALLET ON STARTUP:
+divid -debug -hdseed=<hash_of_seed_to_recover> -rescan
+```
+
+After your node syncs back up with the network, you should see your recovered wallet.
+
 ## Blockchain commands
 
 ```shell
