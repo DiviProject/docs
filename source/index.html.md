@@ -44,7 +44,7 @@ Note: You must call all of these commands with a preceding `divi-cli`
 ## How to recover wallet from seed phrase
 When you set up your wallet initially, always encrypt your wallet and dump your HD Mnemonic. Save this and guard it with your life, it is the *only* way to recover your funds should your wallet be lost, stolen, or otherwise irreparably destroyed.
 
-`divi-cli dumphdwallet` can be run at any time to view your phrase
+`divi-cli dumphdinfo` can be run at any time to view your phrase
 
 ```shell
 TO DISPLAY YOUR SEED INFO:
