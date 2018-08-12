@@ -33,6 +33,20 @@ If you would like to contribute to the Divi Project Documentation, fork [this re
 
 // TODO
 
+# Default configuration
+If you choose to use Divi via the CLI, you will need to make sure your configuration is correct to ensure stable connection to the network and a full feature set.
+
+You can find the configuration file in the Divi data directory entitled `divi.conf`
+```shell
+addnode=178.62.195.16
+addnode=178.62.221.33
+
+rpcuser=<your_rpc_username>
+rpcpassword=<your_secure_rpc_password>
+
+daemon=1
+```
+
 # Divi CLI
 
 The DIVI CLI commands listed here are the methods with which you can speak to the DIVI RPC client. 
