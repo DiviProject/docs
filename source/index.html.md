@@ -313,7 +313,7 @@ https://diviproject.org/calculator
 		<td>Forbes</td>
 		<td>Brilliant Startups Are Using ICOs To Revolutionize The World Of Blockchain”</td>
 		<td></td>
-		<td><a href="https://www.forbes.com/sites/haroldstark/2017/10/27/brilliant-startups-are-using-icos-to-revolutionize-the-world-of-blockchain/#5488c8ef4a79" >View</a></td>
+		<td><a href="https://www.forbes.com/sites/haroldstark/2017/10/27/brilliant-startups-are-using-icos-to-revolutionize-the-world-of-blockchain/#5488c8ef4a79" rel="nofollow" >View</a></td>
 	</tr>
 	<tr>
 		<td>10/19/2017</td>
