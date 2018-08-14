@@ -320,182 +320,182 @@ https://diviproject.org/calculator
 		<td>Hackernoon.com</td>
 		<td>8 Resources to Get You Caught Up With Crypto</td>
 		<td></td>
-		<td><a href="https://hackernoon.com/8-resources-to-get-you-caught-up-with-crypto-81f972f819a"  >View</a></td>
+		<td><a href="https://hackernoon.com/8-resources-to-get-you-caught-up-with-crypto-81f972f819a" rel="nofollow"  >View</a></td>
 	</tr>
 	<tr>
 		<td>10/19/2017</td>
 		<td>Entrepreneur</td>
 		<td>10 Companies That Are Getting Creative With Cryptocurrency</td>
 		<td></td>
-		<td><a href="https://www.entrepreneur.com/article/302696"  >View</a></td>
+		<td><a href="https://www.entrepreneur.com/article/302696" rel="nofollow"  >View</a></td>
 	</tr>
 	<tr>
 		<td>10/23/2017</td>
 		<td>The Next Web</td>
 		<td>What does it take to get women involved in crypto?</td>
 		<td></td>
-		<td><a href="https://thenextweb.com/contributors/2017/10/23/what-does-it-take-to-get-women-involved-in-crypto"  >View</a></td>
+		<td><a href="https://thenextweb.com/contributors/2017/10/23/what-does-it-take-to-get-women-involved-in-crypto" rel="nofollow" >View</a></td>
 	</tr>
 	<tr>
 		<td>11/21/2017</td>
 		<td>BlockTribune</td>
 		<td>The Divi Project On Crypto Transactions: “If People Can’t Do This While Drunk, Then It’s Not Good Enough”</td>
 		<td>14,807</td>
-		<td><a href="http://blocktribune.com/divi-project-transactions-people-cant-drunk-not-good-enough/ "  >View</a></td>
+		<td><a href="http://blocktribune.com/divi-project-transactions-people-cant-drunk-not-good-enough/ " rel="nofollow" >View</a></td>
 	</tr>
 	<tr>
 		<td>11/30/2017</td>
 		<td>Computer America Podcast</td>
 		<td>The Divi Project Interview: Geoff McCabe</td>
 		<td>1,000,000</td>
-		<td><a href="http://www.blogtalkradio.com/computeramerica/2017/11/30/the-divi-project-interview-supreme-court-privacy-5g-wireless-home-internet" >View</a></td>
+		<td><a href="http://www.blogtalkradio.com/computeramerica/2017/11/30/the-divi-project-interview-supreme-court-privacy-5g-wireless-home-internet" rel="nofollow" >View</a></td>
 	</tr>
 	<tr>
 		<td>12/5/2017</td>
 		<td>B2B News Network</td>
 		<td>Divi Project seeks to create a blockchain-based cryptocurrency businesses will actually use</td>
 		<td>56,758</td>
-		<td><a href="https://www.b2bnn.com/2017/12/divi-project/">View</a></td>
+		<td><a href="https://www.b2bnn.com/2017/12/divi-project/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>1/7/2018</td>
 		<td>The Scope Weekly</td>
 		<td>Merrill Lynch Blocks Bitcoin But Crypto Advocates Have Different Plans</td>
 		<td>28,000</td>
-		<td><a href="https://scopeweekly.com/2018/01/05/merrill-lynch-blocks-bitcoin-crypto-advocates-different-plans/">View</a></td>
+		<td><a href="https://scopeweekly.com/2018/01/05/merrill-lynch-blocks-bitcoin-crypto-advocates-different-plans/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>1/9/2018</td>
 		<td>Bold Business</td>
 		<td>Interview with Geoff McCabe and Tim Sanders</td>
 		<td>100,000 (syndicated)</td>
-		<td><a href="https://www.facebook.com/BoldTV/videos/vl.535132330207552/543761572648468/?type=1">View</a></td>
+		<td><a href="https://www.facebook.com/BoldTV/videos/vl.535132330207552/543761572648468/?type=1" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>1/9/2018</td>
 		<td>Cheddar</td>
 		<td>New Cryptocurrency Looking to Appeal to the Masses</td>
 		<td>148,000,000</td>
-		<td><a href="https://cheddar.com/videos/new-cryptocurrency-looking-to-appeal-to-the-masses">View</a></td>
+		<td><a href="https://cheddar.com/videos/new-cryptocurrency-looking-to-appeal-to-the-masses" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>1/16/2018</td>
 		<td>TechRepublic</td>
 		<td>Why cryptocurrency needs to get more user-friendly to achieve mainstream success</td>
 		<td>9,385,059</td>
-		<td><a href="https://www.techrepublic.com/article/why-cryptocurrency-needs-to-get-more-user-friendly-to-achieve-mainstream-success/">View</a></td>
+		<td><a href="https://www.techrepublic.com/article/why-cryptocurrency-needs-to-get-more-user-friendly-to-achieve-mainstream-success/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>1/20/2018</td>
 		<td>The Bitcoin News</td>
 		<td>These Startups are Making Blockchain Technology and Cryptocurrencies More User-Friendly</td>
 		<td>205,495</td>
-		<td><a href="https://thebitcoinnews.com/these-startups-are-making-blockchain-technology-and-cryptocurrencies-more-user-friendly/">View</a></td>
+		<td><a href="https://thebitcoinnews.com/these-startups-are-making-blockchain-technology-and-cryptocurrencies-more-user-friendly/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>1/20/2018</td>
 		<td>Inside Bitcoins</td>
 		<td>The Bitcoin News pickup: These Startups are Making Blockchain Technology and Cryptocurrencies More User-Friendly</td>
 		<td>149,320</td>
-		<td><a href="https://insidebitcoins.com/news/these-startups-are-making-blockchain-technology-and-cryptocurrencies-more-user-friendly/99251">View</a></td>
+		<td><a href="https://insidebitcoins.com/news/these-startups-are-making-blockchain-technology-and-cryptocurrencies-more-user-friendly/99251" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>1/21/2018</td>
 		<td>BTC Manager</td>
 		<td>The Bitcoin News pickup: These Startups are Making Blockchain Technology and Cryptocurrencies More User-Friendly</td>
 		<td>92,012</td>
-		<td><a href="https://btcmanager.com/startups-making-blockchain-technology-cryptocurrencies-user-friendly/">View</a></td>
+		<td><a href="https://btcmanager.com/startups-making-blockchain-technology-cryptocurrencies-user-friendly/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>1/22/2018</td>
 		<td>Crypto Daily</td>
 		<td>The Bitcoin News pickup: These Startups are Making Blockchain Technology and Cryptocurrencies More User-Friendly</td>
 		<td>175, 290</td>
-		<td><a href="https://cryptodaily.co.uk/2018/01/startups-made-blockchain-technology-easier/">View</a></td>
+		<td><a href="https://cryptodaily.co.uk/2018/01/startups-made-blockchain-technology-easier/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>2/23/2018</td>
 		<td>This Week in Tech Netcast</td>
 		<td>Episode 279: The Divi Project</td>
 		<td>1,321,134</td>
-		<td><a href="https://twit.tv/shows/this-week-in-enterprise-tech/episodes/279">View</a></td>
+		<td><a href="https://twit.tv/shows/this-week-in-enterprise-tech/episodes/279" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>3/2/2018</td>
 		<td>CNBC</td>
 		<td>Bitcoin takes on cash, as more places accept the cryptocurrency</td>
 		<td>26,089,258</td>
-		<td><a href="https://www.cnbc.com/2018/03/02/spending-cryptocurrencies-on-everyday-purchases-is-getting-easier.html">View</a></td>
+		<td><a href="https://www.cnbc.com/2018/03/02/spending-cryptocurrencies-on-everyday-purchases-is-getting-easier.html" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>3/5/2018</td>
 		<td>Yahoo Finance</td>
 		<td>Spending your digital coins on stuff is easier said than done</td>
 		<td>1,834,222</td>
-		<td><a href="https://ca.finance.yahoo.com/news/spending-digital-coins-stuff-easier-133000702.html">View</a></td>
+		<td><a href="https://ca.finance.yahoo.com/news/spending-digital-coins-stuff-easier-133000702.html" rel="nofollow">View</a></td>
 	</tr>
 		<tr>
 		<td>4/8/2017</td>
 		<td>Irish Tech News</td>
 		<td>SURVEY OF 150 ICOS REVEALS CONSENSUS OF 11 SUCCESS FACTORS</td>
 		<td>UVM</td>
-		<td><a href="https://irishtechnews.ie/survey-of-150-icos-reveals-consensus-of-11-success-factors/"  >View</a></td>
+		<td><a href="https://irishtechnews.ie/survey-of-150-icos-reveals-consensus-of-11-success-factors/" rel="nofollow"  >View</a></td>
 	</tr>
 	<tr>
 		<td>4/16/2018</td>
 		<td>Payments Source</td>
 		<td>03.05.18 Your morning briefing</td>
 		<td>87,789</td>
-		<td><a href="https://www.paymentssource.com/news/amazon-in-talks-with-jpmorgan-to-build-checking-account">View</a></td>
+		<td><a href="https://www.paymentssource.com/news/amazon-in-talks-with-jpmorgan-to-build-checking-account" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>5/8/2018</td>
 		<td>Girlboss</td>
 		<td>What’s Cryptocurrency And Why Should I Care? A Guide For N00bs</td>
 		<td>51,782</td>
-		<td><a href="https://www.girlboss.com/money/whats-cryptocurrency-and-why-should-i-care-a-guide-for-n00bs/">View</a></td>
+		<td><a href="https://www.girlboss.com/money/whats-cryptocurrency-and-why-should-i-care-a-guide-for-n00bs/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>5/11/2018</td>
 		<td>Finance Magnates</td>
 		<td>All Eyes on Ripple as it Faces Lawsuit – is XRP a Security?</td>
 		<td>615,202</td>
-		<td><a href="https://www.financemagnates.com/cryptocurrency/news/eyes-ripple-faces-lawsuit-xrp-security/">View</a></td>
+		<td><a href="https://www.financemagnates.com/cryptocurrency/news/eyes-ripple-faces-lawsuit-xrp-security/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>5/11/2018</td>
 		<td>Investing.com</td>
 		<td>Ripple Holds Steady Despite Legal Scrutiny</td>
 		<td>16,380,603</td>
-		<td><a href="https://www.investing.com/analysis/ripple-holds-steady-despite-regulatory-scrutiny-200314979">View</a></td>
+		<td><a href="https://www.investing.com/analysis/ripple-holds-steady-despite-regulatory-scrutiny-200314979" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>5/11/2018</td>
 		<td>The Investors Podcast</td>
 		<td>Investing.com pickup: Ripple Holds Steady Despite Legal Scrutiny</td>
 		<td>2,367,051</td>
-		<td><a href="https://www.theinvestorspodcast.com/blog/ripple-holds-steady-despite-legal-scrutiny/">View</a></td>
+		<td><a href="https://www.theinvestorspodcast.com/blog/ripple-holds-steady-despite-legal-scrutiny/" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>5/11/2018</td>
 		<td>Indian Tax Home</td>
 		<td>Ripple Holds Steady Despite Legal Scrutiny</td>
 		<td>N/A</td>
-		<td><a href="https://www.indiantaxhome.com/2018/05/ripple-holds-steady-despite-legal-scrutiny.html">View</a></td>
+		<td><a href="https://www.indiantaxhome.com/2018/05/ripple-holds-steady-despite-legal-scrutiny.html" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>5/11/2018</td>
 		<td>The CryptoCast with Jason Hartman</td>
 		<td>CC 12 - An ICO Case Study with Divi Project's Geoff McCabe</td>
 		<td>N/A</td>
-		<td><a href="http://cryptocast.libsyn.com/cc-12-an-ico-case-study-with-divi-projects-geoff-mccabe">View</a></td>
+		<td><a href="http://cryptocast.libsyn.com/cc-12-an-ico-case-study-with-divi-projects-geoff-mccabe" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>Summer 2018</td>
 		<td>Stanford Social Innovation Review (online)</td>
 		<td>Journalism’s Savior?</td>
 		<td>453,692</td>
-		<td><a href="https://ssir.org/articles/entry/journalisms_savior">View</a></td>
+		<td><a href="https://ssir.org/articles/entry/journalisms_savior" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>Summer 2018</td>
@@ -509,21 +509,21 @@ https://diviproject.org/calculator
 		<td>Silicon Republic</td>
 		<td>Is it possible to create an environmentally friendly cryptocurrency?</td>
 		<td>698,076</td>
-		<td><a href="https://www.siliconrepublic.com/enterprise/environmentally-friendly-cryptocurrency-pos">View</a></td>
+		<td><a href="https://www.siliconrepublic.com/enterprise/environmentally-friendly-cryptocurrency-pos" rel="nofollow">View</a></td>
 	</tr>
 	<tr>
 		<td>6/01/2018</td>
 		<td>Nasdaq</td>
 		<td>Opening Doors For Enterprise Blockchain Technology Through Day-to-Day Cryptocurrency Spending</td>
 		<td>9,379,166</td>
-		<td><a href="https://www.nasdaq.com/article/opening-doors-for-enterprise-blockchain-technology-through-day-to-day-cryptocurrency-spending-cm972230">View</a></td>
+		<td><a href="https://www.nasdaq.com/article/opening-doors-for-enterprise-blockchain-technology-through-day-to-day-cryptocurrency-spending-cm972230" rel="nofollow">View</a></td>
 	</tr>
 		<tr>
 		<td>6/27/2018</td>
 		<td>CeddarTV/NYSE</td>
 		<td>Live TV Interview: Divi Project Is Like PayPal For Crypto, Minus the Third Parties</td>
 		<td>148,000,000</td>
-		<td><a href="https://cheddar.com/videos/divi-project-is-like-paypal-for-crypto-minus-the-third-parties">View</a></td>
+		<td><a href="https://cheddar.com/videos/divi-project-is-like-paypal-for-crypto-minus-the-third-parties" rel="nofollow">View</a></td>
 	</tr>
 </table>
 
@@ -535,7 +535,7 @@ Version 2.0 - Last Updated June 25, 2018
 
 Everything we do has one goal in mind: to make cryptocurrencies easier to use.  Cryptos have the power to revolutionize the way we use money, and within several years will be adopted by billions of ordinary people for day-to-day transactions.  This can’t happen the way they are now:  slow, expensive fees, impossible to understand, and easy to make a mistake and lose money.  Divi’s user-friendly Smart Wallet™ and blockchain make transactions far faster, less expensive, easier, safe to use, and with a special focus on eliminating user error.  Divi is powered by our revolutionary one-click masternode program, the first to allow anyone, without technical knowledge, to earn coins by joining our network using their home computer.
 
-![Chart Projected Growth Of Crypto Wallets](/uploads/chart-projected-growth-of-crypto-wallets.jpg "Chart Projected Growth Of Crypto Wallets"){.align-center}
+![Chart Projected Growth Of Crypto Wallets](./uploads/chart-projected-growth-of-crypto-wallets.jpg "Chart Projected Growth Of Crypto Wallets"){.align-center}
 
 ### What is Divi?
 
@@ -543,7 +543,7 @@ Everything we do has one goal in mind: to make cryptocurrencies easier to use.  
 
 In 2009 Satoshi Nakamoto invented Bitcoin when he released his first whitepaper titled "Bitcoin: A Peer-to-Peer Electronic Cash System" imagining a digital currency that would be used by millions of people around the world for everyday transactions.  While Bitcoin is successful in its own way, it has strayed from its intended purpose.  It is painfully difficult to use and understand, it is too slow, and transactions are expensive.  The Divi Project was created to solve all these problems and realize Satoshi’s dream of a fast, safe, and cheap digital money that can be used by ordinary people around the world without banks or governments as an intermediary.
 
-![Chart Bitcoin Vs Divi](/uploads/chart-bitcoin-vs-divi.jpg "Chart Bitcoin Vs Divi"){.align-center}
+![Chart Bitcoin Vs Divi](./uploads/chart-bitcoin-vs-divi.jpg "Chart Bitcoin Vs Divi"){.align-center}
 
 **A Digital Money for Mass Use**
 
@@ -602,8 +602,6 @@ CEO and co-founder, Geoff McCabe, has a master’s degree in physics and has led
 
 Michael Greenwood started at Microsoft as a senior developer at age 19, and rose to become a principal UX designer for projects such as Origami, Xbox, SQL Server, Windows 7, Windows 8, 8.1, and 10.  
 
-David Kelley, formerly CTO of Hall Labs, one of the world’s top technology incubators, heads up Divi’s blockchain team. 
-
 Divi’s advisors include Tim Sanders, formerly Chief Solutions Officer at Yahoo and Heidi Krupp of Krupp Kommunications, one of America’s leading PR firms.
 
 Advisors include Toni Lane Casserly, co-founder of Coin Telegraph, and Ramez Naam, noted futurist and winner of last year’s Phillip K Dick award for best Sci Fi novel. According to Naam, "Divi is the future. It's simple enough for everyone. It's cryptocurrency's Netscape, iPhone, or Tesla moment." 
@@ -628,30 +626,6 @@ https://www.linkedin.com/in/sanderssays
 UX Expert, Security, AI, Ex-Microsoft Team Leader
 https://www.linkedin.com/profinder/pro/michaelgreenwood	
 
-**David Kelley, Lead Blockchain Engineer**
-CTO, Hall Labs.  Microsoft MVP.
-https://www.linkedin.com/in/davidjameskelley 
-
-**Mark Waser**
-Principal Blockchain Engineer, A.I. Scientist
-https://www.linkedin.com/in/markwaser 
-
-**Herman Hendricks**
-Project Manager
-Microsoft PM, Artificial General Intelligence Inc
-https://www.linkedin.com/in/herman-ta-zayah-hendricks-jr-csm-819a0635 
-
-**David Caldwell**
-Lead Software Developer
-https://www.linkedin.com/in/david-caldwell-11321413 
-
-**Michael Byrd**
-Software Development
-https://www.linkedin.com/in/thebyrdman 
-
-**Carl Youngblood**
-CTO, Mainframe.  Blockchain Advisor & Evangelist
-https://www.linkedin.com/in/carlyoungblood 
 	
 ### Marketing and Promotion
 
@@ -813,7 +787,7 @@ Masternodes replace miners in our blockchain ecosystem.  Our Proof of Stake syst
 
 One of the reasons that masternode coins are so popular is that they create a community with a shared goal.  Our tiered system encourages participants to earn more coins and accumulate them, always striving for the next level.    We’ve set the following tiers:
 
-![Masternodes Chart 3](/uploads/masternodes-chart-3.jpg "Masternodes Chart 3"){.align-center}
+![Masternodes Chart 3](./uploads/masternodes-chart-3.jpg "Masternodes Chart 3"){.align-center}
 
 The chance of earning coins at each masternode level improves proportionally with the number of coins.  For example, the Silver masternode is 5% more likely to win a block than three Coppers.  Or, the Diamond is 20% more likely to win than 100 Coppers.  Thought of another way, a diamond node is like owning 120 copper nodes.
 
@@ -945,7 +919,7 @@ Rest assured, we are aware that in order to achieve mass adoption and use by 50 
 
 ## Marketing
 
-![Cryptocurrency Adoption Timeline](/uploads/cryptocurrency-adoption-timeline.jpg "Cryptocurrency Adoption Timeline"){.align-center}
+![Cryptocurrency Adoption Timeline](./uploads/cryptocurrency-adoption-timeline.jpg "Cryptocurrency Adoption Timeline"){.align-center}
 
 ### Mass Adoption Theory
 
@@ -971,7 +945,7 @@ So rather than seeing other cryptos in the market as competition, we see them as
 
 During the build phase, we airdropped 3000 DIVX tokens per week into the wallet of DIVX holders that had 1000 or more DIVX.
 
-![Chart Age Of Crypto Fans](/uploads/chart-age-of-crypto-fans.jpg "Chart Age Of Crypto Fans"){.align-center}
+![Chart Age Of Crypto Fans](./uploads/chart-age-of-crypto-fans.jpg "Chart Age Of Crypto Fans"){.align-center}
 
 ## Target Groups
 
@@ -997,7 +971,7 @@ More than two billion people in the world don’t have a birth certificate and c
 
 Currently women make up less than 10% of cryptocurrency users, which means they are missing out on one of the world’s largest creations of wealth in history.  Yet, women are known to be slightly better investors, on average, than men, and in the U.S. control 70% of household spending.  They should make them natural for the crypto revolution, where patience and caution are paramount, but have been left out for various reasons.  Divi is focused on finding ways to bridge this divide and close the gender gap in this space.  Without women involved in crypto, there will be no mass adoption.
 
-![Women Investors](/uploads/women-investors.jpg "Women Investors"){.align-center}
+![Women Investors](./uploads/women-investors.jpg "Women Investors"){.align-center}
 
 ### Influencers
 
@@ -1109,9 +1083,9 @@ The amount of mainstream media attention achieved by The Divi Project is unprece
 
 ## Team
 
-Divi's leadership team members all have more than 25 years experience in their fields.  CEO and co-founder, Geoff McCabe, has a master’s degree in physics and has led three multi-million dollar businesses to success before joining Divi.  Michael Greenwood started at Microsoft as a senior developer at age 19, and rose to become a principal UX designer for projects such as Origami, Xbox, SQL Server, Windows 7, Windows 8, 8.1, and 10.  David Kelley, formerly CTO of Hall Labs, one of the world’s top technology incubators, heads up Divi’s blockchain team. 
+Divi's leadership team members all have more than 25 years experience in their fields.  CEO and co-founder, Geoff McCabe, has a master’s degree in physics and has led three multi-million dollar businesses to success before joining Divi.  Michael Greenwood started at Microsoft as a lead developer at age 19, and rose to become a principal UX designer for projects such as Origami, Xbox, SQL Server, Windows 7, Windows 8, 8.1, and 10.   
 
-The Divi advisory board includes former Yahoo Chief Solutions Officer Tim Sanders, futurist Ramez Naam, winner of last year’s Phillip K Dick award for best Sci Fi novel, and Toni Lane Casserly, former CEO and  of Cointelegraph.
+The Divi advisory board includes former Yahoo Chief Solutions Officer Tim Sanders, futurist Ramez Naam, winner of last year’s Phillip K Dick award for best Sci Fi novel, and Toni Lane Casserly, former CEO and founder of Cointelegraph.
 
 Divi Team Details: [](https://wiki.diviproject.org/whitepaper#team)
 
