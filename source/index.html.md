@@ -42,7 +42,7 @@ Make sure that you have enough funds for the Masternode level you want to set up
 1. Create a collateral transaction
 
 ```bash
-allocatefunds <purpose> <alias> <amount>
+allocatefunds <purpose> <alias> <tier>
 
 ## Output
 <collateral_hash>
@@ -55,7 +55,14 @@ Via the command line, call rpc method `allocatefunds` to create a collateral tra
 | ---				| ------			| ------	| ---
 | 1					| `<purpose>` 		| masternode| Always the same
 | 2					| `<alias>`			| mn1		| Can be anything you want
-| 3					| `<amount>`		| 100000	| Must be enough for the tier you want
+| 3					| `<tier>`			| copper	| The tier you want to run
+
+Tier options:
+- copper
+- silver
+- gold
+- platinum
+- diamond
 
 ```bash
 fundmasternode <alias> <tier> <result_of_allocate_funds> <masternode_ip>
@@ -265,7 +272,7 @@ Cleanly stop `divid`
 
 
 ```shell
-allocatefunds <purpose> <alias> <amount> ( "pay wallet" ( "voting wallet" ) )
+allocatefunds <purpose> <alias> <tier> ( "pay wallet" ( "voting wallet" ) )
 fundmasternode <alias> <amount> <TxID> <masternode> ("pay wallet" ("voting wallet"))
 getmasternodecount
 getmasternodestatus
