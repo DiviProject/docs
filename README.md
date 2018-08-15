@@ -35,9 +35,7 @@ vagrant up
 
 You can now see the docs at http://localhost:4567. Whoa! That was fast!
 
-Now that Slate is all set up on your machine, you'll probably want to learn more about [editing Slate markdown](https://github.com/lord/slate/wiki/Markdown-Syntax), or [how to publish your docs](https://github.com/lord/slate/wiki/Deploying-Slate).
-
-If you'd prefer to use Docker, instructions are available [in the wiki](https://github.com/lord/slate/wiki/Docker).
+Now that Slate is all set up on your machine, you'll probably want to learn more about [editing Slate markdown](https://github.com/lord/slate/wiki/Markdown-Syntax).
 
 ### Note on JavaScript Runtime
 
@@ -53,3 +51,4 @@ Contributors
 Thank you to the folks who have contributed to the Divi Documetation!
 
 - [@99darwin](https://github.com/99darwin) 
+- [@geoffmccabe](https://github.com/geoffmccabe)

@@ -31,13 +31,127 @@ If you would like to contribute to the Divi Project Documentation, fork [this re
 
 # Masternode setup
 
-// TODO
+There are two nodes that take part in starting a Masternode. Controller and Remote nodes. The Controller is the node that holds the collateral, where the Remote node is the Masternode itself.
+
+## Configure the control node
+
+<aside class="notice">
+Make sure that you have enough funds for the Masternode level you want to set up. 
+</aside>
+
+1. Create a collateral transaction
+
+```bash
+allocatefunds <purpose> <alias> <amount>
+
+## Output
+<collateral_hash>
+```
+Via the command line, call rpc method `allocatefunds` to create a collateral transaction. 
+
+`allocatefunds` takes **three arguments:**
+
+| Argument number	| Argument title	| Argument	| Rule
+| ---				| ------			| ------	| ---
+| 1					| `<purpose>` 		| masternode| Always the same
+| 2					| `<alias>`			| mn1		| Can be anything you want
+| 3					| `<amount>`		| 100000	| Must be enough for the tier you want
+
+```bash
+fundmasternode <alias> <tier> <result_of_allocate_funds> <masternode_ip>
+
+## Output
+<alias ip:port private_key collateral_hash output_index>
+```
+
+The output of this command will be the `collateral_hash`.
+
+<aside class="warning">
+The collateral transaction requires 15 confirmations to take effect and allow for the remote node to be started later in the process.
+</aside>
+
+2. Fund the masternode
+
+Once you receive your `collateral_hash` and the collateral transaction has gone through 15 confirmations, you can fund the masternode. 
+
+Call `fundmasternode` from the command line and pass the relevant arguments. 
+
+`fundmasternode` takes **four arguments:**
+
+| Argument number	| Argument title					| Argument	| Rule
+| ---				| ------							| ------	| ---
+| 1					| `<alias>` 						| mn1		| The alias you created in the previous step
+| 2					| `<tier>`							| copper	| Whichever tier relates to the amount of collateral staked
+| 3					| `<result_of_allocate_funds>`		| result	| Resulting output from previous step
+| 4					| `<masternode_ip>`					| 1.1.1.1	| Find your ip on your remote node
+
+The result of this call will be a configuration line in the format: `alias ip:port private_key collateral_hash output_index`.
+
+3. Setup configuration file
+
+Stop the daemon with `./divi-cli stop`
+
+Copy the configuration line and paste it into `masternode.conf`. 
+
+<aside class="notice">
+Save the `private_key`. You will need it to configure the remote node.
+</aside>
+
+At this point controller node is configured and the remote node can be configured.
+
+## Remote node configuration
+
+To configure remote node, open `divi.conf` and edit it so that it resembles the configuration.
+
+```bash
+## divi.conf 
+
+rpcuser=random_username 
+rpcpassword=long_random_password
+rpcallowip=127.0.0.1 
+server=1 
+daemon=1 
+logtimestamps=1 
+maxconnections=256 
+masternode=1 
+externalip=your_unique_public_ip_address 
+masternodeprivkey=private_key_from_step_3.
+```
+After this, the node is configured. 
+
+<aside class="notice">
+It is now safe to start both nodes again.
+</aside>
+
+## Start your nodes
+
+Before starting the remote node you need to be sure that you have 15 confirmations on collateral transaction.
+
+Call `startmasternode` alias on the Control node and pass relevant arguments.
+
+`startmasternode` takes **one argument:**
+
+| Argument number	| Argument title	| Argument	| Rule
+| ---				| ------			| ------	| ---
+| 1					| `<alias>` 		| mn1		| Alias created in step one
+
+```bash
+## From Control wallet
+startmasternode <alias>
+```
+
+You should receive a response message that the Masternode has succesfuly started
+
+To verify that everything is working, call `listmasternodes` on any node to check list of active masternodes.
 
 # Default configuration
 If you choose to use Divi via the CLI, you will need to make sure your configuration is correct to ensure stable connection to the network and a full feature set.
 
 You can find the configuration file in the Divi data directory entitled `divi.conf`
-```shell
+
+```bash
+## divi.conf
+
 addnode=178.62.195.16
 addnode=178.62.221.33
 
