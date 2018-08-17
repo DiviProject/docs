@@ -600,7 +600,7 @@ Our leadership team is highly experienced.
 
 CEO and co-founder, Geoff McCabe, has a master’s degree in physics and has led three multi-million dollar businesses to success before joining Divi.  
 
-Michael Greenwood started at Microsoft as a senior developer at age 19, and rose to become a principal UX designer for projects such as Origami, Xbox, SQL Server, Windows 7, Windows 8, 8.1, and 10.  
+Michael Greenwood started at Microsoft as a lead developer at age 19, and rose to become a principal UX designer for projects such as Origami, Xbox, SQL Server, Windows 7, Windows 8, 8.1, and 10.  
 
 Divi’s advisors include Tim Sanders, formerly Chief Solutions Officer at Yahoo and Heidi Krupp of Krupp Kommunications, one of America’s leading PR firms.
 
@@ -610,54 +610,52 @@ Advisors include Toni Lane Casserly, co-founder of Coin Telegraph, and Ramez Naa
 
 **Geoff McCabe, CEO**
 New Technology Visionary, Management, SEO, Marketing, Sustainability
-https://www.linkedin.com/in/geoffmccabe 
-
-**Nick Saponaro**
-GM and Lead Full Stack Developer
-https://www.linkedin.com/in/nicksaponaro
+[linkedin](https://www.linkedin.com/in/geoffmccabe) 
 
 **Tim Sanders, Advisor/Operations**
 Former Chief Solutions Officer, Yahoo Inc
-https://www.linkedin.com/in/sanderssays  
+[linkedin](https://www.linkedin.com/in/sanderssays)
 
 ### Technical Development
 	
 **Michael Greenwood, VP of Development**
 UX Expert, Security, AI, Ex-Microsoft Team Leader
-https://www.linkedin.com/profinder/pro/michaelgreenwood	
+[linkedin](https://www.linkedin.com/profinder/pro/michaelgreenwood)	
 
+**Nick Saponaro**
+GM and Lead Full Stack Developer
+[linkedin](https://www.linkedin.com/in/nicksaponaro)
 	
 ### Marketing and Promotion
 
 **Regina Bauzaite**
 Marketing Director
-https://www.linkedin.com/in/regina-bauzaite 
+[linkedin](https://www.linkedin.com/in/regina-bauzaite)
 		
 **Edwina Bull**
 Marketing and Operations
-https://www.linkedin.com/mynetwork/invite-sent/edwina-bull-7009284a 
+[linkedin](https://www.linkedin.com/mynetwork/invite-sent/edwina-bull-7009284a)
 
 **Heidi Krupp & Darren Lisiten**
 Public Relations and Business Strategy
-http://kruppkommunications.com/heidi-krupp 
-https://www.linkedin.com/in/darren-lisiten-171a671b 
+[Krupp Website](http://kruppkommunications.com/heidi-krupp) - [linkedin](https://www.linkedin.com/in/darren-lisiten-171a671b)
 
 ### Advisors
 
 **Ramez Naam**
 Author, Speaker, Futurist, ex Program Manager, Microsoft
-https://www.linkedin.com/in/rameznaam 
+[linkedin](https://www.linkedin.com/in/rameznaam)
 
 **Toni Lane Casserly**
 Co-Founder, CoinTelegraph.com.  Faculty at Singularity University. Speaker, writer, Advisor for over a dozen other cryptocurrency projects.
-https://www.linkedin.com/in/tonilanec 
+[linkedin](https://www.linkedin.com/in/tonilanec)
 
 **Nicholas Cottrell**
-	Legal Advisor
-	Riverstone Law
-	https://www.linkedin.com/in/cottrellnick
-
-More Team Details are here: https://diviproject.org/#team 
+Legal Advisor
+Riverstone Law
+[linkedin](http://www.linkedin.com/in/cottrellnick)
+	
+More Team Details are here: [linkedin](https://diviproject.org/#team)
 
 ## Basic Coin Stats
 
@@ -665,7 +663,7 @@ Divi is a decentralized ecosystem utilizing a cryptocurrency (DIVI) that is mint
 
 During the original token sale, our tokens were ERC20 compliant derivatives of the Ethereum blockchain, and have been tradable on Cryptopia, with ticker DIVX:
 
-https://www.cryptopia.co.nz/Exchange/?market=DIVX_BTC 
+[Cryptopia Website](https://www.cryptopia.co.nz/Exchange/?market=DIVX_BTC) 
 
 On June 12th 2018, the conversion process began, whereby each DIVX can be converted to 100 DIVI on the official blockchain.  This process has no cut-off date.
 
@@ -675,32 +673,30 @@ PoS - Proof of Stake with Masternodes
 
 Reward system payout
 
-* Staking (45%*)
-* Masternodes (45%*)
+* Staking (45%)
+* Masternodes (45%)
 * Treasury (8%)
 * Charity (2%) 
 
-60 second blocks (10,080 per week)
+60 second blocks (1,008,000 per week)
 
-* 1250 coins minted per block first 2 years
-* 1050 coins for 2 years
-* 850 coins for 2 years
-* 650 coins after that
+* 125,000 coins minted per block first 2 years
+* 105,000 coins for 2 years
+* 85,000 coins for 2 years
+* 65,000 coins after that
 
-Note: 50 coins from every block accumulate for the weekly lottery block fund. 
-
-*Divi uses a “See-Saw Algorithm”, which balances the payout between Stakers and Masternodes.  These percentages will shift if coin holders tend to favor one over the other.  This ensures that there’s a balance between the two types of network participants.
+Note: 5000 coins from every block accumulate for the weekly lottery block fund. 
 
 Divi intends to roll out great new features on a regular basis, which we believe will keep our community excited, loyal, growing, and participating in the Divi ecosystem.
 
-### What can DIVI tokens be used for?
+### What can DIVI coins be used for?
 
 Divi is designed so that it’s primary function is as a currency.  However, it also has utility:
 
-1. Spend them: The Divi Project is working to set up online stores to accept DIVI. At these locations, you’ll be able to spend your DIVI tokens for real world goods and services.
-2. Earning tokens with masternodes:  Using the software and resources we will provide, users are able to earn more tokens.  The masternode software users install on their computer becomes a useful part of the overall network maintaining, updating, and securing the Divi blockchain.  The tokens earned are payment for use of your time, computer, electricity, and internet bandwidth.
-3. Earn tokens with a staked wallet:  Users who keep their tokens in the Divi wallet will earn more each week.  The wallet also supports the Divi network in different ways than the masternodes do.  Like them, this takes time and resources.
-4. Participate in our Names/DNS System:  DIVI tokens can be used to purchase custom names that are used as your wallet addresses.
+1. Spend them: The Divi Project is working to set up online stores to accept DIVI. At these locations, you’ll be able to spend your DIVI for real world goods and services.
+2. Earning DIVI with masternodes:  Using the software and resources we will provide, users are able to earn more coins.  The masternode software users install on their computer becomes a useful part of the overall network maintaining, updating, and securing the Divi blockchain.  The coins earned are payment for use of your time, computer, electricity, and internet bandwidth.
+3. Earn DIVI with a staked wallet:  Users who keep their coins in the Divi wallet will earn more each week.  The wallet also supports the Divi network in different ways than the masternodes do.  Like them, this takes time and resources.
+4. Participate in our Names/DNS System:  DIVI coins can be used to purchase custom names that are used as your wallet addresses.
  
 ## User-Friendly “Smart Wallet”
 
@@ -799,7 +795,7 @@ We believe that this leveling system will offer the following benefits to Divi�
 * Discourages holding massive numbers of masternodes by single entities.
 * Gamifies proof of stake in a way that appeals to many demographics, who will want to save their DIVI to reach the next tier. 
 
-More information about Divi’s Masternodes: https://medium.com/diviproject/divi-masternodes-explained-f1fe24d8dab5 
+More information about Divi’s Masternodes: [More on Masternodes](https://medium.com/diviproject/divi-masternodes-explained-f1fe24d8dab5)
 
 ### Lottery Blocks
 
@@ -812,7 +808,7 @@ Divi is excited to present a new, original feature called “lottery blocks”. 
 * Owning multiple staked wallets or more than one masternode will increase your odds.
 * Eligible to win unlimited times.
 
-More Info: https://medium.com/diviproject/divis-lottery-blocks-8c323e3b0b4b 
+More Info: [More on Lottery Blocks](https://medium.com/diviproject/divis-lottery-blocks-8c323e3b0b4b) 
 	
 ### Multi Coin Wallet
 
@@ -943,7 +939,7 @@ So rather than seeing other cryptos in the market as competition, we see them as
 
 **Airdrops**
 
-During the build phase, we airdropped 3000 DIVX tokens per week into the wallet of DIVX holders that had 1000 or more DIVX.
+During the build phase, we airdropped 3000 DIVX per week into the wallet of DIVX holders that had 1000 or more DIVX.
 
 ![Chart Age Of Crypto Fans](./uploads/chart-age-of-crypto-fans.jpg "Chart Age Of Crypto Fans"){.align-center}
 
@@ -1038,7 +1034,7 @@ Treasury Funds Created by Governance System, assuming 1 DIVI is US$2.00
 
 Use our masternode calculator to get an estimate
 
-LINK HERE
+[Masternode Calculator](https://www.diviproject.org/calculator)
 
 ## Disclaimer
 
@@ -1087,7 +1083,7 @@ Divi's leadership team members all have more than 25 years experience in their f
 
 The Divi advisory board includes former Yahoo Chief Solutions Officer Tim Sanders, futurist Ramez Naam, winner of last year’s Phillip K Dick award for best Sci Fi novel, and Toni Lane Casserly, former CEO and founder of Cointelegraph.
 
-Divi Team Details: [](https://wiki.diviproject.org/whitepaper#team)
+Divi Team Details: [Team](https://diviproject.org/#team)
 
 ## New Technology
 
@@ -1119,15 +1115,15 @@ The Divi Project had a successful token sale during Sept-Nov of 2017.  8.33% of 
 
 ## Contact and Connect
  
-Website: https://diviproject.org
+Website: [https://diviproject.org](https://diviproject.org)
 Email: info@diviproject.org
 
-Blog/Articles: https://medium.com/diviproject
-Facebook: https://www.facebook.com/diviproject 
-Reddit: https://www.reddit.com/r/DiviProject
-Telegram: https://t.me/joinchat/EAdiTQ3yZk_GkqU0IdG-Gg 
-Twitter: https://twitter.com/diviproject 
-YouTube: https://www.youtube.com/c/TheDiviProject 
+Articles: [https://medium.com/diviproject](https://medium.com/diviproject)
+Facebook: [https://www.facebook.com/diviproject](https://www.facebook.com/diviproject) 
+Reddit: [https://www.reddit.com/r/DiviProject](https://www.reddit.com/r/DiviProject)
+Telegram: [https://t.me/joinchat/EAdiTQ3yZk_GkqU0IdG-Gg](https://t.me/joinchat/EAdiTQ3yZk_GkqU0IdG-Gg) 
+Twitter: [https://twitter.com/diviproject](https://twitter.com/diviproject) 
+YouTube: [https://www.youtube.com/c/TheDiviProject](https://www.youtube.com/c/TheDiviProject) 
 
 # Community guidelines
 
