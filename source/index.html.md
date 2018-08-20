@@ -849,7 +849,7 @@ Version 2.0 - Last Updated June 25, 2018
 
 Everything we do has one goal in mind: to make cryptocurrencies easier to use.  Cryptos have the power to revolutionize the way we use money, and within several years will be adopted by billions of ordinary people for day-to-day transactions.  This can’t happen the way they are now:  slow, expensive fees, impossible to understand, and easy to make a mistake and lose money.  Divi’s user-friendly Smart Wallet™ and blockchain make transactions far faster, less expensive, easier, safe to use, and with a special focus on eliminating user error.  Divi is powered by our revolutionary one-click masternode program, the first to allow anyone, without technical knowledge, to earn coins by joining our network using their home computer.
 
-![Chart Projected Growth Of Crypto Wallets](./uploads/chart-projected-growth-of-crypto-wallets.jpg)
+![Chart Projected Growth Of Crypto Wallets](images/chart-projected-growth-of-crypto-wallets.jpg)
 
 ### What is Divi?
 
@@ -857,7 +857,7 @@ Everything we do has one goal in mind: to make cryptocurrencies easier to use.  
 
 In 2009 Satoshi Nakamoto invented Bitcoin when he released his first whitepaper titled "Bitcoin: A Peer-to-Peer Electronic Cash System" imagining a digital currency that would be used by millions of people around the world for everyday transactions.  While Bitcoin is successful in its own way, it has strayed from its intended purpose.  It is painfully difficult to use and understand, it is too slow, and transactions are expensive.  The Divi Project was created to solve all these problems and realize Satoshi’s dream of a fast, safe, and cheap digital money that can be used by ordinary people around the world without banks or governments as an intermediary.
 
-![Chart Bitcoin Vs Divi](./uploads/chart-bitcoin-vs-divi.jpg)
+![Chart Bitcoin Vs Divi](images/chart-bitcoin-vs-divi.jpg)
 
 **A Digital Money for Mass Use**
 
@@ -1097,7 +1097,7 @@ Masternodes replace miners in our blockchain ecosystem.  Our Proof of Stake syst
 
 One of the reasons that masternode coins are so popular is that they create a community with a shared goal.  Our tiered system encourages participants to earn more coins and accumulate them, always striving for the next level.    We’ve set the following tiers:
 
-![Masternodes Chart 3](./uploads/masternodes-chart-3.jpg)
+![Masternodes Chart 3](images/masternodes-chart-3.jpg)
 
 The chance of earning coins at each masternode level improves proportionally with the number of coins.  For example, the Silver masternode is 5% more likely to win a block than three Coppers.  Or, the Diamond is 20% more likely to win than 100 Coppers.  Thought of another way, a diamond node is like owning 120 copper nodes.
 
@@ -1229,7 +1229,7 @@ Rest assured, we are aware that in order to achieve mass adoption and use by 50 
 
 ## Marketing
 
-![Cryptocurrency Adoption Timeline](./uploads/cryptocurrency-adoption-timeline.jpg)
+![Cryptocurrency Adoption Timeline](images/cryptocurrency-adoption-timeline.jpg)
 
 ### Mass Adoption Theory
 
@@ -1255,7 +1255,7 @@ So rather than seeing other cryptos in the market as competition, we see them as
 
 During the build phase, we airdropped 3000 DIVX per week into the wallet of DIVX holders that had 1000 or more DIVX.
 
-![Chart Age Of Crypto Fans](./uploads/chart-age-of-crypto-fans.jpg)
+![Chart Age Of Crypto Fans](images/chart-age-of-crypto-fans.jpg)
 
 ## Target Groups
 
@@ -1281,7 +1281,7 @@ More than two billion people in the world don’t have a birth certificate and c
 
 Currently women make up less than 10% of cryptocurrency users, which means they are missing out on one of the world’s largest creations of wealth in history.  Yet, women are known to be slightly better investors, on average, than men, and in the U.S. control 70% of household spending.  They should make them natural for the crypto revolution, where patience and caution are paramount, but have been left out for various reasons.  Divi is focused on finding ways to bridge this divide and close the gender gap in this space.  Without women involved in crypto, there will be no mass adoption.
 
-![Women Investors](./uploads/women-investors.jpg)
+![Women Investors](images/women-investors.jpg)
 
 ### Influencers
 
