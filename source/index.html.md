@@ -600,7 +600,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>Cryptopia</td>
 		<td><a href="https://www.cryptopia.co.nz/Exchange?market=DIVX_BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/cryptopia/" target="_blank">Go now</a></td>
-		<td>true</td>
+		<td>false</td>
 	</tr>
 	<tr>
 		<td>DIVX</td>
@@ -608,7 +608,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>Bleutrade</td>
 		<td><a href="https://bleutrade.com/exchange/DIVX/BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
-		<td>true</td>
+		<td>false</td>
 	</tr>
 </table>
 
