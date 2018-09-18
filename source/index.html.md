@@ -49,7 +49,92 @@ Do not, we repeat, _do not_, store your encryption password or mnemonic seed phr
 
 Members of the Divi team will never request access to your `wallet.dat` or any other file deemed proprietary to your account. If a member of the community or someone claiming to be a Divi team member makes an attempt to access this data, please report them immediately to an Admin.
 
-# Masternode setup
+# CLI Setup Guide
+
+<aside class="notice">
+This section of the documentation assumes that the user is familiar with using a command line interface through a terminal.
+</aside>
+
+## OSX Setup
+
+### 1. Getting started
+* Download the latest CORE build
+* Unzip the package
+* `cd` into the unzipped file
+* `cd` into the bin directory
+* Type `./divid`
+
+This will return an authentication pair to be placed in your `divi.conf` file, which has just been generated.
+
+```shell
+## Example authentication pair
+rpcuser=divirpc
+rpcpassword=5bs4Sht2TveXfxneUuwJ3RRDoUCjfzNPLGrg3eWmYPig
+```
+
+### 2. Configuration
+The data directory can be found at its default path:
+`~/Library/Application\ Support/DIVI/divi.conf`
+
+The default configuration looks like [this](#default-configuration)
+* Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step. 
+* Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
+* Make sure to include `daemon=1` to the bottom of your configuration file
+
+```shell
+## Fixed seed nodes
+addnode=178.62.195.16
+addnode=178.62.221.33
+```
+
+### 3. Start the daemon
+Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter. 
+* To keep a persistent log, open a new terminal and type `tail -f ~/Library/Application\ Support/DIVI/debug.log`
+* Back on the original terminal window, run `./divid` again.
+
+This time you will successfully start the daemon, your wallet will be created, and the blockchain will begin to sync.
+
+## Linux Setup
+
+### 1. Getting started
+* Download the latest CORE build
+* Unzip the package
+* `cd` into the unzipped file
+* `cd` into the bin directory
+* Type `./divid`
+
+This will return an authentication pair to be placed in your `divi.conf` file, which has just been generated.
+
+```shell
+## Example authentication pair
+rpcuser=divirpc
+rpcpassword=5bs4Sht2TveXfxneUuwJ3RRDoUCjfzNPLGrg3eWmYPig
+```
+
+### 2. Configuration
+The data directory can be found at its default path:
+`~/.divi`
+
+The default configuration looks like [this](#default-configuration)
+* Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step. 
+* Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
+* Make sure to include `daemon=1` to the bottom of your configuration file
+
+```shell
+## Fixed seed nodes
+addnode=178.62.195.16
+addnode=178.62.221.33
+```
+
+### 3. Start the daemon
+Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter. 
+* To keep a persistent log, open a new terminal and type `tail -f ~/.divi/debug.log`
+* Back on the original terminal window, run `./divid` again.
+
+This time you will successfully start the daemon, your wallet will be created, and the blockchain will begin to sync.
+
+
+# Masternode Setup Guide
 
 There are two nodes that take part in starting a Masternode. Controller and Remote nodes. The Controller is the node that holds the collateral, where the Remote node is the Masternode itself.
 
@@ -171,7 +256,7 @@ You should receive a response message that the Masternode has succesfuly started
 
 To verify that everything is working, call `listmasternodes` on any node to check list of active masternodes.
 
-# Default configuration
+# Default Configuration
 If you choose to use Divi via the CLI, you will need to make sure your configuration is correct to ensure stable connection to the network and a full feature set.
 
 You can find the configuration file in the Divi data directory entitled `divi.conf`
@@ -470,11 +555,11 @@ Divi offers a [suite of blockchain APIs](https://github.com/Divicoin/diviscan-ap
 | `/sendfrom/`      | `from`, `to`, `amount`    | transaction id   						|
 | `/tx/`            | `txid`                    | tx object                         	|  	 
 
-# Javascript implementation
+# Javascript Implementation
 
 Developers can use and contribute to the [divid-rpc library](https://github.com/Divicoin/divid-rpc) to build their own applications with Divi.
 
-# Divi coin specs
+# Divi Coin Specs
 
 Ticker: 		DIVI
 CMC:			[Divi on CoinMarketCap](https://coinmarketcap.com/currencies/divi)
@@ -659,7 +744,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 	</tr>
 </table>
 
-# Media placements
+# Media Placements
 
 <table>
 	<tr>
@@ -1486,7 +1571,7 @@ Telegram: [https://t.me/joinchat/EAdiTQ3yZk_GkqU0IdG-Gg](https://t.me/joinchat/E
 Twitter: [https://twitter.com/diviproject](https://twitter.com/diviproject) 
 YouTube: [https://www.youtube.com/c/TheDiviProject](https://www.youtube.com/c/TheDiviProject) 
 
-# Community guidelines
+# Community Guidelines
 
 ## Building Community
 The Divi community channels (telegram, discord) are a very important first point of contact with people who may be interested in joining the Divi ecosystem.  While we applaud feedback - negative as well as positive - we won’t tolerate intentionally vitriolic, hateful, destructive communication in our telegram channels. If you are a DIVX/DIVI coin holder, posting a lot of FUD and negativity is hurting everyone, including yourself.  
