@@ -29,6 +29,26 @@ Welcome to the Divi Project documentation repository! This service provides a co
 
 If you would like to contribute to the Divi Project Documentation, fork [this repository](https://github.com/divicoin/docs) and check out the README to get started!
 
+# Security Hygiene Best Practices
+
+Cryptocurrency gives users the power to control their own finances. As with any great power,it must be wielded with great responsibility. Below are some Pro Tips for keeping your personal security hygenic and, most importantly, under _your_ control.
+
+## Encrypt your wallet via the Desktop Smart Wallet &trade;
+
+Upon first opening the Divi Desktop Smart Wallet &trade;, you will be prompted to secure your account's funds with encryption. This is _highly_ recommended and can be done in about 30 seconds. Simply set your password, confirm it, wait for the daemon to restart, and you're on your way to a more secure crypto user experience!
+
+## Backup your wallet with a mnemonic seed phrase
+
+Divi does not have access to any indivdual accounts and cannot recover funds if they are lost. To prevent loss of funds, it is recommended that you take advantage of our HD Mnemonic Seed Phrase feature. This feature will generate a random, 24-word phrase that can be used to recover your wallet should you lose access to it.
+
+## Keep your passwords and seed phrase offline
+
+Do not, we repeat, _do not_, store your encryption password or mnemonic seed phrase online. In fact, it is recommended that you keep this information completely analog. This means, do not store your private information in a Word document on a computer that connects to the internet. The best practice is to write your password and mnemonic down on a piece of paper and store it somewhere safe, like a safe.
+
+## Never share your wallet files with anyone
+
+Members of the Divi team will never request access to your `wallet.dat` or any other file deemed proprietary to your account. If a member of the community or someone claiming to be a Divi team member makes an attempt to access this data, please report them immediately to an Admin.
+
 # Masternode setup
 
 There are two nodes that take part in starting a Masternode. Controller and Remote nodes. The Controller is the node that holds the collateral, where the Remote node is the Masternode itself.
@@ -182,7 +202,7 @@ When you set up your wallet initially, always encrypt your wallet and dump your 
 `divi-cli dumphdinfo` can be run at any time to view your phrase
 
 ```shell
-TO DISPLAY YOUR SEED INFO:
+## TO DISPLAY YOUR SEED INFO:
 divi-cli dumphdinfo
 ```
 This will return a seed phrase that you can use later to recover your funds.
@@ -192,7 +212,7 @@ Should you need to recover your wallet:
 2. Make sure any other `wallet.dat` file is removed from the data directory.
 
 ```shell
-TO RECOVER WALLET ON STARTUP:
+## TO RECOVER WALLET ON STARTUP:
 divid -debug -hdseed=<hash_of_seed_to_recover> -rescan
 ```
 
@@ -423,9 +443,36 @@ walletpassphrasechange "oldpassphrase" "newpassphrase"
 
 // TODO
 
+# RESTful Blockchain APIs
+
+Divi offers a [suite of blockchain APIs](https://github.com/Divicoin/diviscan-api) that can be hosted and utilized for development.
+
+## Endpoints
+
+**GET Requests**
+
+| Endpoint          | Params                    | Response  
+| --------          | ------                    | --------                          	|
+| `/accountaddress` | `account`                 | address of account                	|
+| `/address/`		| `address`					| transaction, balance, and delta info	|
+| `/addrsbyaccount` | `account`                 | all addresses of specified account	|
+| `/balance`        | `account`                 | get balance of account            	|
+| `/block/`         | `hash`                    | block object                      	|
+| `/blockcount`     |                           | number of blocks                  	|
+| `/connectioncount`|                           | number of active peers            	|  	
+| `/getaccount`     | `address`                 | account name                      	|
+| `/getreceived/`   | `address`                 | amount received                   	|
+| `/info`           |                           | info object                       	|
+| `/listreceived`   |                           | wallet tx object                  	|
+| `/masternodes`	| 							| number of masternodes, masternode list|
+| `/newaddress/`    | `account name`            | new address                       	|
+| `/recent`         |                           | active and previous block information |
+| `/sendfrom/`      | `from`, `to`, `amount`    | transaction id   						|
+| `/tx/`            | `txid`                    | tx object                         	|  	 
+
 # Javascript implementation
 
-// TODO
+Developers can use and contribute to the [divid-rpc library](https://github.com/Divicoin/divid-rpc) to build their own applications with Divi.
 
 # Divi coin specs
 

@@ -34,8 +34,8 @@ activate :autoprefixer do |config|
 end
 
 # Github pages require relative links
-# activate :relative_assets
-# set :relative_links, true
+activate :relative_assets
+set :relative_links, true
 
 # Build Configuration
 configure :build do
@@ -43,8 +43,7 @@ configure :build do
   # out the following two lines has been known to help
   activate :minify_css
   activate :minify_javascript
-  activate :relative_assets
-  set :relative_links, true
+  # activate :relative_assets
   # activate :asset_hash
   # activate :gzip
 end
