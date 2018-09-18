@@ -77,6 +77,7 @@ The data directory can be found at its default path:
 `~/Library/Application\ Support/DIVI/divi.conf`
 
 The default configuration looks like [this](#default-configuration)
+
 * Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step. 
 * Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
 * Make sure to include `daemon=1` to the bottom of your configuration file
@@ -89,6 +90,7 @@ addnode=178.62.221.33
 
 ### 3. Start the daemon
 Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter. 
+
 * To keep a persistent log, open a new terminal and type `tail -f ~/Library/Application\ Support/DIVI/debug.log`
 * Back on the original terminal window, run `./divid` again.
 
@@ -116,6 +118,7 @@ The data directory can be found at its default path:
 `~/.divi`
 
 The default configuration looks like [this](#default-configuration)
+
 * Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step. 
 * Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
 * Make sure to include `daemon=1` to the bottom of your configuration file
@@ -127,7 +130,8 @@ addnode=178.62.221.33
 ```
 
 ### 3. Start the daemon
-Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter. 
+Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter.
+ 
 * To keep a persistent log, open a new terminal and type `tail -f ~/.divi/debug.log`
 * Back on the original terminal window, run `./divid` again.
 
