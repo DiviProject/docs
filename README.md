@@ -52,3 +52,4 @@ Thank you to the folks who have contributed to the Divi Documetation!
 
 - [@99darwin](https://github.com/99darwin) 
 - [@geoffmccabe](https://github.com/geoffmccabe)
+- [@durkmurder](https://github.com/durkmurder)
