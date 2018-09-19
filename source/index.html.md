@@ -725,7 +725,7 @@ __Lottery cycle__ is how many blocks need to be minted to trigger new lottery.
 
 Let's pickup random values to show this on example:
 
-```
+```cpp
 LC = 200 blocks
 LR = 50 divi
 Total lottery pool = LC * LR = 200 * 50 = 10000 divi
@@ -743,7 +743,7 @@ Any peer looking on the blockchain can do the same math and tell if lottery winn
 
 Score is`SHA256(hash_of_coinstake + hashOfLastLotteryBlock)`
 
-```
+```cpp
 static uint256 CalculateLotteryScore(const uint256 &hashCoinbaseTx, const uint256 &hashLastLotteryBlock)
 {
     // Deterministically calculate a "score" for a Masternode based on any given (block)hash
