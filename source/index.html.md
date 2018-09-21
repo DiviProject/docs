@@ -1077,7 +1077,7 @@ Divi’s Smart Wallet™ has many new ways to manage money, such as protecting y
 
 **Lottery Blocks**
 
-Currently unique in crypto, once per week one of our masternode holders or stakers will strike it rich by mining a lottery block.  This will pay them 252,000 DIVI and ten other people 25,200 DIVI each.   To be eligible, one must have a masternode or a staking wallet with minimum 10,000 DIVI in it. 
+Currently unique in crypto, once per week one of our masternode holders or stakers will strike it rich by mining a lottery block.  This will pay them 252,000 DIVI and ten other people 25,200 DIVI each.   To be eligible, one must have a staking wallet with minimum 10,000 DIVI in it, and connected to the Divi network. 
 
 **Vaulting**
 
@@ -1329,7 +1329,7 @@ Divi is excited to present a new, original feature called “lottery blocks”. 
 * One big lottery block winner each week, awarded 252,000 DIVI.
 * Ten smaller winners per week, awarded 25,200 DIVI.
 * To be eligible to win, participants must be actively staking 10,000 or more coins in their wallet.
-* Owning multiple staked wallets will increase your odds.
+* The bigger your stake, the better your chance to win.
 * Coin holders are eligible to win unlimited times.
 
 More Info: [More on Lottery Blocks](https://medium.com/diviproject/divis-lottery-blocks-8c323e3b0b4b) 
