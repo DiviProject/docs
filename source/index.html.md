@@ -578,11 +578,10 @@ Blockchain APIs: [Divi APIs](https://blog.diviproject.org/divi-beta-notes-divi-c
 60 Second Blocks (10,080 per week)
 
 Consensus Algorithm:		100% Proof of Stake (PoS)
-Hash Algorithm:		Quark
 
 **Genesis Block:**
 
-* Date:	June 25, 2018
+* Date:	Sept 27, 2018
 * Starting coin circulation:  617,160,700 DIVI 
 
 **Reward System Payout:** 
@@ -595,17 +594,16 @@ Hash Algorithm:		Quark
 50 coins from every block accumulate for the weekly lottery block fund. 
 The community will be able to vote to reduce the rate of inflation.
 
-* Masternodes (45%*) 
-* Staking (45%*) 
-* Treasury for Development and Marketing (8%) 
-* Charity (2%)
-
-*Depends on the see-saw algorithm that creates a balance between MNs and Staking
+* Masternodes (45%) 
+* Staking (38%) 
+* Treasury for Development and Marketing (9%) 
+* Treasury for Exchanges, Liquidity, Platform Support (7%)
+* Charity (1%)
 
 **Lottery Block Details:**
 
-* Lottery block payouts happen on average once per week, but can happen at any time.
-* 10,000 DIVI minimum must be staked to be eligible to win a lottery block.
+* Lottery block payouts happen on average once per week.
+* 10,000 DIVI minimum must be in a staked wallet to be eligible to win a lottery block.
 * One big lottery block winner each week, awarding 252,000 DIVI.
 * Ten smaller winners per week, awarded 25,200 DIVI.
 
@@ -622,23 +620,23 @@ Platinum  | 3,000,000 DIVI	 | +15% better
 Diamond   | 10,000,000 DIVI  | +20% better   
 
 Other Features:
-	
+
+* MOCCI : Masternode One Click Cloud Installer	
 * One-Click Desktop Install
-* One-Click Cloud Install
 * Works on standard IP Addresses
 
 **Token Sale Details:**
 
-Date of ICO:		Aug 27 - Nov 24, 2017
-DIVX Created:		6,171,606.7385 DIVX
-ICO DIVX Price:	US$0.0081 (DIVI) or $0.81 (DIVX) at close of ICO
-Founders Coins:	8.33% of Total
+* Date of ICO:		Aug 27 - Nov 24, 2017
+* DIVX Created:		6,171,606.7385 DIVX
+* ICO DIVX Price:	US$0.57 was avg price paid
+* Founders Coins:	8.33% of Total
 
 Smart Contract Details:
 
-	Smart Contract Addr	0x13f11C9905A08ca76e3e853bE63D4f0944326C72
-	Token Symbol		DIVX
-	Decimals		18
+* Smart Contract Addr:	0x13f11C9905A08ca76e3e853bE63D4f0944326C72
+* Token Symbol:		DIVX
+* Decimals:		18
 
 DIVX Rich List:	  https://etherscan.io/token/0x13f11c9905a08ca76e3e853be63d4f0944326c72#balances
 
@@ -651,9 +649,9 @@ The Divi Project is the inventor of several new technologies that are part of ou
 Democratizing Participation Through Affordability:  The Divi Project offers five types of masternodes, according to the following list:
 
 * **Copper:** 100,000 DIVI
-* **Silver:**  300,000 DIVI		  (+5%)
-* **Gold:**  1,000,000 DIVI	  (+10% )
-* **Platinum:**  3,000,000 DIVI	 (+15%)
+* **Silver:**  300,000 DIVI	(+5%)
+* **Gold:**  1,000,000 DIVI	(+10% )
+* **Platinum:**  3,000,000 DIVI	(+15%)
 * **Diamond:**  10,000,000 DIVI	(+20%)
  
 Participants choose the masternode(s) that they're able to afford, and commit to support Divi's network.  More expensive masternodes may also require more commitment of resources, and may do more to support the network, especially as the Divi ecosystem evolves and new features are added.
@@ -672,6 +670,7 @@ Masternode holders aren't getting DIVI for free.  They are paid for the work the
 * *Power Bills* - Unlike power-hungry Bitcoin mining, masternodes don't use much power or require custom equipment.
 * *Internet* - You'll need a connection that's fast enough to handle the traffic required to keep your copy of the ledger updated and keep in contact with your peer nodes.  The more expensive nodes, especially the Diamond, may at time require a very fast speed, so are best hosted in the cloud.
 * *Software Updates* - Divi makes this easy with automatic updates
+* Staying current on Divi news.  Participating in our ecosystem.  Voting in our governance.
 
 What happens if the masternode goes down?  Perhaps power is lost or a computer needs to be repaired.  For whatever reason, it will disconnect from the network, and during this time no rewards can be earned.  Once re-connected, it will download the latest version of the Divi ledger and will start earning coins again.  
 
@@ -679,7 +678,7 @@ For the reasons of maintenance and stopping/starting, many people will opt to ho
 
 ## Divi's Unique Technology
 
-**One-Click Install Process** - Revolutionary Ease of Use:  Divi was first to announce the invention of a single-click masternode installation process. Our masternodes can be installed by any skill level of user on a home computer, laptop, or in the cloud.  Is it really "one click"?  Yes it is, after essential data is entered such as the level of node and what account is used to fund it.  A single click will install it.  Divi saw a big opportunity here after the founders experienced first-hand the tortuous manual process that existed before, which typically required 4-5 hours of coding and cursing.
+**MOCCI: Masternode One-Click Cloud Install** - Revolutionary Ease of Use:  Divi was first to announce the invention of a single-click masternode installation process. Our masternodes can be installed by any skill level of user on a home computer, laptop, or in the cloud.  Is it really "one click"?  Yes it is, after essential data is entered such as the level of node and what account is used to fund it.  A single click will install it.  Divi saw a big opportunity here after the founders experienced first-hand the tortuous manual process that existed before, which typically required 4-5 hours of coding and cursing.
 
 **Dynamic IP Capability** - Until now, a masternode setup at home required people to try to get a static IP address from their internet provider.  Divi has solved this big limitation to MN adoption.
 
@@ -687,7 +686,7 @@ For the reasons of maintenance and stopping/starting, many people will opt to ho
 
 **Multi-Node Capability** - If a user's computer system and internet access are powerful enough, it will be possible to set up more than one masternode on a home computer, which would also require maintaining separate blockchain copies.
 
-**Lottery Blocks** - Approximately once per week, eleven lucky DIVI network supporters who have at least 10,000 DIVI staked or in a masternode will share a lottery block.  50 DIVI is added to the lottery fund every minute until someone wins.  This helps keep people in our system and adds excitement to our community.
+**Lottery Blocks** - Approximately once per week, eleven lucky DIVI network supporters who have at least 10,000 DIVI staked will share a lottery block.  50 DIVI is added to the lottery fund every minute and winners happen weekly.  This helps keep people in our system and adds excitement to our community.
 
 **Improved Efficiency, Scalability, and Sustainability** - We delineated the work performed by each tier of masternode, eliminating huge amounts of redundant processing. 
 
@@ -757,13 +756,13 @@ static uint256 CalculateLotteryScore(const uint256 &hashCoinbaseTx, const uint25
 When a new block is generated we calculate the score for this block, compare it with 11(or less) scores that are already saved and add it to the list in case it's bigger than minimum score. The new winners list is saved in `vLotteryWinnersCoinstakes` in `CBlockIndex`
 
 ## Lottery participation 
-To participate in the lottery, all you need is to stake with UTXO that is > 10000 Divi. This value is configured by multivalue spork. 
+To participate in the lottery, all you need is to stake with UTXO that is > 10000 Divi. This value can be updated by DVS (multivalue sporks.) 
 
 ## Lottery winners
-Current model supports 11 winners, biggest hash gets half of the pool, and the other 10 winners distribute another half in even manner. 
+The Current model supports 11 winners.  The biggest hash gets half of the pool, and the other 10 winners are distributed another 5% each. 
 
 ## Where to look?
-Everything related lottery is in file `masternode-payments.cpp`.
+Everything related to the lottery is in file `masternode-payments.cpp`.
 
 # Exchanges
 
@@ -1078,7 +1077,7 @@ Divi’s Smart Wallet™ has many new ways to manage money, such as protecting y
 
 **Lottery Blocks**
 
-Currently unique in crypto, once per week one of our masternode holders or stakers will strike it rich by mining a lottery block.  This will pay them 252,000 DIVI and ten other people 25,200 DIVI each.   To be eligible, one must have a masternode or a staking wallet with minimum 10,000 DIVI in it. 
+Currently unique in crypto, once per week one of our masternode holders or stakers will strike it rich by mining a lottery block.  This will pay them 252,000 DIVI and ten other people 25,200 DIVI each.   To be eligible, one must have a staking wallet with minimum 10,000 DIVI in it, and connected to the Divi network. 
 
 **Vaulting**
 
@@ -1114,7 +1113,7 @@ Advisors include Toni Lane Casserly, co-founder of Coin Telegraph, and Ramez Naa
 
 ### Business and Management
 
-**Geoff McCabe, CEO**
+**Geoff McCabe, CEO, Divi co-founder**
 New Technology Visionary, Management, SEO, Marketing, Sustainability
 [linkedin](https://www.linkedin.com/in/geoffmccabe) 
 
@@ -1124,14 +1123,22 @@ Former Chief Solutions Officer, Yahoo Inc
 
 ### Technical Development
 	
-**Michael Greenwood, VP of Development**
+**Michael Greenwood, VP of Development, Divi co-founder**
 UX Expert, Security, AI, Ex-Microsoft Team Leader
 [linkedin](https://www.linkedin.com/profinder/pro/michaelgreenwood)	
 
-**Nick Saponaro**
+**Nick Saponaro, Divi co-founder**
 GM and Lead Full Stack Developer
 [linkedin](https://www.linkedin.com/in/nicksaponaro)
+
+**Yuri Oleksyshyn**
+Blockchain Engineer
+[linkedin](https://www.linkedin.com/in/yurii-oleksyshyn-71574675)
 	
+**Preston Thornburg**
+Senior Penetration Tester.  Founder - Gambit Security
+[linkedin](https://www.linkedin.com/in/prestonthornburg)
+
 ### Marketing and Promotion
 
 **Regina Bauzaite**
@@ -1148,12 +1155,16 @@ Public Relations and Business Strategy
 
 ### Advisors
 
+**Doug Scott**
+Media and Branding Expert.  Former President of Ogilvy Entertainment
+[linkedin](https://www.linkedin.com/in/doscott)
+
 **Ramez Naam**
 Author, Speaker, Futurist, ex Program Manager, Microsoft
 [linkedin](https://www.linkedin.com/in/rameznaam)
 
 **Toni Lane Casserly**
-Co-Founder, CoinTelegraph.com.  Faculty at Singularity University. Speaker, writer, Advisor for over a dozen other cryptocurrency projects.
+Co-Founder and former CEO of CoinTelegraph.  Faculty at Singularity University. Speaker, writer, blockchain evangelist.
 [linkedin](https://www.linkedin.com/in/tonilanec)
 
 **Nicholas Cottrell**
@@ -1161,6 +1172,10 @@ Legal Advisor
 Riverstone Law
 [linkedin](http://www.linkedin.com/in/cottrellnick)
 	
+**Mohsan Farid**
+Blockchain security engineer
+[linkedin](https://www.linkedin.com/in/mohsan-farid-cissp-ceh-lpt-93bb486)
+
 More Team Details are here: [linkedin](https://diviproject.org/#team)
 
 ## Basic Coin Stats
@@ -1173,31 +1188,34 @@ During the original token sale, our tokens were ERC20 compliant derivatives of t
 
 On June 12th 2018, the conversion process began, whereby each DIVX can be converted to 100 DIVI on the official blockchain.  This process has no cut-off date.
 
-Genesis block date: June 25, 2018
-Starting coin circulation:  ~600 million
+Genesis block date: Sept 27, 2018
+Starting coin circulation: 617,160,700 DIVI
 PoS - Proof of Stake with Masternodes
 
-Reward system payout
+Block rewards payout
 
-* Staking (45%)
-* Masternodes (45%)
-* Treasury (8%)
-* Charity (2%) 
+* Masternodes (45%) 
+* Staking (38%) 
+* Treasury for Development and Marketing (9%) 
+* Treasury for Exchanges, Liquidity, Platform Support (7%)
+* Charity (1%)
 
-60 second blocks (1,008,000 per week)
+The block rewards will be changed by community vote every 6 months based on current needs.
 
-* 125,000 coins minted per block first 2 years
-* 105,000 coins for 2 years
-* 85,000 coins for 2 years
-* 65,000 coins after that
+60 second blocks (10,080 per week)
 
-Note: 5000 coins from every block accumulate for the weekly lottery block fund. 
+* 1250 coins minted per block first 2 years
+* 1050 coins for 2 years
+* 850 coins for 2 years
+* 650 coins after that
+
+Note: 50 coins from every block accumulate for the weekly lottery block fund. 
 
 Divi intends to roll out great new features on a regular basis, which we believe will keep our community excited, loyal, growing, and participating in the Divi ecosystem.
 
 ### What can DIVI coins be used for?
 
-Divi is designed so that it’s primary function is as a currency.  However, it also has utility:
+Divi is designed so that its primary function is as a currency.  However, it also has utility:
 
 1. Spend them: The Divi Project is working to set up online stores to accept DIVI. At these locations, you’ll be able to spend your DIVI for real world goods and services.
 2. Earning DIVI with masternodes:  Using the software and resources we will provide, users are able to earn more coins.  The masternode software users install on their computer becomes a useful part of the overall network maintaining, updating, and securing the Divi blockchain.  The coins earned are payment for use of your time, computer, electricity, and internet bandwidth.
@@ -1307,12 +1325,12 @@ More information about Divi’s Masternodes: [More on Masternodes](https://mediu
 
 Divi is excited to present a new, original feature called “lottery blocks”. The lottery blocks concept is a new way to randomly reward participants that are using their resources to support the network.  The Lottery Blocks system is designed to increase participation and security in the Divi network by making people want to keep their coins in the ecosystem and off exchanges.
 
-* 50 DIVI designated from every block created (one per minute).
-* One big lottery block winner each week, awarding 252,000 DIVI.
+* 50 DIVI designated from every block created (once per minute).
+* One big lottery block winner each week, awarded 252,000 DIVI.
 * Ten smaller winners per week, awarded 25,200 DIVI.
-* To be eligible to win, participants must be actively staking 10,000 or more coins, or have a masternode running.
-* Owning multiple staked wallets or more than one masternode will increase your odds.
-* Eligible to win unlimited times.
+* To be eligible to win, participants must be actively staking 10,000 or more coins in their wallet.
+* The bigger your stake, the better your chance to win.
+* Coin holders are eligible to win unlimited times.
 
 More Info: [More on Lottery Blocks](https://medium.com/diviproject/divis-lottery-blocks-8c323e3b0b4b) 
 	
@@ -1529,7 +1547,7 @@ DIVI Created Per Year
   2022-2023 -	446,760,000 per year
   2024+ -	341,640,000 per year
 		
-Treasury Funds Created by Governance System, assuming 1 DIVI is US$2.00
+Treasury Funds Created by Governance System, assuming 1 DIVI is US$0.02
 
   2018-2019 -	$105,120 per month
   2020-2021 -	$87,600 per month
@@ -1561,7 +1579,7 @@ Copyright 2017 Qbito Technologies S.A. Costa Rica -  ALL RIGHTS RESERVED
 
 # Lightpaper
 
-The Divi Project has created the world's most advanced masternode technology that includes five tiers, a one-click setup on a single home computer, and usable on dynamic IPs.  For the first time, average users are able to participate in a cryptocurrency network as full nodes with our eco-friendly PoS system.  This program is the first step towards Divi's vision of making cryptocurrencies safe, user-friendly, and accessible to everyone on earth.   Divi's unique combination of technologies and roadmap are designed for this long term goal.
+The Divi Project has created the world's most advanced masternode technology that includes five tiers, and a one-click setup.  For the first time, average users are able to participate in a cryptocurrency network as full nodes with our eco-friendly system.  This program is the first step towards Divi's vision of making cryptocurrencies safe, user-friendly, and accessible to everyone on earth.   Divi's unique combination of technologies and roadmap are designed for this long term goal.
 
 ## Strategy
 
@@ -1569,7 +1587,7 @@ Our strategy is as follows:
 
 **Stage 1: Masternodes Made Easy**
 
-Our 100% PoS masternode technology is leagues ahead of anyone else.  For the first time, anyone without technical skills can set up a masternode at home or in the cloud with a click, on a dynamic IP address.  It's like Uber for your computer and anyone can earn an income by joining and supporting the Divi network.  Using this technology, we build a strong network to process DIVI transactions.
+Our 100% PoS masternode technology is leagues ahead of anyone else.  For the first time, anyone without technical skills can set up a masternode at home or in the cloud with a click.  It's like Uber for your computer and anyone can earn an income by joining and supporting the Divi network.  Using this technology, we build a strong network to process DIVI transactions.
 
 **Stage 2: User Friendly Smart Wallet**
 
@@ -1581,13 +1599,13 @@ We believe that cryptocurrencies are an unstoppable wave that will replace curre
 
 ## Media Attention
 
-The amount of mainstream media attention achieved by The Divi Project is unprecedented for a cryptocurrency of this size.  Divi founders have been interviews on TV on multiple occasions, including on Cheddar TV on the floor of the NY Stock Exchange.  Also on Tech Republic and at Nasdaq.  Other media coverage includes articles in Forbes, Entrepreneur, Inc, Hackernoon, and dozens of other outlets.  A full list of media mentions can be found here: [Divi in the News](https://wiki.diviproject.org/media)
+The amount of mainstream media attention achieved by The Divi Project is unprecedented for a cryptocurrency of this size.  Divi founders have been interviews on TV on multiple occasions, including twice on the floor of the NY Stock Exchange with CheddarTV.  Also twice on Tech Republic and at once at Nasdaq.  Other media coverage includes articles in Forbes, Entrepreneur, Inc, Hackernoon, and dozens of other outlets.  A full list of media mentions can be found here: [Divi in the News](https://wiki.diviproject.org/media)
 
 ## Team
 
 Divi's leadership team members all have more than 25 years experience in their fields.  CEO and co-founder, Geoff McCabe, has a master’s degree in physics and has led three multi-million dollar businesses to success before joining Divi.  Michael Greenwood started at Microsoft as a lead developer at age 19, and rose to become a principal UX designer for projects such as Origami, Xbox, SQL Server, Windows 7, Windows 8, 8.1, and 10.   
 
-The Divi advisory board includes former Yahoo Chief Solutions Officer Tim Sanders, futurist Ramez Naam, winner of last year’s Phillip K Dick award for best Sci Fi novel, and Toni Lane Casserly, former CEO and founder of Cointelegraph.
+The Divi advisory board includes former Yahoo Chief Solutions Officer Tim Sanders, futurist Ramez Naam, winner of last year’s Phillip K Dick award for best Sci Fi novel, Doug Scott, former President of Ogilvy Entertainment, and Toni Lane Casserly, former CEO and founder of Cointelegraph.
 
 Divi Team Details: [Team](https://diviproject.org/#team)
 
@@ -1627,9 +1645,9 @@ Email: info@diviproject.org
 Articles: [https://medium.com/diviproject](https://medium.com/diviproject)
 Facebook: [https://www.facebook.com/diviproject](https://www.facebook.com/diviproject) 
 Reddit: [https://www.reddit.com/r/DiviProject](https://www.reddit.com/r/DiviProject)
-Telegram: [https://t.me/joinchat/EAdiTQ3yZk_GkqU0IdG-Gg](https://t.me/joinchat/EAdiTQ3yZk_GkqU0IdG-Gg) 
+Telegram: [https://t.me/diviproject](https://t.me/diviproject) 
 Twitter: [https://twitter.com/diviproject](https://twitter.com/diviproject) 
-YouTube: [https://www.youtube.com/c/TheDiviProject](https://www.youtube.com/c/TheDiviProject) 
+YouTube: [https://www.youtube.com/TheDiviProject](https://www.youtube.com/TheDiviProject) 
 
 # Community Guidelines
 
