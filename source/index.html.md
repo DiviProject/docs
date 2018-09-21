@@ -627,16 +627,16 @@ Other Features:
 
 **Token Sale Details:**
 
-Date of ICO:		Aug 27 - Nov 24, 2017
-DIVX Created:		6,171,606.7385 DIVX
-ICO DIVX Price:	US$0.57 was avg price paid
-Founders Coins:	8.33% of Total
+* Date of ICO:		Aug 27 - Nov 24, 2017
+* DIVX Created:		6,171,606.7385 DIVX
+* ICO DIVX Price:	US$0.57 was avg price paid
+* Founders Coins:	8.33% of Total
 
 Smart Contract Details:
 
-	Smart Contract Addr	0x13f11C9905A08ca76e3e853bE63D4f0944326C72
-	Token Symbol		DIVX
-	Decimals		18
+* Smart Contract Addr:	0x13f11C9905A08ca76e3e853bE63D4f0944326C72
+* Token Symbol:		DIVX
+* Decimals:		18
 
 DIVX Rich List:	  https://etherscan.io/token/0x13f11c9905a08ca76e3e853be63d4f0944326c72#balances
 
