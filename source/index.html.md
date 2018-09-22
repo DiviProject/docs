@@ -49,6 +49,145 @@ Do not, we repeat, _do not_, store your encryption password or mnemonic seed phr
 
 Members of the Divi team will never request access to your `wallet.dat` or any other file deemed proprietary to your account. If a member of the community or someone claiming to be a Divi team member makes an attempt to access this data, please report them immediately to an Admin.
 
+# VPS Setup Guide
+
+A VPS (Virtual Private Server) is ideal for running a masternode because it is a cost effective way to guarantee a persistent connection. Divi recommends using [Digital Ocean](https://m.do.co/c/b0ee9b6cd62b) for your VPS because they are by far the easiest to use system, even for beginner and intermediate level users. For the purposes of this tutorial, the Digital Ocean process will be used.
+
+## Create an SSH key
+
+SSH (Secure Socket Shell) keys allow for secure access to a remote host. They are the recommended way of accessing your VPS and will be necessary to follow the tutorial. Please create an SSH key before proceeding.
+
+### Windows
+
+It is recommended that Windows users follow Digital Ocean's [official guide](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-putty/) for setting up an SSH key.
+
+### OSX & Linux
+
+* Type `ssh-keygen` into your terminal. 
+
+* Assign a filepath. If this is your first time generating an SSH keypair, you can just press `ENTER` to proceed.
+
+```shell
+## Result of ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/Username/.ssh/id_rsa):
+```
+* **Recommended:** Enter a passphrase. You will not see any text on the screen when typing in your passphrase, this is expected.
+  * You can also just press enter to leave your ssh key without a passphrase
+
+```shell
+## Enter passphrase after assigning filepath
+Enter passphrase (empty for no passphrase):
+```
+* Repeat the passphrase. You will not see any text on the screen when typing in your passphrase, this is expected.
+
+```shell
+## Repeat passphrase
+Enter same passphrase again:
+```
+* Press enter and you will receive the following response:
+
+```shell
+## Success response
+Your identification has been saved in /Users/Username/.ssh/tut_rsa.
+Your public key has been saved in /Users/Username/.ssh/tut_rsa.pub.
+The key fingerprint is:
+SHA256:KsvItb+ZioiYTghEz6hrQNz6LhuBaYxisPEZJkrRDLE Username@Your-Computer.local
+The key's randomart image is:
++---[RSA 2048]----+
+| Eo              |
+|o O              |
+| * *    o        |
+|=.+  . + +       |
+|@*o.  o S        |
+|@B+o   . .       |
+|==o.      .      |
+|++o. . .   +     |
+|oo+.. . ..+      |
++----[SHA256]-----+
+```
+
+* You can now view your SSH key by typing `cat ~/.ssh/id_rsa.pub`
+
+## Sign up
+
+* Use [this link](https://m.do.co/c/b0ee9b6cd62b) to sign up at Digital Ocean and receive $10 off your first month.
+* You will receive an email from Digital Ocean to confirm your email address. Click the link in the email.
+* You will be asked to enter your Credit/Debit card or PayPal details.
+
+## Create your first Droplet
+
+* In the top right corner of the Digital Ocean UI, you will find a green "Create" dropdown. Click it.
+* Select "Droplets" from the resulting dropdown.
+* Select **Ubuntu 18.04 x86** under "Distributions"
+* Choose the Droplet size with the following configuration:
+  * MEMORY: 2GB
+  * vCPUs: 1vCPU
+  * SSD DISK: 50GB
+  * TRANSFER: 2TB
+  * PRICE: $10/mo
+* **Optional:** Enable backups
+  * Note: this feature carries an additional cost equivalent to 20% of the Droplet price
+* Choose a datacenter region. Divi recommends Amsterdam 3.
+* Select additional options:
+  * Private networking
+  * IPv6
+  * Monitoring
+* Add your SSH key from above. 
+* Create a hostname for the droplet. You can name it whatever you like, for example "my-copper-masternode"
+
+It will take a moment for your droplet to deploy. Once it does you will see a brand new IP address has been created. This will be used in the next steps.
+
+## Login and secure your Droplet
+
+* Click the Droplet's IP to automatically copy it to your clipboard.
+* In your terminal, type `ssh root@dropletIP` 
+
+```shell
+## Result of ssh root@dropletip
+The authenticity of host 'yourip (yourip)' can't be established.
+ECDSA key fingerprint is SHA256:QTRtA7PVlexEVEfHpM17HPZ5lWA+AJjGkyywo8+cxBI.
+Are you sure you want to continue connecting (yes/no)?
+```
+
+* Type `yes` 
+* Enter the password you created when setting up your SSH key
+
+You are now logged in as the `root` user. The `root` user has the most administrative privileges and, for security reasons, it is recommended that you create a new user.
+
+* While still logged into your `root` user, type `adduser <username>` where `<username>` is the username you wish to use.
+* Answer the questions that follow and press `ENTER` if you wish to skip any.
+
+Now grant administrative (superuser) access to `<username>`
+
+* Still as root, type `usermod -aG sudo <username>`
+
+Next, setup a secure firewall on the server.
+
+* Type `ufw app list` to show available firewall applications
+* Type `ufw allow OpenSSH`
+* Then enable the firewall by typing `ufw enable` 
+  * Type `y` and press `ENTER`
+
+Now if you type `ufw status` you will see that SSH connections have been enabled and all other connections will be blocked.
+
+## Enable superuser access
+
+<aside class="warning">
+Leave your connection to the root user open while performing the following actions. Once you verify that your new superuser account can access the server, you can close the connection to root.
+</aside>
+
+* From your terminal type `ssh <username>@serverIP`
+* Enter your password to access the server
+* Run a command that requires administrative privileges. Try `sudo service ufw status`
+  * You may be asked for your user's password
+
+<aside class="notice">
+Precluding any command with `sudo` tells the server you are trying to perform an administrative action
+</aside>
+
+* If the above command did not return any errors, you can exit your `root` user and use the `<username>` created from here out.
+
 # CLI Setup Guide
 
 <aside class="notice">
@@ -136,7 +275,6 @@ Before starting the daemon, it may be helpful to keep your debug log running to 
 * Back on the original terminal window, run `./divid` again.
 
 This time you will successfully start the daemon, your wallet will be created, and the blockchain will begin to sync.
-
 
 # Masternode Setup Guide
 
