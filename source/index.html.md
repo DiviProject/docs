@@ -642,7 +642,7 @@ DIVX Rich List:	  https://etherscan.io/token/0x13f11c9905a08ca76e3e853be63d4f094
 
 # Masternodes
 
-The Divi Project is the inventor of several new technologies that are part of our masternode program.  Besides having five different types, we have added one-click install processes (home or cloud), dynamic IP functionality, single-computer setup, and “Lottery Blocks.”
+The Divi Project is the inventor of several new technologies that are part of our masternode program.  Besides having five different types, we have added one-click install processes (home or cloud), and “Lottery Blocks.”
 
 **Masternode System with Five Options**
 
@@ -679,12 +679,6 @@ For the reasons of maintenance and stopping/starting, many people will opt to ho
 ## Divi's Unique Technology
 
 **MOCCI: Masternode One-Click Cloud Install** - Revolutionary Ease of Use:  Divi was first to announce the invention of a single-click masternode installation process. Our masternodes can be installed by any skill level of user on a home computer, laptop, or in the cloud.  Is it really "one click"?  Yes it is, after essential data is entered such as the level of node and what account is used to fund it.  A single click will install it.  Divi saw a big opportunity here after the founders experienced first-hand the tortuous manual process that existed before, which typically required 4-5 hours of coding and cursing.
-
-**Dynamic IP Capability** - Until now, a masternode setup at home required people to try to get a static IP address from their internet provider.  Divi has solved this big limitation to MN adoption.
-
-**Single Computer Install** - Our new install process allows a user to set up a masternode using only a single computer.  Until now, two were required to do it, and a masternode couldn't stake too.  Divi's technology allows a user to use the same computer to not only set up a masternode, but also stake their extra DIVI at the same time (provided your system and internet speed are fast enough to do both.)
-
-**Multi-Node Capability** - If a user's computer system and internet access are powerful enough, it will be possible to set up more than one masternode on a home computer, which would also require maintaining separate blockchain copies.
 
 **Lottery Blocks** - Approximately once per week, eleven lucky DIVI network supporters who have at least 10,000 DIVI staked will share a lottery block.  50 DIVI is added to the lottery fund every minute and winners happen weekly.  This helps keep people in our system and adds excitement to our community.
 
@@ -1291,13 +1285,9 @@ Masternodes replace miners in our blockchain ecosystem.  Our Proof of Stake syst
 
 **“One Click” Masternode Setup:**  Currently it’s extremely complicated to set up a masternode and only computer geeks can do it.  The Divi team has developed an easy masternode installation setup for all common operating systems as well as step-by-step video tutorials. 
 
-**Single-Computer Masternode Setup:**  Other masternodes require users to have two computers.  One to run the masternode and the other to fund it.  Divi’s setup will allow users to do it all on one, so your computer can have both a masternode AND a staking wallet.
-
 **MOCCI:**  “Masternode One Click Cloud Install”  We have provided a way for our users who don’t want to run a masternode at home to easily set one up on the much faster cloud servers from Amazon, Microsoft, and others.  We will purchase servers space and set up the back end of this in advance, to make a fast and seamless user experience.  Payments for the service will be made by the users in DIVI.
 
-**Dynamic IP Address Masternodes:**  Currently existing masternode systems require a Static IP, which is difficult and expensive for average users, especially outside of the U.S.  We are working on a solution to change this so that more people can set up a node on their home computer.
-
-**User Interface:**  All current masternode clients use a very similar boring interface that’s plain, non-intuitive and lacking in features.    Divi’s team includes a world-class UX/UI expert and we have designed a user-friendly interface making the process easy and fun.  
+**User Interface:**  All current masternode clients use a very similar boring interface that’s plain, non-intuitive and lacking in features.    Divi’s team includes Michael Greenwood a world-class UX/UI expert, and we have designed a user-friendly interface making the process easy and fun.  
 
 **Info and Stats:** Another one of the most requested masternode features is a user-friendly way to view masternode stats from within the masternode and mobile application.  We are rolling out easy-to-view stats such as earnings history, current block, coins in circulation, total global masternodes, coin value in USD/BTC, community proposals, voting % approved, and more. 
 
