@@ -1253,7 +1253,7 @@ Benefits:
 
 **MultiSig Capable** - This simply means that a wallet or pocket will need two or more people to create and verify transactions. 
 
-**Multi-Coin Wallet **- In addition to DIVI, will soon be able to hold their Bitcoin and Ethereum in our wallet.  We’re working on partnerships with other cryptocurrencies to add them as well in the future.
+**Multi-Coin Wallet** - In addition to DIVI, will soon be able to hold their Bitcoin and Ethereum in our wallet.  We’re working on partnerships with other cryptocurrencies to add them as well in the future.
 
 **Jargon Elimination** - Newbies are instantly confused by all the jargon with the cryptocurrency world.  Within our wallet UX, we use more familiar terms that beginners are comfortable with.  Words on our list:  blockchain, private key, crypto.  Even the word “wallet” is often overused or misused when what we really mean is just an “account”.
 
@@ -1283,7 +1283,7 @@ Masternodes replace miners in our blockchain ecosystem.  Our Proof of Stake syst
 
 **Tiered Masternode System:**  Divi is building the world’s first tiered masternode system, offering higher rewards to those who accumulate more coins for their nodes. 
 
-**“One Click” Masternode Setup:**  Currently it’s extremely complicated to set up a masternode and only computer geeks can do it.  The Divi team has developed an easy masternode installation setup for all common operating systems as well as step-by-step video tutorials. 
+**One-Click Masternode Setup:** Currently it’s extremely complicated to set up a masternode and only computer geeks can do it.  The Divi team has developed an easy masternode installation setup for all common operating systems as well as step-by-step video tutorials. 
 
 **MOCCI:**  “Masternode One Click Cloud Install”  We have provided a way for our users who don’t want to run a masternode at home to easily set one up on the much faster cloud servers from Amazon, Microsoft, and others.  We will purchase servers space and set up the back end of this in advance, to make a fast and seamless user experience.  Payments for the service will be made by the users in DIVI.
 
@@ -1383,8 +1383,6 @@ Our main focus regarding the marketplace will be to help people and businesses t
 * Ecommerce Plugins
 
 These will connect directly to our smart wallet, making payment as easy as can be.  They will even be able to adjust the DIVI price to continually convert to match that of a fiat currency such as US Dollars, if the merchant desires.
-
-**Listings  Marketplace and Map** - Within our Smart Wallet, DIVI holders will be able to list their goods and services for sale.  Users will be able to use Divi’s Smart Wallet to find what’s for sale near them and buy directly from those merchants.  There will be a small fee in order to create listings, which helps to fund blockchain development and marketing.  People will be able to look for vendors by product category, by geo- location, and by searching on a map.
 
 **KYC and Identity Verification** - In order to participate in the Marketplace, users must verify their identity.  There will be no anonymity here so we don’t end up being Silk Road 2.0 and banned by governments.
 
