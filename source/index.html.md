@@ -115,15 +115,21 @@ A: If you feel comfortable, you can open your `debug.log` file (instructions). O
 Q: Where are my wallet and other critical files stored?
 A: 
 
-Windows: C:\Users\<your-username>\AppData\Roaming\DIVI
-OSX: ~/Library/Application\ Support/DIVI
-Linux: ~/.divi
+* Windows: C:\Users\<your-username>\AppData\Roaming\DIVI
+* OSX: ~/Library/Application\ Support/DIVI
+* Linux: ~/.divi
 
 Q: Where can I buy DIVI?
 A: You can find all our current exchange listings [here](https://wiki.diviproject.org/#exchanges)
 
 Q: What if my Divi wallet fails to start?
 A: Try exiting the application and restarting. If you’re still having issues, restart your computer and reopen Divi Desktop.  If you had an older version of the wallet, that may need to be completely removed before installing the new one.  On PC, check-in /users/[yourname]/appdata/roaming and delete the DIVI folders you see there.
+
+Q: My balance is 0. What happened to my funds?
+A: If you're using a Windows wallet, try going into Users\<your_username>\AppData\Roaming\DIVI, if you see both `wallet.dat` and `wallet.dat.rewrite` remove `wallet.dat` and rename `wallet.dat.rewrite` to `wallet.dat`
+
+Q: I don't see `wallet.dat.rewrite` but I see `wallet.dat` & `wallet.<numbers>.bak` or some equivalent. 
+A: Stop the wallet. Move all `wallet.<numbers>.bak` and `wallet.dat` files to your desktop. Enter the `backups` directory and pull out one of the `wallet.dat` backup files into the main DIVI directory. Rename the file to `wallet.dat` and restart the wallet.
 
 ## Masternode FAQs
 
