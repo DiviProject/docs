@@ -413,7 +413,7 @@ This section of the documentation assumes that the user is familiar with using a
 ## OSX Setup
 
 ### 1. Getting started
-* Download the latest CORE build
+* Download the latest [CORE build](https://github.com/Divicoin/Divi/releases/tag/1.0.0)
 * Unzip the package
 * `cd` into the unzipped file
 * `cd` into the bin directory
@@ -434,14 +434,9 @@ The data directory can be found at its default path:
 The default configuration looks like [this](#default-configuration)
 
 * Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step. 
-* Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
-* Make sure to include `daemon=1` to the bottom of your configuration file
-
-```shell
-## Fixed seed nodes
-addnode=178.62.195.16
-addnode=178.62.221.33
-```
+* Add the fixed seed node IPs and any other peers you wish to manually connect to on startup.
+* Make sure to include `daemon=1` to the bottom of your configuration file.
+* If you prefer the node not stake, set `staking=0` in the configuration file.
 
 ### 3. Start the daemon
 Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter. 
@@ -622,9 +617,6 @@ You can find the configuration file in the Divi data directory entitled `divi.co
 ```bash
 ## divi.conf
 
-addnode=178.62.195.16
-addnode=178.62.221.33
-
 rpcuser=<your_rpc_username>
 rpcpassword=<your_secure_rpc_password>
 
@@ -646,7 +638,7 @@ When you set up your wallet initially, always encrypt your wallet and dump your 
 
 ```shell
 ## TO DISPLAY YOUR SEED INFO:
-divi-cli dumphdinfo
+./divi-cli dumphdinfo
 ```
 This will return a seed phrase that you can use later to recover your funds.
 
@@ -656,7 +648,7 @@ Should you need to recover your wallet:
 
 ```shell
 ## TO RECOVER WALLET ON STARTUP:
-divid -debug -hdseed=<hash_of_seed_to_recover> -rescan
+./divid -debug -hdseed=<hash_of_seed_to_recover> -rescan
 ```
 
 After your node syncs back up with the network, you should see your recovered wallet.
