@@ -341,7 +341,7 @@ The key's randomart image is:
 
 * In the top right corner of the Digital Ocean UI, you will find a green "Create" dropdown. Click it.
 * Select "Droplets" from the resulting dropdown.
-* Select **Ubuntu 18.04 x86** under "Distributions"
+* Select **Ubuntu 18.04 x64** under "Distributions"
 * Choose the Droplet size with the following configuration:
   * MEMORY: 2GB
   * vCPUs: 1vCPU
