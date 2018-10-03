@@ -479,12 +479,6 @@ The default configuration looks like [this](#default-configuration)
 * Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
 * Make sure to include `daemon=1` to the bottom of your configuration file
 
-```shell
-## Fixed seed nodes
-addnode=178.62.195.16
-addnode=178.62.221.33
-```
-
 ### 3. Start the daemon
 Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter.
 
