@@ -54,22 +54,22 @@ Members of the Divi team will never request access to your `wallet.dat` or any o
 ## General FAQs
 
 Q: Where can I fill out a support ticket or find live support?
-A: You can create an account and open a support ticket <a href=”https://diviproject.org/auth” target=”_blank”>here</a> or join us on our <a href=”https://t.me/divisupport” target=”_blank”>Telegram Support Channel</a>  You can get Community help on <a href=”https://forum.diviproject.org/c/support” target=”_blank”>our Forum</a>
+A: You can create an account and open a support ticket [here](https://diviproject.org/auth) or join us on our [Telegram Support Channel](https://t.me/divisupport)  You can get Community help on [our Forum](https://forum.diviproject.org/c/support)
 
 Q: Where can I share my great ideas to enhance Divi?
-A: Come join us on our <a href=”https://forum.diviproject.org” target=”_blank”>forum</a>
+A: Come join us on our [forum](https://forum.diviproject.org)
 
 Q: What are the implemented core Divi features that stand out from other projects?
 A: 
 
 Q: Who is the team behind Divi?
-A: You can view our stellar team <a href=”https://diviproject.org/#team” target=”_blank”>here</a>
+A: You can view our stellar team [here](https://diviproject.org/#team)
 
 Q: What is diviscan.io?
 A: Diviscan is our block explorer, where you can view vital information about the blockchain, search transaction hashes and addresses, and view block information.
 
 Q: Where can I find an updated roadmap?
-A: You can always view our roadmap <a href=”https://diviproject.org/roadmap” target=”_blank”>here</a>
+A: You can always view our roadmap [here](https://diviproject.org/roadmap)
 
 Q: What is the difference between DIVX and DIVI?
 A: DIVX, or Divi Exchange Token was a placeholder token that served as a fundraising vehicle to build the Divi protocol. DIVI is the main network coin used today.
@@ -81,18 +81,18 @@ Q: Can I mine DIVI with a GPU or ASIC?
 A: DIVI is not mined, it is minted. As such, no specialized hardware is required to earn rewards. Better hardware will not give a single node the upper hand when earning.
 
 Q: Where is the official Divi Github located?
-A: Find our GitHub <a href=”https://github.com/divicoin” target=”_blank”>here</a>
+A: Find our GitHub [here](https://github.com/divicoin)
 
 Q: What happens to the transaction fees that are generated on the system?
 A: Transaction fees in the Divi ecosystem are burned
 
 Q: Where do I report potential bugs?
-A: You can open a general, public support ticket <a href=”https://forum.diviproject.org/c/support” target=”_blank”>here</a> or for GUI or CORE bugs, go <a href=”https://github.com/divicoin/divi” target=”_blank”>here</a>
+A: You can open a general, public support ticket [here](https://forum.diviproject.org/c/support) or for GUI or CORE bugs, go [here](https://github.com/divicoin/divi)
 
 ## Wallet FAQs
 
 Q: Where can I find the most up-to-date Divi wallet?
-A: You can download it right from <a href=”https://diviproject.org/downloads” target=”_blank”>our website</a>
+A: You can download it right from [our website](https://diviproject.org/downloads)
 
 Q: Why do I continue to see a spinning red circle after my seed recovery says 100% completed?
 A: In the background, your node is being reindexed to accurately restore your balance and transaction history
@@ -140,7 +140,7 @@ Q: Do I need to keep my home computer turned on to receive masternode rewards?
 A: Not if you’re using our MOCCI. Once your masternode is deployed remotely (to the cloud), you may close the local Divi Desktop application.
 
 Q: How much should I expect to make with my masternode?
-A: You can view our <a href=”https://divi-masternode-calculator.herokuapp.com/” target=”_blank”>Masternode calculator</a> for an estimate. 
+A: You can view our [Masternode calculator](https://divi-masternode-calculator.herokuapp.com/) for an estimate. 
 
 Q: Where can I track the profitability of various types of masternodes?
 A: [Masternodes.online](http://masternodes.online) 
