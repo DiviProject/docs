@@ -53,155 +53,200 @@ Members of the Divi team will never request access to your `wallet.dat` or any o
 
 ## General FAQs
 
-Q: Where can I fill out a support ticket or find live support?
+**Q: Where can I fill out a support ticket or find live support?**
+
 A: You can create an account and open a support ticket [here](https://diviproject.org/auth) or join us on our [Telegram Support Channel](https://t.me/divisupport)  You can get Community help on [our Forum](https://forum.diviproject.org/c/support)
 
-Q: Where can I share my great ideas to enhance Divi?
+**Q: Where can I share my great ideas to enhance Divi?**
+
 A: Come join us on our [forum](https://forum.diviproject.org)
 
-Q: What are the implemented core Divi features that stand out from other projects?
-A: 
+**Q: What are the implemented core Divi features that stand out from other projects?**
 
-Q: Who is the team behind Divi?
+A: Read about some of our unique features [here](https://blog.diviproject.org/divi-solving-problems/)
+
+**Q: Who is the team behind Divi?**
+
 A: You can view our stellar team [here](https://diviproject.org/#team)
 
-Q: What is diviscan.io?
+**Q: What is diviscan.io?**
+
 A: Diviscan is our block explorer, where you can view vital information about the blockchain, search transaction hashes and addresses, and view block information.
 
-Q: Where can I find an updated roadmap?
+**Q: Where can I find an updated roadmap?**
+
 A: You can always view our roadmap [here](https://diviproject.org/roadmap)
 
-Q: What is the difference between DIVX and DIVI?
+**Q: What is the difference between DIVX and DIVI?**
+
 A: DIVX, or Divi Exchange Token was a placeholder token that served as a fundraising vehicle to build the Divi protocol. DIVI is the main network coin used today.
 
-Q: What is the difference between Proof of Work, Proof of Stake and Distributed Proof of Stake?
-A:
+**Q: What is the difference between Proof of Work, Proof of Stake and Delegated Proof of Stake?**
 
-Q: Can I mine DIVI with a GPU or ASIC?
+A: // TODO
+
+**Q: Can I mine DIVI with a GPU or ASIC?**
+
 A: DIVI is not mined, it is minted. As such, no specialized hardware is required to earn rewards. Better hardware will not give a single node the upper hand when earning.
 
-Q: Where is the official Divi Github located?
+**Q: Where is the official Divi Github located?**
+
 A: Find our GitHub [here](https://github.com/divicoin)
 
-Q: What happens to the transaction fees that are generated on the system?
+**Q: What happens to the transaction fees that are generated on the system?**
+
 A: Transaction fees in the Divi ecosystem are burned
 
-Q: Where do I report potential bugs?
+**Q: Where do I report potential bugs?**
+
 A: You can open a general, public support ticket [here](https://forum.diviproject.org/c/support) or for GUI or CORE bugs, go [here](https://github.com/divicoin/divi)
 
 ## Wallet FAQs
 
-Q: Where can I find the most up-to-date Divi wallet?
+**Q: Where can I find the most up-to-date Divi wallet?**
+
 A: You can download it right from [our website](https://diviproject.org/downloads)
 
-Q: Why do I continue to see a spinning red circle after my seed recovery says 100% completed?
+**Q: Why do I continue to see a spinning red circle after my seed recovery says 100% completed?**
+
 A: In the background, your node is being reindexed to accurately restore your balance and transaction history
 
-Q: Why does my wallet take so long to load? 
+**Q: Why does my wallet take so long to load?**
+
 A: If your computer has an HDD, your wallet may take a bit longer to load. The system is building a brand new wallet file to store all your data. It is relatively complex, so be patient.
 
-Q: Why does my wallet take so long to sync? 
+**Q: Why does my wallet take so long to sync?**
+
 A: Depending on your system specs and network connection, your node may take longer than others to sync.
 
-Q: How do I know if I won a lottery block?
-A: Lottery blocks always come in 250 or 2500 DIVI increments.
+**Q: How do I know if I won a lottery block?**
 
-Q: Why do I sometimes see large transactions in my wallet?
+A: Lottery blocks always come in 25 200 or 252 000 DIVI increments. You can view them in your GUI's Transaction History on the "Lottery" tab
+
+**Q: Why do I sometimes see large transactions in my wallet?**
+
 A: This is the result of a larger UTXO that is being reflected by your wallet. Whether it be a staking attempt or some other wallet activity, one of your accounts took part in the output of the transaction. Don’t worry, you didn’t lose or gain anything. It's just the blockchain acting as it should.
 
-Q: What should I do if my wallet continues to attempt to sync for over 30 minutes?
-A: If you feel comfortable, you can open your `debug.log` file (instructions). Otherwise, try quitting the application and restart. 
+**Q: What should I do if my wallet continues to attempt to sync for over 30 minutes?**
 
-Q: Where are my wallet and other critical files stored?
+A: Try [these instructions](#gui-is-stuck-syncing)
+
+**Q: Where are my wallet and other critical files stored?**
+
 A: 
 
 * Windows: C:\Users\<your-username>\AppData\Roaming\DIVI
 * OSX: ~/Library/Application\ Support/DIVI
 * Linux: ~/.divi
 
-Q: Where can I buy DIVI?
+**Q: Where can I buy DIVI?**
+
 A: You can find all our current exchange listings [here](https://wiki.diviproject.org/#exchanges)
 
-Q: What if my Divi wallet fails to start?
-A: Try exiting the application and restarting. If you’re still having issues, restart your computer and reopen Divi Desktop.  If you had an older version of the wallet, that may need to be completely removed before installing the new one.  On PC, check-in /users/[yourname]/appdata/roaming and delete the DIVI folders you see there.
+**Q: What if my Divi wallet fails to start?**
 
-Q: My balance is 0. What happened to my funds?
+A: Try exiting the application and restarting. If you’re still having issues, restart your computer and reopen Divi Desktop.  If you had an older version of the wallet, that may need to be completely removed before installing the new one.  On PC, check-in `/users/[yourname]/appdata/roaming` and delete the DIVI folders you see there.
+
+**Q: My balance is 0. What happened to my funds?**
+
 A: If you're using a Windows wallet, try going into Users\<your_username>\AppData\Roaming\DIVI, if you see both `wallet.dat` and `wallet.dat.rewrite` remove `wallet.dat` and rename `wallet.dat.rewrite` to `wallet.dat`
 
-Q: I don't see `wallet.dat.rewrite` but I see `wallet.dat` & `wallet.<numbers>.bak` or some equivalent. 
+**Q: I don't see `wallet.dat.rewrite` but I see `wallet.dat` & `wallet.<numbers>.bak` or some equivalent.** 
+
 A: Stop the wallet. Move all `wallet.<numbers>.bak` and `wallet.dat` files to your desktop. Enter the `backups` directory and pull out one of the `wallet.dat` backup files into the main DIVI directory. Rename the file to `wallet.dat` and restart the wallet.
 
 ## Masternode FAQs
 
-Q: Am I able to host masternodes on my home computer without the need for cloud services?
+**Q: Am I able to host masternodes on my home computer without the need for cloud services?**
+
 A: While it is important that you follow the Controller/Remote node structure, you can use a VM (Virtual Machine) in tandem with your standard machine to run a Masternode locally.
 
-Q: Do I need to keep my home computer turned on to receive masternode rewards?
+**Q: Do I need to keep my home computer turned on to receive masternode rewards?**
+
 A: Not if you’re using our MOCCI. Once your masternode is deployed remotely (to the cloud), you may close the local Divi Desktop application.
 
-Q: How much should I expect to make with my masternode?
+**Q: How much should I expect to make with my masternode?**
+
 A: You can view our [Masternode calculator](https://divi-masternode-calculator.herokuapp.com/) for an estimate. 
 
-Q: Where can I track the profitability of various types of masternodes?
+**Q: Where can I track the profitability of various types of masternodes?**
+
 A: [Masternodes.online](http://masternodes.online) 
 
-Q: How long until my masternode is eligible for awards?
+**Q: How long until my masternode is eligible for awards?**
+
 A: The formula is 2.6 * # of Masternodes in the Network, in minutes.  So if there are 1200 masternodes, that will be 52 hours.
 
-Q: Am I required to use Digital Ocean to create my cloud-based Masternodes?
+**Q: Am I required to use Digital Ocean to create my cloud-based Masternodes?**
+
 A: If you choose to use the MOCCI, the node will be deployed to Digital Ocean. You can, however, set up a Masternode manually using [our guide](#masternode-setup-guide).
 
-Q: How do masternodes work in layman’s terms?
+**Q: How do masternodes work in layman’s terms?**
+
 A: Masternodes are special peers in the network that serve as a method of securing and verifying transactions. They require a certain number of coins to be allocated to them, and as a reward for supporting the network, they earn additional coins, which are sent to the wallet from which the Masternode was deployed.
 
-Q: When should I expect my first masternode reward?
+**Q: When should I expect my first masternode reward?**
+
 A: The selection algorithm is relatively complex, but you can read more about it [here](#rewards). Because we have developed the system to maintain decentralization and randomness, it is difficult to predict when a masternode will receive its first reward. Sometimes it is within 3 hours, sometimes 7 days. In the end, the system is built to average out rewards so that earnings are fair based on the masternode level selected.
 
-Q: Is there a partial refund if I decide to remove my masternode at any point during the month?
+**Q: Is there a partial refund if I decide to remove my masternode at any point during the month?**
+
 A: The cost of the server is a flat fee and not based on usage. Each month is paid up front and cannot be refunded. You may cancel your subscription at any time.
 
-Q. Do I need to set up a VPS account for my masternode?
+**Q. Do I need to set up a VPS account for my masternode?**
+
 A. You don’t NEED to do this.  If you deploy your masternode with MOCCI then we do it for you and you don’t need to do anything.  You can save yourself $5/month by doing it all yourself on your own VPS account.  You can even do it manually on your own home computer.
 
-Q. Can I deploy more than one masternode from the same local wallet?
+**Q. Can I deploy more than one masternode from the same local wallet?**
+
 A. Yes, but only one at a time.  You have to wait until one is completely finished deploying before starting the next one.
 
-Q. How can I make sure my masternode has been deployed successfully?
+**Q. How can I make sure my masternode has been deployed successfully?**
+
 A. Try checking on https://diviscan.io/masternodes to find it there. Or, if you manually deployed, you can run `./divi-cli getmasternodestatus` from the command line on the machine where your Masternode is hosted.
 
 ## MOCCI FAQs
 
-Q. Why does it cost $15 to deploy a masternode?
+**Q. Why does it cost $15 to deploy a masternode?**
+
 A. We pay Digital Ocean $10/month and the $5 is left over to cover overhead, etc.
 
-Q: My incoming masternode reward status has turned green. Why does my balance not reflect the reward?
+**Q: My incoming masternode reward status has turned green. Why does my balance not reflect the reward?**
+
 A: It may take 15-20 confirmations before your masternode rewards are reflected in your balance.
 
-Q: Am I able to host multiple masternodes in the cloud or with MOCCI using a single IP address or droplet?
+**Q: Am I able to host multiple masternodes in the cloud or with MOCCI using a single IP address or droplet?**
+
 A: No. Each Masternode requires a unique, static IP address in its own droplet.
 
-Q: Should I create a new wallet address for each incoming transaction?
+**Q: Should I create a new wallet address for each incoming transaction?**
+
 A: It is a best practice to do this but it is not necessary. 
 
-Q: Support asked me to submit a copy of my log file. Where is this file located?
+**Q: Support asked me to submit a copy of my log file. Where is this file located?**
+
 A: 
 
-Windows: C:\Users\<your-username>\AppData\Roaming\DIVI\debug.log
-OSX: ~/Library/Application\ Support/DIVI/debug.log
-Linux: ~/.divi/debug.log
+* Windows: C:\Users\<your-username>\AppData\Roaming\DIVI\debug.log
+* OSX: ~/Library/Application\ Support/DIVI/debug.log
+* Linux: ~/.divi/debug.log
 
-Q: Why does my balance not decrease when I purchase a masternode?
+**Q: Why does my balance not decrease when I purchase a masternode?**
+
 A: When you create a new masternode, the funds are allocated in a transaction that is broadcast to the network. It will take a few confirmations for this transaction to be validated, after which time you will see your funds reappear minus the transaction fee.
 
 ## Staking FAQs
 
-Q: Does my wallet need to be open to receiving staking rewards?
+**Q: Does my wallet need to be open to receiving staking rewards?**
+
 A: Yes, in order to earn staking rewards, your node must be funded with at least 10,000 DIVI, be unlocked (or unlocked for staking), and have a persistent connection to the network.
 
-Q: What is the minimum amount of DIVI coins I need to enable staking?
+**Q: What is the minimum amount of DIVI coins I need to enable staking?**
+
 A: 10,000 DIVI and they must not be funding a masternode already.
 
-Q: How do I know my wallet is actively staking?
+**Q: How do I know my wallet is actively staking?**
+
 A: You can check if your wallet is staking by opening the console in the top right corner of the GUI and typing `getstakingstatus`. You will see a response showing relevant information about your staking status that should look like this if all is good: 
 
 ```shell
@@ -217,57 +262,71 @@ A: You can check if your wallet is staking by opening the console in the top rig
 }
 ```
 
-Q: How many confirmations are required before staking rewards are mature?
+**Q: How many confirmations are required before staking rewards are mature?**
+
 A: It takes 7 days to be fully staking.  A detailed description of staking rewards and how to maximize them is here: [Staking Divi](https://blog.diviproject.org/divi-staking-system)
 
-Q. Where can I see the rewards each of my masternodes has been receiving?
+**Q. Where can I see the rewards each of my masternodes has been receiving?**
+
 A. In the masternode list in the wallet, there’s a box with reward information.
 
-Q. HELP! I accidentally closed the client in the process of deploying a masternode. Am I going to get charged for this?
+**Q. HELP! I accidentally closed the client in the process of deploying a masternode. Am I going to get charged for this?**
+
 A. If the masternode has not been started, isn’t active, and isn’t showing in the list you will not be charged.
 
-Q. How do I defund a masternode?
+**Q. How do I defund a masternode?**
+
 A. From the GUI, all you have to do is click the ‘X’ on any of your nodes. If you’re using CLI, you can delete the configuration line relating to the node in the `masternode.conf` file then restart your daemon. This will de-allocate the funds.
 
-Q. How can I tell if I am receiving masternode rewards?
-A. All masternode rewards are currently for 540 DIVI. Look for them in Overview or in the Received tab in history.
+**Q. How can I tell if I am receiving masternode rewards?**
 
-Q. What is the difference between total balance and spendable balance?
+A. All masternode rewards are currently for 540 DIVI. Look for them in Overview or in the Rewards tab in Transaction History.
+
+**Q. What is the difference between total balance and spendable balance?**
+
 A. Your total balance includes coins that are funding your masternode(s).  Those are locked away and can’t be spent unless you defund them.  Spendable balance then is everything left over, and it’s what you can Stake with.
 
-Q. The rewards my masternode received don’t match the balance shown on diviscan. Why is that?
-A. @Giff or @nicksaponaro can explain that much better than I do(related to the ‘issue’ we had where masternode balances would drop)
+**Q. The rewards my masternode received don’t match the balance shown on diviscan. Why is that?**
 
-Q. The Client tells me “can’t check for updates” and then establishes no connection or peers, what should I do?
+A. Once you receive enough from a masternode to start staking, your wallet may begin to use those funds for just that. It is also possible that your wallet allocated earned funds to a new masternode if you have more than one deployed.
+
+**Q. The Client tells me “can’t check for updates” and then establishes no connection or peers, what should I do?**
+
 A.Check your firewall software (or Voodoo Shield) and make sure there’s an exception for:
 
-Divid.exe
-Divi-cli.exe
-divi desktop.exe. 
+* Divid.exe
+* Divi-cli.exe
+* divi desktop.exe. 
 
 On windows the first two are in `c:\users\username\appdata\roaming\divi desktop\divid\unpacked\divi_win_64` and the latter is in `c:\program files\divi desktop`
 
-Q. HELP! My client just closed on its down/disappeared from my hard drive. What do I do?
+**Q. HELP! My client just closed on its down/disappeared from my hard drive. What do I do?**
+
 A. Your threat protection may take extreme action and actually remove anything Divi related, including the installation file. Look in their AV/threat protection quarantine, and restore the following files:
-divid.exe
-divi desktop.exe
-divi-desktop.log
-divi desktop.lnk
-where.exe
-conhost.exe
-data_3
-data_2
-data_1
-data_0
+
+* divid.exe
+* divi desktop.exe
+* divi-desktop.log
+* divi desktop.lnk
+* where.exe
+* conhost.exe
+* data_3
+* data_2
+* data_1
+* data_0
+
 and make sure they will not be rescanned in the future.
 
-Q. How do I receive staking rewards?
+**Q. How do I receive staking rewards?**
+
 A. It happens automatically, but the wallet needs to be unlocked for staking.  When you receive a staking reward, you’ll see it appear as a deposit.  Your wallet has to be open and connected to the internet to receive rewards.
 
-Q. Why does my spendable balance keep fluctuating?
+**Q. Why does my spendable balance keep fluctuating?**
+
 A. Your balance may fluctuate if your wallet is actively staking.
 
-Q. HELP! I know I have enough to deploy a gold masternode, but it’s not letting me do it.
+**Q. HELP! I know I have enough to deploy a gold masternode, but it’s not letting me do it.**
+
 A. Your spendable balance may be fluctuating due to staking, and as a result, you may have insufficient funds to deploy a masternode until the UTXO returns from staking.
 
 ## GUI is Stuck Syncing 
