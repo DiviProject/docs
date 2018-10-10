@@ -270,6 +270,37 @@ A. Your balance may fluctuate if your wallet is actively staking.
 Q. HELP! I know I have enough to deploy a gold masternode, but it’s not letting me do it.
 A. Your spendable balance may be fluctuating due to staking, and as a result, you may have insufficient funds to deploy a masternode until the UTXO returns from staking.
 
+## GUI is Stuck Syncing 
+
+If the wallet is stuck syncing you can force it to sync by following these steps:
+
+### Windows
+
+**Step 1:** Locate the Divi Desktop Icon
+
+**Step 2:** Right Click and select properties
+
+**Step 3:** In target area locate "C:\Program Files\Divi Desktop\Divi Desktop.exe"
+
+**Step 4:** add -resync to the end after the double quotes so it looks like this
+
+`"C:\Program Files\Divi Desktop\Divi Desktop.exe" -resync`
+
+Click Apply and Ok.
+
+**Step 5:** Start your wallet 
+
+* It will resync all your folders anew
+* This will take some time
+* Once everything is running and synced, Stop wallet
+
+**Step 6:** Locate the Divi Desktop Icon
+
+**Step 7:** Right Click and select properties
+
+**Step 8:** In target area locate "C:\Program Files\Divi Desktop\Divi Desktop.exe" -resync
+
+**Step 9:** Remove the -resync to return it "C:\Program Files\Divi Desktop\Divi Desktop.exe"
 
 # VPS Setup Guide
 
@@ -1256,7 +1287,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 	<tr>
 		<td>DIVI</td>
 		<td></td>
-		<td>SIMEX (Coming soon)</td>
+		<td>SIMEX</td>
 		<td><a href="https://simex.global/en/exchange/divi/btc" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/simex/" target="_blank">Go now</a></td>
 		<td>true</td>
@@ -1264,7 +1295,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 	<tr>
 		<td>DIVI</td>
 		<td></td>
-		<td>Cryptopia (Coming soon)</td>
+		<td>Cryptopia</td>
 		<td><a href="https://www.cryptopia.co.nz/Exchange?market=DIVI_BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/cryptopia/" target="_blank">Go now</a></td>
 		<td>false</td>
