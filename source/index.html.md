@@ -49,6 +49,457 @@ Do not, we repeat, _do not_, store your encryption password or mnemonic seed phr
 
 Members of the Divi team will never request access to your `wallet.dat` or any other file deemed proprietary to your account. If a member of the community or someone claiming to be a Divi team member makes an attempt to access this data, please report them immediately to an Admin.
 
+# FAQ / Troubleshooting 
+
+## General FAQs
+
+**Q: Where can I fill out a support ticket or find live support?**
+
+A: You can create an account and open a support ticket [here](https://diviproject.org/auth) or join us on our [Telegram Support Channel](https://t.me/divisupport)  You can get Community help on [our Forum](https://forum.diviproject.org/c/support)
+
+**Q: Where can I share my great ideas to enhance Divi?**
+
+A: Come join us on our [forum](https://forum.diviproject.org)
+
+**Q: What are the implemented core Divi features that stand out from other projects?**
+
+A: Read about some of our unique features [here](https://blog.diviproject.org/divi-solving-problems/)
+
+**Q: Who is the team behind Divi?**
+
+A: You can view our stellar team [here](https://diviproject.org/#team)
+
+**Q: What is diviscan.io?**
+
+A: Diviscan is our block explorer, where you can view vital information about the blockchain, search transaction hashes and addresses, and view block information.
+
+**Q: Where can I find an updated roadmap?**
+
+A: You can always view our roadmap [here](https://diviproject.org/roadmap)
+
+**Q: What is the difference between DIVX and DIVI?**
+
+A: DIVX, or Divi Exchange Token was a placeholder token that served as a fundraising vehicle to build the Divi protocol. DIVI is the main network coin used today.
+
+**Q: What is the difference between Proof of Work, Proof of Stake and Delegated Proof of Stake?**
+
+A: // TODO
+
+**Q: Can I mine DIVI with a GPU or ASIC?**
+
+A: DIVI is not mined, it is minted. As such, no specialized hardware is required to earn rewards. Better hardware will not give a single node the upper hand when earning.
+
+**Q: Where is the official Divi Github located?**
+
+A: Find our GitHub [here](https://github.com/divicoin)
+
+**Q: What happens to the transaction fees that are generated on the system?**
+
+A: Transaction fees in the Divi ecosystem are burned
+
+**Q: Where do I report potential bugs?**
+
+A: You can open a general, public support ticket [here](https://forum.diviproject.org/c/support) or for GUI or CORE bugs, go [here](https://github.com/divicoin/divi)
+
+## Wallet FAQs
+
+**Q: Where can I find the most up-to-date Divi wallet?**
+
+A: You can download it right from [our website](https://diviproject.org/downloads)
+
+**Q: Why do I continue to see a spinning red circle after my seed recovery says 100% completed?**
+
+A: In the background, your node is being reindexed to accurately restore your balance and transaction history
+
+**Q: Why does my wallet take so long to load?**
+
+A: If your computer has an HDD, your wallet may take a bit longer to load. The system is building a brand new wallet file to store all your data. It is relatively complex, so be patient.
+
+**Q: Why does my wallet take so long to sync?**
+
+A: Depending on your system specs and network connection, your node may take longer than others to sync.
+
+**Q: How do I know if I won a lottery block?**
+
+A: Lottery blocks always come in 25 200 or 252 000 DIVI increments. You can view them in your GUI's Transaction History on the "Lottery" tab
+
+**Q: Why do I sometimes see large transactions in my wallet?**
+
+A: This is the result of a larger UTXO that is being reflected by your wallet. Whether it be a staking attempt or some other wallet activity, one of your accounts took part in the output of the transaction. Don’t worry, you didn’t lose or gain anything. It's just the blockchain acting as it should.
+
+**Q: What should I do if my wallet continues to attempt to sync for over 30 minutes?**
+
+A: Try [these instructions](#gui-is-stuck-syncing)
+
+**Q: Where are my wallet and other critical files stored?**
+
+A: 
+
+* Windows: C:\Users\<your-username>\AppData\Roaming\DIVI
+* OSX: ~/Library/Application\ Support/DIVI
+* Linux: ~/.divi
+
+**Q: Where can I buy DIVI?**
+
+A: You can find all our current exchange listings [here](https://wiki.diviproject.org/#exchanges)
+
+**Q: What if my Divi wallet fails to start?**
+
+A: Try exiting the application and restarting. If you’re still having issues, restart your computer and reopen Divi Desktop.  If you had an older version of the wallet, that may need to be completely removed before installing the new one.  On PC, check-in `/users/[yourname]/appdata/roaming` and delete the DIVI folders you see there.
+
+**Q: My balance is 0. What happened to my funds?**
+
+A: If you're using a Windows wallet, try going into Users\<your_username>\AppData\Roaming\DIVI, if you see both `wallet.dat` and `wallet.dat.rewrite` remove `wallet.dat` and rename `wallet.dat.rewrite` to `wallet.dat`
+
+**Q: I don't see `wallet.dat.rewrite` but I see `wallet.dat` & `wallet.<numbers>.bak` or some equivalent.** 
+
+A: Stop the wallet. Move all `wallet.<numbers>.bak` and `wallet.dat` files to your desktop. Enter the `backups` directory and pull out one of the `wallet.dat` backup files into the main DIVI directory. Rename the file to `wallet.dat` and restart the wallet.
+
+## Masternode FAQs
+
+**Q: Am I able to host masternodes on my home computer without the need for cloud services?**
+
+A: While it is important that you follow the Controller/Remote node structure, you can use a VM (Virtual Machine) in tandem with your standard machine to run a Masternode locally.
+
+**Q: Do I need to keep my home computer turned on to receive masternode rewards?**
+
+A: Not if you’re using our MOCCI. Once your masternode is deployed remotely (to the cloud), you may close the local Divi Desktop application.
+
+**Q: How much should I expect to make with my masternode?**
+
+A: You can view our [Masternode calculator](https://divi-masternode-calculator.herokuapp.com/) for an estimate. 
+
+**Q: Where can I track the profitability of various types of masternodes?**
+
+A: [Masternodes.online](http://masternodes.online) 
+
+**Q: How long until my masternode is eligible for awards?**
+
+A: The formula is 2.6 * # of Masternodes in the Network, in minutes.  So if there are 1200 masternodes, that will be 52 hours.
+
+**Q: Am I required to use Digital Ocean to create my cloud-based Masternodes?**
+
+A: If you choose to use the MOCCI, the node will be deployed to Digital Ocean. You can, however, set up a Masternode manually using [our guide](#masternode-setup-guide).
+
+**Q: How do masternodes work in layman’s terms?**
+
+A: Masternodes are special peers in the network that serve as a method of securing and verifying transactions. They require a certain number of coins to be allocated to them, and as a reward for supporting the network, they earn additional coins, which are sent to the wallet from which the Masternode was deployed.
+
+**Q: When should I expect my first masternode reward?**
+
+A: The selection algorithm is relatively complex, but you can read more about it [here](#rewards). Because we have developed the system to maintain decentralization and randomness, it is difficult to predict when a masternode will receive its first reward. Sometimes it is within 3 hours, sometimes 7 days. In the end, the system is built to average out rewards so that earnings are fair based on the masternode level selected.
+
+**Q: Is there a partial refund if I decide to remove my masternode at any point during the month?**
+
+A: The cost of the server is a flat fee and not based on usage. Each month is paid up front and cannot be refunded. You may cancel your subscription at any time.
+
+**Q. Do I need to set up a VPS account for my masternode?**
+
+A. You don’t NEED to do this.  If you deploy your masternode with MOCCI then we do it for you and you don’t need to do anything.  You can save yourself $5/month by doing it all yourself on your own VPS account.  You can even do it manually on your own home computer.
+
+**Q. Can I deploy more than one masternode from the same local wallet?**
+
+A. Yes, but only one at a time.  You have to wait until one is completely finished deploying before starting the next one.
+
+**Q. How can I make sure my masternode has been deployed successfully?**
+
+A. Try checking on https://diviscan.io/masternodes to find it there. Or, if you manually deployed, you can run `./divi-cli getmasternodestatus` from the command line on the machine where your Masternode is hosted.
+
+## MOCCI FAQs
+
+**Q. Why does it cost $15 to deploy a masternode?**
+
+A. We pay Digital Ocean $10/month and the $5 is left over to cover overhead, etc.
+
+**Q: My incoming masternode reward status has turned green. Why does my balance not reflect the reward?**
+
+A: It may take 15-20 confirmations before your masternode rewards are reflected in your balance.
+
+**Q: Am I able to host multiple masternodes in the cloud or with MOCCI using a single IP address or droplet?**
+
+A: No. Each Masternode requires a unique, static IP address in its own droplet.
+
+**Q: Should I create a new wallet address for each incoming transaction?**
+
+A: It is a best practice to do this but it is not necessary. 
+
+**Q: Support asked me to submit a copy of my log file. Where is this file located?**
+
+A: 
+
+* Windows: C:\Users\<your-username>\AppData\Roaming\DIVI\debug.log
+* OSX: ~/Library/Application\ Support/DIVI/debug.log
+* Linux: ~/.divi/debug.log
+
+**Q: Why does my balance not decrease when I purchase a masternode?**
+
+A: When you create a new masternode, the funds are allocated in a transaction that is broadcast to the network. It will take a few confirmations for this transaction to be validated, after which time you will see your funds reappear minus the transaction fee.
+
+## Staking FAQs
+
+**Q: Does my wallet need to be open to receiving staking rewards?**
+
+A: Yes, in order to earn staking rewards, your node must be funded with at least 10,000 DIVI, be unlocked (or unlocked for staking), and have a persistent connection to the network.
+
+**Q: What is the minimum amount of DIVI coins I need to enable staking?**
+
+A: 10,000 DIVI and they must not be funding a masternode already.
+
+**Q: How do I know my wallet is actively staking?**
+
+A: You can check if your wallet is staking by opening the console in the top right corner of the GUI and typing `getstakingstatus`. You will see a response showing relevant information about your staking status that should look like this if all is good: 
+
+```shell
+## Staking active
+{
+    "validtime" : true,
+    "haveconnections" : true,
+    "walletunlocked" : true,
+    "mintablecoins" : true,
+    "enoughcoins" : true,
+    "mnsync" : true,
+    "staking status" : true
+}
+```
+
+**Q: How many confirmations are required before staking rewards are mature?**
+
+A: It takes 7 days to be fully staking.  A detailed description of staking rewards and how to maximize them is here: [Staking Divi](https://blog.diviproject.org/divi-staking-system)
+
+**Q. Where can I see the rewards each of my masternodes has been receiving?**
+
+A. In the masternode list in the wallet, there’s a box with reward information.
+
+**Q. HELP! I accidentally closed the client in the process of deploying a masternode. Am I going to get charged for this?**
+
+A. If the masternode has not been started, isn’t active, and isn’t showing in the list you will not be charged.
+
+**Q. How do I defund a masternode?**
+
+A. From the GUI, all you have to do is click the ‘X’ on any of your nodes. If you’re using CLI, you can delete the configuration line relating to the node in the `masternode.conf` file then restart your daemon. This will de-allocate the funds.
+
+**Q. How can I tell if I am receiving masternode rewards?**
+
+A. All masternode rewards are currently for 540 DIVI. Look for them in Overview or in the Rewards tab in Transaction History.
+
+**Q. What is the difference between total balance and spendable balance?**
+
+A. Your total balance includes coins that are funding your masternode(s).  Those are locked away and can’t be spent unless you defund them.  Spendable balance then is everything left over, and it’s what you can Stake with.
+
+**Q. The rewards my masternode received don’t match the balance shown on diviscan. Why is that?**
+
+A. Once you receive enough from a masternode to start staking, your wallet may begin to use those funds for just that. It is also possible that your wallet allocated earned funds to a new masternode if you have more than one deployed.
+
+**Q. The Client tells me “can’t check for updates” and then establishes no connection or peers, what should I do?**
+
+A.Check your firewall software (or Voodoo Shield) and make sure there’s an exception for:
+
+* Divid.exe
+* Divi-cli.exe
+* divi desktop.exe. 
+
+On windows the first two are in `c:\users\username\appdata\roaming\divi desktop\divid\unpacked\divi_win_64` and the latter is in `c:\program files\divi desktop`
+
+**Q. HELP! My client just closed on its down/disappeared from my hard drive. What do I do?**
+
+A. Your threat protection may take extreme action and actually remove anything Divi related, including the installation file. Look in their AV/threat protection quarantine, and restore the following files:
+
+* divid.exe
+* divi desktop.exe
+* divi-desktop.log
+* divi desktop.lnk
+* where.exe
+* conhost.exe
+* data_3
+* data_2
+* data_1
+* data_0
+
+and make sure they will not be rescanned in the future.
+
+**Q. How do I receive staking rewards?**
+
+A. It happens automatically, but the wallet needs to be unlocked for staking.  When you receive a staking reward, you’ll see it appear as a deposit.  Your wallet has to be open and connected to the internet to receive rewards.
+
+**Q. Why does my spendable balance keep fluctuating?**
+
+A. Your balance may fluctuate if your wallet is actively staking.
+
+**Q. HELP! I know I have enough to deploy a gold masternode, but it’s not letting me do it.**
+
+A. Your spendable balance may be fluctuating due to staking, and as a result, you may have insufficient funds to deploy a masternode until the UTXO returns from staking.
+
+## GUI is Stuck Syncing 
+
+If the wallet is stuck syncing you can force it to sync by following these steps:
+
+### Windows
+
+**Step 1:** Locate the Divi Desktop Icon
+
+**Step 2:** Right Click and select properties
+
+**Step 3:** In target area locate "C:\Program Files\Divi Desktop\Divi Desktop.exe"
+
+**Step 4:** add -resync to the end after the double quotes so it looks like this
+
+`"C:\Program Files\Divi Desktop\Divi Desktop.exe" -resync`
+
+Click Apply and Ok.
+
+**Step 5:** Start your wallet 
+
+* It will resync all your folders anew
+* This will take some time
+* Once everything is running and synced, Stop wallet
+
+**Step 6:** Locate the Divi Desktop Icon
+
+**Step 7:** Right Click and select properties
+
+**Step 8:** In target area locate "C:\Program Files\Divi Desktop\Divi Desktop.exe" -resync
+
+**Step 9:** Remove the -resync to return it "C:\Program Files\Divi Desktop\Divi Desktop.exe"
+
+# VPS Setup Guide
+
+A VPS (Virtual Private Server) is ideal for running a masternode because it is a cost effective way to guarantee a persistent connection. Divi recommends using [Digital Ocean](https://m.do.co/c/b0ee9b6cd62b) for your VPS because they are by far the easiest to use system, even for beginner and intermediate level users. For the purposes of this tutorial, the Digital Ocean process will be used.
+
+## Create an SSH key
+
+SSH (Secure Socket Shell) keys allow for secure access to a remote host. They are the recommended way of accessing your VPS and will be necessary to follow the tutorial. Please create an SSH key before proceeding.
+
+### Windows
+
+It is recommended that Windows users follow Digital Ocean's [official guide](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/create-with-putty/) for setting up an SSH key.
+
+### OSX & Linux
+
+* Type `ssh-keygen` into your terminal. 
+
+* Assign a filepath. If this is your first time generating an SSH keypair, you can just press `ENTER` to proceed.
+
+```shell
+## Result of ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/Username/.ssh/id_rsa):
+```
+* **Recommended:** Enter a passphrase. You will not see any text on the screen when typing in your passphrase, this is expected.
+  * You can also just press enter to leave your ssh key without a passphrase
+
+```shell
+## Enter passphrase after assigning filepath
+Enter passphrase (empty for no passphrase):
+```
+* Repeat the passphrase. You will not see any text on the screen when typing in your passphrase, this is expected.
+
+```shell
+## Repeat passphrase
+Enter same passphrase again:
+```
+* Press enter and you will receive the following response:
+
+```shell
+## Success response
+Your identification has been saved in /Users/Username/.ssh/tut_rsa.
+Your public key has been saved in /Users/Username/.ssh/tut_rsa.pub.
+The key fingerprint is:
+SHA256:KsvItb+ZioiYTghEz6hrQNz6LhuBaYxisPEZJkrRDLE Username@Your-Computer.local
+The key's randomart image is:
++---[RSA 2048]----+
+| Eo              |
+|o O              |
+| * *    o        |
+|=.+  . + +       |
+|@*o.  o S        |
+|@B+o   . .       |
+|==o.      .      |
+|++o. . .   +     |
+|oo+.. . ..+      |
++----[SHA256]-----+
+```
+
+* You can now view your SSH key by typing `cat ~/.ssh/id_rsa.pub`
+
+## Sign up
+
+* Use [this link](https://m.do.co/c/b0ee9b6cd62b) to sign up at Digital Ocean and receive $10 off your first month.
+* You will receive an email from Digital Ocean to confirm your email address. Click the link in the email.
+* You will be asked to enter your Credit/Debit card or PayPal details.
+
+## Create your first Droplet
+
+* In the top right corner of the Digital Ocean UI, you will find a green "Create" dropdown. Click it.
+* Select "Droplets" from the resulting dropdown.
+* Select **Ubuntu 18.04 x64** under "Distributions"
+* Choose the Droplet size with the following configuration:
+  * MEMORY: 2GB
+  * vCPUs: 1vCPU
+  * SSD DISK: 50GB
+  * TRANSFER: 2TB
+  * PRICE: $10/mo
+* **Optional:** Enable backups
+  * Note: this feature carries an additional cost equivalent to 20% of the Droplet price
+* Choose a datacenter region. Divi recommends Amsterdam 3.
+* Select additional options:
+  * Private networking
+  * IPv6
+  * Monitoring
+* Add your SSH key from above. 
+* Create a hostname for the droplet. You can name it whatever you like, for example "my-copper-masternode"
+
+It will take a moment for your droplet to deploy. Once it does you will see a brand new IP address has been created. This will be used in the next steps.
+
+## Login and secure your Droplet
+
+* Click the Droplet's IP to automatically copy it to your clipboard.
+* In your terminal, type `ssh root@dropletIP` 
+
+```shell
+## Result of ssh root@dropletip
+The authenticity of host 'yourip (yourip)' can't be established.
+ECDSA key fingerprint is SHA256:QTRtA7PVlexEVEfHpM17HPZ5lWA+AJjGkyywo8+cxBI.
+Are you sure you want to continue connecting (yes/no)?
+```
+
+* Type `yes` 
+* Enter the password you created when setting up your SSH key
+
+You are now logged in as the `root` user. The `root` user has the most administrative privileges and, for security reasons, it is recommended that you create a new user.
+
+* While still logged into your `root` user, type `adduser <username>` where `<username>` is the username you wish to use.
+* Answer the questions that follow and press `ENTER` if you wish to skip any.
+
+Now grant administrative (superuser) access to `<username>`
+
+* Still as root, type `usermod -aG sudo <username>`
+
+Next, setup a secure firewall on the server.
+
+* Type `ufw app list` to show available firewall applications
+* Type `ufw allow OpenSSH`
+* Then enable the firewall by typing `ufw enable` 
+  * Type `y` and press `ENTER`
+
+Now if you type `ufw status` you will see that SSH connections have been enabled and all other connections will be blocked.
+
+## Enable superuser access
+
+<aside class="warning">
+Leave your connection to the root user open while performing the following actions. Once you verify that your new superuser account can access the server, you can close the connection to root.
+</aside>
+
+* From your terminal type `ssh <username>@serverIP`
+* Enter your password to access the server
+* Run a command that requires administrative privileges. Try `sudo service ufw status`
+  * You may be asked for your user's password
+
+<aside class="notice">
+Precluding any command with `sudo` tells the server you are trying to perform an administrative action
+</aside>
+
+* If the above command did not return any errors, you can exit your `root` user and use the `<username>` created from here out.
+
 # CLI Setup Guide
 
 <aside class="notice">
@@ -58,7 +509,7 @@ This section of the documentation assumes that the user is familiar with using a
 ## OSX Setup
 
 ### 1. Getting started
-* Download the latest CORE build
+* Download the latest [CORE build](https://github.com/Divicoin/Divi/releases/tag/1.0.0)
 * Unzip the package
 * `cd` into the unzipped file
 * `cd` into the bin directory
@@ -79,14 +530,9 @@ The data directory can be found at its default path:
 The default configuration looks like [this](#default-configuration)
 
 * Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step. 
-* Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
-* Make sure to include `daemon=1` to the bottom of your configuration file
-
-```shell
-## Fixed seed nodes
-addnode=178.62.195.16
-addnode=178.62.221.33
-```
+* Add the fixed seed node IPs and any other peers you wish to manually connect to on startup.
+* Make sure to include `daemon=1` to the bottom of your configuration file.
+* If you prefer the node not stake, set `staking=0` in the configuration file.
 
 ### 3. Start the daemon
 Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter. 
@@ -123,12 +569,6 @@ The default configuration looks like [this](#default-configuration)
 * Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
 * Make sure to include `daemon=1` to the bottom of your configuration file
 
-```shell
-## Fixed seed nodes
-addnode=178.62.195.16
-addnode=178.62.221.33
-```
-
 ### 3. Start the daemon
 Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter.
 
@@ -136,7 +576,6 @@ Before starting the daemon, it may be helpful to keep your debug log running to 
 * Back on the original terminal window, run `./divid` again.
 
 This time you will successfully start the daemon, your wallet will be created, and the blockchain will begin to sync.
-
 
 # Masternode Setup Guide
 
@@ -268,9 +707,6 @@ You can find the configuration file in the Divi data directory entitled `divi.co
 ```bash
 ## divi.conf
 
-addnode=178.62.195.16
-addnode=178.62.221.33
-
 rpcuser=<your_rpc_username>
 rpcpassword=<your_secure_rpc_password>
 
@@ -292,7 +728,7 @@ When you set up your wallet initially, always encrypt your wallet and dump your 
 
 ```shell
 ## TO DISPLAY YOUR SEED INFO:
-divi-cli dumphdinfo
+./divi-cli dumphdinfo
 ```
 This will return a seed phrase that you can use later to recover your funds.
 
@@ -302,7 +738,7 @@ Should you need to recover your wallet:
 
 ```shell
 ## TO RECOVER WALLET ON STARTUP:
-divid -debug -hdseed=<hash_of_seed_to_recover> -rescan
+./divid -debug -hdseed=<hash_of_seed_to_recover> -rescan
 ```
 
 After your node syncs back up with the network, you should see your recovered wallet.
@@ -702,6 +1138,142 @@ Quickly and easily get an estimate on potential earnings with Divi masternodes. 
 
 https://diviproject.org/calculator
 
+# Rewards
+
+## Definition
+__Block subsidity__ is a value in Divi which is created (minted) every new block. Rewards are sent to different parties (Stakers, Masternodes, Treasury, etc). Will cover payments in next sections.
+__Superblock__ is a special block which creates a payment to treasury or lottery or something else in perspective.
+
+## Subsidy over the time
+
+| Block height | Subsidy |
+| ------------ | --------- |
+| 0 - 1051200  | 1250 | 
+| 1051200 - 2102400 | 1050 | 
+| 2102400 - 3153600 | 850 | 
+| ... | ... | 
+
+The subsidy decreases every two years (1051200 blocks) by 200 DIVI, unless spork is not activated, which explicitly controls subsidy.
+Minimum block reward is 100 DIVI, so no matter how much time passes minimum reward will be 100.
+
+`static CAmount GetFullBlockValue(int nHeight)` in `main.cpp` is the place where full block reward is calculated.
+
+## Ordinary Block Rewards
+
+In every block, there is one required payment. The Staker.
+Stakers get rewarded based on current protocol setting; default value is 38%.
+
+If there are masternodes that are ready to get paid, they get 45% of the block.
+
+16% is reserved for payment to the treasury
+
+1% is reserved for payment to the charity fund
+
+50 coins are reserved for the lottery pool. 
+
+All of those values can be changed by spork.
+
+`CBlockRewards GetBlockSubsidity(int nHeight)` in `main.cpp` is the place where block rewards are calculated.
+
+## Superblocks
+
+Keep in mind, that coins for superblock are 'reserved' in every block, the idea of the superblock is to pay a large number of coins in one UTXO comparing to explicitly generating coins in every coinstake.
+
+Superblocks are triggered by certain block heights. Currently, we have two superblocks:
+1. Treasury & Charity payments.
+2. Lottery
+
+### Treasury & Charity
+
+
+Treasury & Charity superblock is created based on variable `nTreasuryPaymentsCycle` in `chainparams.cpp`.
+This superblock pays to charity and treasury in the same block, but in different UTXOs.
+
+
+
+```cpp
+static bool IsValidTreasuryBlockHeight(int nBlockHeight)
+{
+    return nBlockHeight >= Params().GetTreasuryPaymentsStartBlock() &&
+            ((nBlockHeight % Params().GetTreasuryPaymentsCycle()) == 0);
+}
+```
+
+If it's the appropriate time for treasury payment, we calculate treasury payment for the whole cycle and pay to treasury address. 
+
+```cpp
+static int64_t GetTreasuryReward(const CBlockRewards &rewards)
+{
+    return rewards.nTreasuryReward * Params().GetTreasuryPaymentsCycle();
+}
+```
+
+```cpp
+static int64_t GetCharityReward(const CBlockRewards &rewards)
+{
+    return rewards.nCharityReward * Params().GetTreasuryPaymentsCycle();
+}
+```
+
+### Lottery
+
+Lottery superblock is created based on variable `nLotteryBlockCycle` in `chainparams.cpp`.
+
+```cpp
+static bool IsValidLotteryBlockHeight(int nBlockHeight)
+{
+    return nBlockHeight >= Params().GetLotteryBlockStartBlock() &&
+            ((nBlockHeight % Params().GetLotteryBlockCycle()) == 0);
+}
+```
+
+If it's the appropriate time for lottery payment we calculate lottery pool in the following way, and then make a payment.
+
+```cpp
+static int64_t GetLotteryReward(const CBlockRewards &rewards)
+{
+    return Params().GetLotteryBlockCycle() * rewards.nLotteryReward;
+}
+```
+
+# Staking
+
+## Definition
+Divi's equivalent to Bitcoin’s Proof of Work is Proof of Stake, and instead of Bitcoin’s mining, Divi has staking. Rather than needing vast amounts of computer power to secure the network,  “Coin Age" enables Divi's security protocols. We find the Coin Age by multiplying the number of coins by the “age” of these coins, i.e. the amount of time between now and the last transaction using said coins.
+
+Generally speaking, PoS is solving the same hashing problem as PoW, but hashes are built from Coin Age and existing UTXOs (Unspent Transaction Outputs) not from running a mining rig.
+
+## Unspent Transaction Output (UTXO)
+
+An Unspent Transaction Output is a transaction hash, located in a wallet that contains unspent funds. Each time funds from a UTXO leave the wallet for any reason (in the case of a transaction, for example), a new UTXO is created containing the remaining funds.
+
+## How staking works
+Staking is the process your wallet uses to validate transactions and award you with coins. When your wallet is staking, it is checking transactions to make sure everyone who sends coins was,in fact, the owner of those coins and had the right to transfer them. If most of the wallets online agree that a transaction is valid, then it gets accepted by the network.
+
+As a reward for keeping the network secure, every minute one online wallet is chosen to receive a stake reward based on the coins they own.
+
+Each online wallet tries to create a stake, by scanning through its UTXOs and trying to match PoS difficulty with their weight. We calculate weight by multiplying Coin Age * amount of UTXO. The more coins you have and the older they are, the higher chance you have to create a stake.
+
+It's required to be online during staking because otherwise, you are not able to sync to peers.
+
+## Coin Age
+Coin Age is a property of each UTXO; it's time that has passed from the moment of UTXO creation. 
+
+### Example
+Imagine today is Monday, and I receive 1000 DIVI from Alice. On Tuesday, that UTXO has a Coin Age of 24 hours. Now, let's say I want to send 200 DIVI to Bob, but since I am sending my 1000 Divi UTXO, my Coin Age resets, and I get a new UTXO that is worth 800 DIVI.
+
+The minimum Coin Age that is allowed for staking is 1 hour, while the maximum Coin Age is 7 days, which means that if your UTXO is older than 7 days, it counts as if it were 7 days old.
+
+Only moving funds from one UTXO to another can reset the Coin Age. Only transactions can reset the Coin Age, and there are no other ways to reset this value.
+
+## Coin maturity
+Every time you successfully stake, you get a reward for keeping the network secure. When you create a stake, you spend your UTXO with value X to reset the Coin Age, and in the same transaction, you get X + Reward to the same address, which creates a brand new UTXO and thereby resets your Coin Age.
+
+To solidify network stability and to ensure that spending of a recently earned reward that may not have been 100% included into the blockchain, staking rewards (coins created by staking transaction) are unspendable for 20 blocks. These unspendable coins are considered to be "immature."
+
+### Example
+My wallet creates a stake with 10 000 DIVI, (essentially spending 10 000 DIVI) getting back 10 000 + 456 DIVI, at this point 10 456 coins are "immature" for 20 blocks, only after that am I able to spend the coins that were used to create the Coin Stake.
+
 # Lottery Blocks
 
 ## Definition
@@ -793,6 +1365,30 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>Bleutrade</td>
 		<td><a href="https://bleutrade.com/exchange/DIVX/BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
+		<td></td>
+		<td>Bleutrade</td>
+		<td><a href="https://bleutrade.com/exchange/DIVI/BTC" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
+		<td></td>
+		<td>SIMEX</td>
+		<td><a href="https://simex.global/en/exchange/divi/btc" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/simex/" target="_blank">Go now</a></td>
+		<td>true</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
+		<td></td>
+		<td>Cryptopia</td>
+		<td><a href="https://www.cryptopia.co.nz/Exchange?market=DIVI_BTC" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/cryptopia/" target="_blank">Go now</a></td>
 		<td>false</td>
 	</tr>
 </table>
