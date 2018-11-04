@@ -2163,7 +2163,7 @@ Copyright 2017 Qbito Technologies S.A. Costa Rica -  ALL RIGHTS RESERVED
 
 # Lightpaper
 
-The Divi Project has created the world's most advanced masternode technology that includes five tiers, and a one-click setup.  For the first time, average users are able to participate in a cryptocurrency network as full nodes with our eco-friendly system.  This program is the first step towards Divi's vision of making cryptocurrencies safe, user-friendly, and accessible to everyone on earth.   Divi's unique combination of technologies and roadmap are designed for this long term goal.
+The Divi Project has created the world's most advanced masternode technology that includes five layers, and a one-click setup.  For the first time, average users are able to participate in a cryptocurrency network as full nodes with our eco-friendly system.  This program is the first step towards Divi's vision of making cryptocurrencies safe, user-friendly, and accessible to everyone on earth.   Divi's unique combination of technologies and roadmap are designed for this long term goal.
 
 ## Strategy
 
@@ -2240,6 +2240,8 @@ The Divi community channels (telegram, discord) are a very important first point
 
 Therefore, think before you post:  Is a comment adding value to the discussion and community?  Has the team already answered the question earlier?  If you have an issue and feel inclined to challenge the team, consider asking a thoughtful question before going on the attack.  You’ll get a much better reception and gain the respect of our community by taking the high road and asking questions, not providing leading statements.
 
+Think of our Telegram as a gathering space within the Divi headquarters, and behave appropriately. Would you go to our office and start shouting or insulting other people inside? If you did, you'd expect for security to kick you to the curb.
+
 We love that you are here to help us build a community and support us in our goal of making crypto easy. Yet, you must remember that membership in the Divi telegram is a privilege and not a right. We will not tolerate unprofessional, inappropriate conduct toward the team or the other users.
 
 In an effort to keep conversation productive, Divi requires that the following guidelines be followed when communicating in our telegram. Failure to follow these guidelines will result in temporary restriction from posting, or in extreme cases permanent removal from the channel.
@@ -2250,14 +2252,17 @@ Our community channels operate under a 3-strike policy. Offenders will receive a
 1. Search the channel before you post a question to find out if your question was answered.
 2. Debates should be scholarly and fact-oriented. Baseless claims with no proof of claim do not make for a sound argument and will receive a warning. “My friend is an expert, and I trust his assessment more than you” does not gain any ground in an argument. Let your friend advance their argument if that is what they believe.
 3. Argue the idea or position not the person. “You are stupid” not only is an ineffective argument, but also will receive a warning for hostility toward another user.
-4. Users are prohibited from demeaning or otherwise insulting other users on the basis of race, nationality, ethnicity, religion, sexual orientation, or financial status. Depending on the severity of the offense, this will receive a warning or insta-ban.
-5. Outside links to pump & dump groups, other channels, airdrop scams, pornographic websites, etc... are forbidden, will be automatically removed and receive a warning.
-6. Incessant provocation (trolling) of other members is prohibited and will result in a warning. For example, making comments in a post either direct or implied toward another member that are purposely designed to upset, antagonize, make fun of, belittle, harass, insult or otherwise instigate an argument that takes away from the personal enjoyment of the channel by others.
-7. Excessive restating of a point of view after a reasonable explanation and/or discussion has taken place will result in a warning.
-8. Some subjects can invite a flame war. Be careful discussing things where emotions run high (e.g. politics, religion and which team will win the world cup). Show respect for those who have different beliefs than yours.
-9. Posting any files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of another’s computer will result in a warning or ban.
-10. Posting any information obtained or originally transmitted in confidence or with the implied belief that the message was to be kept in confidence without the express permission of the original author of the communication will result in a warning. Additionally any private, direct communication between administrators and a member is strictly prohibited from being posted or retransmitted in any way.
-11. Remember the golden rule and be excellent to each other.
+4. Misogyny: we absolutely do not want or tolerate a “bro” culture typical in many crypto and tech groups. Gender-based attacks, sexualization and objectification, etc, will get you kicked out fast.  Besides the fact that Divi wants to appeal to women, and bringing more women into the blockchain space is essential for mass adoption, this kind of talk is just stupid, wrong, and embarrassing.  Time to grow up.
+5. Users are prohibited from demeaning or otherwise insulting other users on the basis of race, nationality, ethnicity, religion, sexual orientation, or financial status. Depending on the severity of the offense, this will receive a warning or insta-ban.
+6. Outside links to pump & dump groups, other channels, airdrop scams, pornographic websites, etc... are forbidden, will be automatically removed and receive a warning.
+7. Incessant provocation (trolling) of other members is prohibited and will result in a warning. For example, making comments in a post either direct or implied toward another member that are purposely designed to upset, antagonize, make fun of, belittle, harass, insult or otherwise instigate an argument that takes away from the personal enjoyment of the channel by others.
+8. Excessive restating of a point of view after a reasonable explanation and/or discussion has taken place will result in a warning.
+9. Some subjects can invite a flame war. Be careful discussing things where emotions run high (e.g. politics, religion and which team will win the world cup). Show respect for those who have different beliefs than yours.
+10. Posting any files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of another’s computer will result in a warning or ban.
+11. Posting any information obtained or originally transmitted in confidence or with the implied belief that the message was to be kept in confidence without the express permission of the original author of the communication will result in a warning. Additionally any private, direct communication between administrators and a member is strictly prohibited from being posted or retransmitted in any way.
+12. **The golden rule** is “Do unto others as you would have them do unto you,” but here the reverse is even more true:  “Don’t do unto others what you wouldn’t want them to do to you!”  
+
+So just be excellent to each other.  Patience, kindness, and gratitude are the Divi way.
 
 ## Anonymity
 Anonymous commenting is allowed.  However, the Divi team will be much more tolerant of comments from users who are known to us.  If it appears that a user is hiding behind a cloak of anonymity in order to start trouble, we may choose to remove that person.  The founders of Divi are known people, and if we are to be attacked we reserve the right to know who is doing it.
