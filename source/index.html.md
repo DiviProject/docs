@@ -713,6 +713,39 @@ rpcpassword=<your_secure_rpc_password>
 daemon=1
 ```
 
+# Data Directory
+
+## Definition
+
+__Data dir__ is a special folder that holds all information regarding the blockchain and p2p network.
+
+## Location
+
+Data dir is located in platform specific folder, currently 3 systems are supported:
+
+- Windows: %AppData%/Roaming/DIVI
+- Linux: ~/.divi
+- OSX: ~/Library/Application\ Support/DIVI
+
+Data dir location can be changed on startup using `-datadir=path/to/dir` startup argument
+
+## Files description
+
+- `backups`: folder for automatic wallet backups
+- `blocks`: folder that contains database of blocks that were downloaded from p2p network. 
+- `chainstate`: folder that contains database of blocks index which is needed to navigate blocks
+- `debug.log`: debug prints from client. Usually is needed to solve some problem. 
+- `divi.conf`: special file which holds startup configuration. Instead of using startup arguments when calling divid, better approach is to put them into divi.conf, line by line. 
+- `fee_estimates.dat`: cache of latest fees that were paid on the blockchain, needed for smart-fee estimation.
+- `masternode.conf`: stores configuration for masternodes that are controlled by this wallet. This file needs to be filled if users is willing to run a masternode.
+- `mncache.dat`: database that stores information about masternodes that are known to this node. Used to prevent spamming network with masternode requests on each run.
+- `mnpayments.dat`: database that stores information about masternode payments. Used to verify & confirm that masternode payment is valid.
+- `netfulfilled.dat`: local cache of completed network requests. 
+- `peers.dat`: database that stores information about peers in p2p network. Used by client to quikly connect to well known peers.
+- `sporks`: folder that contains database of sporks that were synced from p2p network. 
+- `testnet3`: optional folder that contains same folder structure as mainnet folder but has data for testnet. 
+- `wallet.dat`: the most important file. Stores private keys for your addresses. Losing this automatically means losing access to all of yours divi coins.
+
 # Divi CLI
 
 The DIVI CLI commands listed here are the methods with which you can speak to the DIVI RPC client. 
@@ -1091,6 +1124,34 @@ Democratizing Participation Through Affordability:  The Divi Project offers five
 * **Diamond:**  10,000,000 DIVI	(+20%)
  
 Participants choose the masternode(s) that they're able to afford, and commit to support Divi's network.  More expensive masternodes may also require more commitment of resources, and may do more to support the network, especially as the Divi ecosystem evolves and new features are added.
+
+## Definitions
+
+__Masternodes__ are computers that run a divi wallet and perform utility functions for network such as storing metadata and processing special transactions.
+
+__Masternode collateral__ amount that is needed to run a masternode, each masternode wallet needs to lock a certain amount of DIVI in the wallet in order to register as a masternode in the network. 
+
+__Masternode tier__ is the type of masternode, there are 5 types of masternodes (Copper, Silver, Gold, Platinum, Diamond). Depending on the type, the owner will get more rewards and provide different services to the network.
+
+## Masternode rewards
+
+Every masternode forms a second layer of the network which enables the blockchain to perform additional functions. Masternodes are paid for performing these functions from block rewards. Default breakout is:
+
+
+| Type | Reward (%) |
+| -------- | ----------- |
+| Staking | 38 |
+| Masternode | 45 |
+| Treasury | 16 |
+| Proposals | 0 | 
+| Charity | 1 | 
+
+Payments layout can be changed by spork in any way.
+
+
+## Payment logic
+
+Masternode payments in Divi are determined using a decentralized random selection algorithm based on masternode level. 
 
 ## Supporting the Divi Network
 
