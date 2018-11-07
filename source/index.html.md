@@ -1425,6 +1425,54 @@ The Current model supports 11 winners.  The biggest hash gets half of the pool, 
 ## Where to look?
 Everything related to the lottery is in file `masternode-payments.cpp`.
 
+# Transaction Fees
+
+## Definition
+
+__Transaction fee__ is the amount that is paid for processing a transaction. 
+
+## Fee calculation
+
+Divi uses a flexible approach depending on the transaction amount, size and global network modifiers. 
+
+We use this formula to calculate fees: ` Fee = (TV * TVM) * TS / TSM `
+
+In this formula: 
+
+`TV:` Transaction value in DIVI
+
+`TS:` Transaction size in bytes
+
+`TVM:` Transaction value multiplier - global value for network
+
+`TSM:` Transaction size multiplier - global value for network 
+
+## Global transaction fee modifiers
+
+To be as flexible as possible we introduce TVM and TSM which are values that are selected using a spork. Changing those values allows us to change the fee for the whole network. 
+
+Default values are: 
+
+`TVM = 0.0001`
+
+`TSM = 300`
+
+## Minimum possible fee
+
+The minimum possible fee that can be processed by the network(though with lower priority) is `Fee = 10000 satoshis per KB`
+
+## Maximum possible fee
+
+The maximum fee is controlled by spork, default maximum fee is 100 DIVI. 
+
+## Fee deduction
+
+The fee is paid automatically and is calculated as `Fee = (TxIn - TxOut)`, so the fee is paid in spendable outputs(inputs) of the transaction. 
+
+## Burning
+
+Divi uses PoS tail emission which means coins are always generated, no matter how long it runs in contrast to bitcoin where the supply is limited. To control the inflation we burn fees, this way no one gets the fee, and with every transaction, the fee that was paid gets burnt reducing total coin supply. 
+
 # Exchanges
 
 DIVX/DIVI is currently listed on the following exchanges:
