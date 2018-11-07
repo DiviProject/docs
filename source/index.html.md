@@ -1151,7 +1151,35 @@ Payments layout can be changed by spork in any way.
 
 ## Payment logic
 
-Masternode payments in Divi are determined using a decentralized random selection algorithm based on masternode level. 
+Masternode payments in Divi are determined using a decentralized random selection algorithm based on masternode level. Every masternode appears in the global list. Once a masternode is active for some amount of time, it is eligible for payments. Once eligible, it takes part in a probabilistic process that determines the winner for next block. Different levels have different chances to win.
+
+## Winner selection
+
+When a new block is added to the network, every masternode submits a vote for the winner, which appears in 10 blocks in future. Voting is a probabilistic process of selecting masternode winner. 
+
+__Score__ is a double SHA256 of the funding transaction hash and ticket index for all masternodes in the selection pool. The score is compared with the block hash 100 blocks ago. The masternode with the closest numeric hash value to that block hash receives the payment. 
+
+__Ticket__ is a number that represents one try to create a score. 
+
+Whoever gets the maximum hash wins the selection process. Each masternode tries to produce a maximum allowed score (hash) based on masternode level. In practice it means that it tries several times to hash to maximize the chances of winning.  
+
+We build a pool of tickets for every masternode and select masternode with closest numeric hash value to block hash.
+
+## Tickets
+
+Masternode has different chances to win depending on their level:
+
+| Level | Number of tickets | 
+| ----- | ----------------- |
+| Copper | 20 | 
+| Silver | 63 | 
+| Gold | 220 | 
+| Platinum | 690 | 
+| Diamond | 2400 | 
+
+In practice it means that Platinum node produces 690 scores(hashes) and select one score that maximizes chances for winning. 
+
+Find the code that calculates score here: `masternode.cpp:212`
 
 ## Supporting the Divi Network
 
