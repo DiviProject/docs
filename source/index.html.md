@@ -1761,7 +1761,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 
 # Whitepaper
 
-Version 2.2 - Last Updated November 6, 2018
+Version 2.2 - Last Updated November 25, 2018
 
 ## Summary
 
@@ -1835,6 +1835,20 @@ Within several years, billions of people, businesses, and devices will be using 
 
 We are building what may be the most innovative governance system in the cryptocurrency world.  Coin holders will be able to vote to modify parts of the blockchain itself, such as the inflation rate, fee amounts, and even turn some features on or off.  Eventually they will be able to elect some of Divi’s leadership and vote for funding proposals too. 
 
+## Organizational Structure
+
+The Divi Project is a community-based, decentralized autonomous organization.  It's strucuture consists of four entities:
+
+Telegram Community: https://t.me/diviproject
+Panama Foundation:  "The Divi Project Foundation"
+Costa Rica Sociedad Anonima:  Qbito Technologies S.A.
+Lithuania Corporation:  Qbito Technologies Corp
+
+The CEO of The Divi Project is a Costa Rica Resident, and the team members live in various countries around the world, including Australia, U.S.A., Belarus, Ukraine.
+
+During the Divi Project's ICO, U.S. citizens were excluded from participation.  A strict KYC/AML was followed during the coin swap process from the DIVX ERC20 Token to DIVI, on our own blockchain.  
+
+DIVI is currently traded on various exchanges, and a legal opinion analysis was obtained from a U.S. based law firm stating that DIVI is not a security token because of its utility, governance, and other features.
 
 ## Team
 
@@ -1919,7 +1933,7 @@ Riverstone Law
 Blockchain security engineer
 [linkedin](https://www.linkedin.com/in/mohsan-farid-cissp-ceh-lpt-93bb486)
 
-More team details are here: [linkedin](https://diviproject.org/#team)
+More team details are here: [Divi Team](https://diviproject.org/#team)
 
 ## Basic Coin Stats
 
@@ -1945,12 +1959,19 @@ Block rewards payout
 
 The block rewards will be changed by community vote every 6 months based on current needs.
 
-60 second blocks (10,080 per week)
+~60 second blocks (10,080 per week)
 
 * 1250 coins minted per block first 2 years
-* 1050 coins for 2 years
-* 850 coins for 2 years
-* 650 coins after that
+* 1150 Year 2020
+* 1050 Year 2021
+* 950 Year 2022
+* 850 Year 2023
+* 750 Year 2024
+* 650 Year 2025
+* 550 Year 2026
+* 450 Year 2027
+* 350 Year 2028
+* 250 Year 2029
 
 Note: 50 coins from every block accumulate for the weekly lottery block fund. 
 
