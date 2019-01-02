@@ -1034,14 +1034,16 @@ Developers can use and contribute to the [divid-rpc library](https://github.com/
 
 # Divi Coin Specs
 
-Ticker: 		DIVI
-CMC:			[Divi on CoinMarketCap](https://coinmarketcap.com/currencies/divi)
+Ticker: 		DIVI 
+CMC:			[Divi on CoinMarketCap](https://coinmarketcap.com/currencies/divi) 
 
-Github:		https://github.com/Divicoin/Divi
-Blockchain Code:	C++
+Github:		[Divi Github](https://github.com/Divicoin/Divi)
+Blockchain Code:	C++ 
 Forked From:		PIVX.  Also includes code from Bitcoin, Dash, and Peercoin
-Blockchain Explorer:	http://diviscan.io
+Blockchain Explorers:	[Diviscan](http://diviscan.io) & [Divi Explorer](https://explorer.diviproject.org)
+DIVI Top-100 Wallets: [Richlist](https://explorer.diviproject.org/richlist)
 Blockchain APIs: [Divi APIs](https://blog.diviproject.org/divi-beta-notes-divi-cli-commands) 
+
 
 2MB Block Size/Height
 60 Second Blocks (10,080 per week)
@@ -1052,13 +1054,21 @@ Consensus Algorithm:		100% Proof of Stake (PoS)
 
 * Date:	Sept 27, 2018
 * Starting coin circulation:  617,160,700 DIVI 
+* Maxium coin circulation: No Limit set, controlled by Governance Vote
 
 **Reward System Payout:** 
 
-* 1250 DIVI minted per block first 2 years
-* 1050 DIVI for 2 years
-* 850 DIVI for 2 years
-* 650 DIVI after that
+* 1250 coins minted per block first 2 years
+* 1150 Year 2020
+* 1050 Year 2021
+* 950 Year 2022
+* 850 Year 2023
+* 750 Year 2024
+* 650 Year 2025
+* 550 Year 2026
+* 450 Year 2027
+* 350 Year 2028
+* 250 Year 2029
 
 50 coins from every block accumulate for the weekly lottery block fund. 
 The community will be able to vote to reduce the rate of inflation.
@@ -1092,7 +1102,6 @@ Other Features:
 
 * MOCCI : Masternode One Click Cloud Installer	
 * One-Click Desktop Install
-* Works on standard IP Addresses
 
 **Token Sale Details:**
 
@@ -1107,7 +1116,7 @@ Smart Contract Details:
 * Token Symbol:		DIVX
 * Decimals:		18
 
-DIVX Rich List:	  https://etherscan.io/token/0x13f11c9905a08ca76e3e853be63d4f0944326c72#balances
+DIVX Rich List:	 [Click here](https://etherscan.io/token/0x13f11c9905a08ca76e3e853be63d4f0944326c72#balances)
 
 # Masternodes
 
@@ -1127,11 +1136,11 @@ Participants choose the masternode(s) that they're able to afford, and commit to
 
 ## Definitions
 
-__Masternodes__ are computers that run a divi wallet and perform utility functions for network such as storing metadata and processing special transactions.
+__Masternodes__ are computers that run a Divi wallet and perform utility functions for the network such as storing metadata and processing special transactions.
 
-__Masternode collateral__ amount that is needed to run a masternode, each masternode wallet needs to lock a certain amount of DIVI in the wallet in order to register as a masternode in the network. 
+__Masternode collateral__ amount that is needed to run a masternode. Each masternode wallet needs to lock a certain amount of DIVI in the wallet in order to register as a masternode in the network. 
 
-__Masternode tier__ is the type of masternode, there are 5 types of masternodes (Copper, Silver, Gold, Platinum, Diamond). Depending on the type, the owner will get more rewards and provide different services to the network.
+__Masternode tier__ is the type of masternode, there are 5 types of masternodes (Copper, Silver, Gold, Platinum, Diamond). Depending on the type, the owner will get more rewards and in future versions of the protocol, may provide different services to the network.
 
 ## Masternode rewards
 
@@ -1146,12 +1155,12 @@ Every masternode forms a second layer of the network which enables the blockchai
 | Proposals | 0 | 
 | Charity | 1 | 
 
-Payments layout can be changed by spork in any way.
+Payments allocations can be changed by DVS sporks.
 
 
 ## Payment logic
 
-Masternode payments in Divi are determined using a decentralized random selection algorithm based on masternode level. Every masternode appears in the global list. Once a masternode is active for some amount of time, it is eligible for payments. Once eligible, it takes part in a probabilistic process that determines the winner for next block. Different levels have different chances to win.
+Masternode payments in Divi are determined using a decentralized random selection algorithm based on masternode tier. Every masternode appears in the global list. Once a masternode is active for some amount of time, it's eligible for payments. Once eligible, it takes part in a probabilistic process that determines the winner for the next block. Different tiers have different chances to win.
 
 ## Winner selection
 
@@ -1161,15 +1170,15 @@ __Score__ is a double SHA256 of the funding transaction hash and ticket index fo
 
 __Ticket__ is a number that represents one try to create a score. 
 
-Whoever gets the maximum hash wins the selection process. Each masternode tries to produce a maximum allowed score (hash) based on masternode level. In practice it means that it tries several times to hash to maximize the chances of winning.  
+Whoever gets the maximum hash wins the selection process. Each masternode tries to produce a maximum allowed score (hash) based on their masternode tier. In practice it means that it tries several times to hash to maximize the chances of winning.  
 
 We build a pool of tickets for every masternode and select masternode with closest numeric hash value to block hash.
 
 ## Tickets
 
-Masternode has different chances to win depending on their level:
+Masternodes have different chances to win depending on their tier:
 
-| Level | Number of tickets | 
+| Tier | Number of tickets | 
 | ----- | ----------------- |
 | Copper | 20 | 
 | Silver | 63 | 
@@ -1179,13 +1188,13 @@ Masternode has different chances to win depending on their level:
 
 In practice it means that Platinum node produces 690 scores(hashes) and select one score that maximizes chances for winning. 
 
-Find the code that calculates score here: `masternode.cpp:212`
+Find the code that calculates the score here: `masternode.cpp:212`
 
 ## Supporting the Divi Network
 
-What is a masternode, really?   It's just a piece of software.  It's an app that's already built in to the Divi desktop wallet.  You launch the app, "fund" it with some of your DIVI coins, and it will go to work once it's connected with enough other nodes.  Those other nodes are owned by other DIVI masternode holders around the world, who have gone through the same process. 
+What is a masternode, really?   It's just a piece of software.  It's an app that's already built into the Divi desktop wallet.  You launch the app, "fund" it with some of your DIVI coins, and it will go to work once it's connected with enough other nodes.  Those other nodes are owned by other DIVI masternode holders around the world, who have gone through the same process. 
 
-What does a masternode actually do?  Divi's masternodes remain in constant contact with other nodes in the network.   Through this communication they verify and process transactions and keep everything secure, while continuously maintaining an up-to-date copy of the ledger.  Approximately every minute, one of the masternodes wins the right to add the latest block to the Divi blockchain.  That winner collects all the transactions, writes them into the block, and gets paid in DIVI.  Other masternodes verify everything, and if all is good, the blockchain grows.  
+What does a masternode actually do?  Divi's masternodes remain in constant contact with other nodes in the network.   Through this communication they verify and process transactions and keep everything secure, while continuously maintaining an up-to-date copy of the ledger.  Approximately every minute, one of the masternodes wins the right to rewards from the latest block to the Divi blockchain.  Simultaneously, a staking wallet wins as well, and each is paid in DIVI.  The staker writes these two transactions into the beginning of the next block in what's referred to as a "Coinbase Transaction".  Other masternodes verify everything, and if all is good, the blockchain grows.  
 
 Masternode holders aren't getting DIVI for free.  They are paid for the work they're doing, which requires the following:
 
@@ -1260,13 +1269,13 @@ If there are masternodes that are ready to get paid, they get 45% of the block.
 
 50 coins are reserved for the lottery pool. 
 
-All of those values can be changed by spork.
+All of those values can be changed by DVS spork.
 
 `CBlockRewards GetBlockSubsidity(int nHeight)` in `main.cpp` is the place where block rewards are calculated.
 
 ## Superblocks
 
-Keep in mind, that coins for superblock are 'reserved' in every block, the idea of the superblock is to pay a large number of coins in one UTXO comparing to explicitly generating coins in every coinstake.
+Keep in mind, that coins for the superblock are 'reserved' in every block, the idea of the superblock is to pay a large number of coins in one UTXO, which is more efficient than explicitly generating coins in every coinstake.
 
 Superblocks are triggered by certain block heights. Currently, we have two superblocks:
 1. Treasury & Charity payments.
@@ -1275,7 +1284,7 @@ Superblocks are triggered by certain block heights. Currently, we have two super
 ### Treasury & Charity
 
 
-Treasury & Charity superblock is created based on variable `nTreasuryPaymentsCycle` in `chainparams.cpp`.
+The Treasury & Charity superblock is created based on variable `nTreasuryPaymentsCycle` in `chainparams.cpp`.
 This superblock pays to charity and treasury in the same block, but in different UTXOs.
 
 
@@ -1346,7 +1355,7 @@ Each online wallet tries to create a stake, by scanning through its UTXOs and tr
 It's required to be online during staking because otherwise, you are not able to sync to peers.
 
 ## Coin Age
-Coin Age is a property of each UTXO; it's time that has passed from the moment of UTXO creation. 
+Coin Age is a property of each UTXO; it's time that has passed from the moment of a UTXO's creation. 
 
 ### Example
 Imagine today is Monday, and I receive 1000 DIVI from Alice. On Tuesday, that UTXO has a Coin Age of 24 hours. Now, let's say I want to send 200 DIVI to Bob, but since I am sending my 1000 Divi UTXO, my Coin Age resets, and I get a new UTXO that is worth 800 DIVI.
@@ -1358,10 +1367,10 @@ Only moving funds from one UTXO to another can reset the Coin Age. Only transact
 ## Coin maturity
 Every time you successfully stake, you get a reward for keeping the network secure. When you create a stake, you spend your UTXO with value X to reset the Coin Age, and in the same transaction, you get X + Reward to the same address, which creates a brand new UTXO and thereby resets your Coin Age.
 
-To solidify network stability and to ensure that spending of a recently earned reward that may not have been 100% included into the blockchain, staking rewards (coins created by staking transaction) are unspendable for 20 blocks. These unspendable coins are considered to be "immature."
+To solidify the network stability and to ensure that spending of a recently earned reward that may not have been 100% included into the blockchain, staking rewards (coins created by staking transaction) are unspendable for 20 blocks. These unspendable coins are considered to be "immature."
 
 ### Example
-My wallet creates a stake with 10 000 DIVI, (essentially spending 10 000 DIVI) getting back 10 000 + 456 DIVI, at this point 10 456 coins are "immature" for 20 blocks, only after that am I able to spend the coins that were used to create the Coin Stake.
+My wallet creates a stake with 10,000 DIVI, (essentially spending 10 000 DIVI) getting back 10 000 + 456 DIVI, at this point 10 456 coins are "immature" for 20 blocks, only after that am I able to spend the coins that were used to create the Coin Stake.
 
 # Lottery Blocks
 
@@ -1757,6 +1766,106 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>148,000,000</td>
 		<td><a href="https://cheddar.com/videos/divi-project-is-like-paypal-for-crypto-minus-the-third-parties" rel="nofollow">View</a></td>
 	</tr>
+	<tr>
+		<td>6/28/2018</td>
+		<td>SF Gate</td>
+		<td>Cheddar pickup: Divi Project Is Like PayPal For Crypto, Minus the Third Parties</td>
+		<td>470,000</td>
+		<td><a href="https://www.sfgate.com/news/media/Divi-Project-Is-Like-PayPal-For-Crypto-Minus-the-1285700.php" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>6/29/2018</td>
+		<td>Chron</td>
+		<td>Cheddar pickup: Divi Project Is Like PayPal For Crypto, Minus the Third Parties</td>
+		<td>16,261,046</td>
+		<td><a href="https://www.chron.com/news/media/Divi-Project-Is-Like-PayPal-For-Crypto-Minus-the-1285700.php" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>7/16/2018</td>
+		<td>So Money Podcast</td>
+		<td>Interview with Farnoosh Torabi</td>
+		<td>---</td>
+		<td><a href="http://podcast.farnoosh.tv/episode/nick-saponaro" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>9/14/2018</td>
+		<td>TWIT TV: This Week in Tech Netcast</td>
+		<td>Proof of Stake Cryptocurrency</td>
+		<td>1,321,134</td>
+		<td><a href="https://www.twit.tv/shows/this-week-in-enterprise-tech/episodes/308" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>10/5/2018</td>
+		<td>Bold TV: Bold Business</td>
+		<td>Interview with Michael Greenwood & Nick Saponaro</td>
+		<td>100,000+ (syndicated)</td>
+		<td><a href="https://www.facebook.com/BoldTV/videos/692547584457014/" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>10/10/2018</td>
+		<td>ZDNet</td>
+		<td>Currency for the Masses</td>
+		<td>11,819,012</td>
+		<td><a href="https://www.zdnet.com/video/cryptocurrency-for-the-masses" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>10/29/2018</td>
+		<td>ThirtyK</td>
+		<td>Crypto Invest Summit: The Blockchain Party Will Go On</td>
+		<td>N/A</td>
+		<td><a href="https://thirtyk.com/2018/10/25/crypto-invest-wrap" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>11/1/2018</td>
+		<td>Token Tank Live</td>
+		<td>3rd Place win at World Crypto Con in Las Vegas</td>
+		<td>--</td>
+		<td><a href="https://www.youtube.com/watch?v=qQYetLKOwNk" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>11/3/2018</td>
+		<td>Kev's Crypto Channel</td>
+		<td>Divi Project - An Interview with Nick Saponaro</td>
+		<td>4,377 subs</td>
+		<td><a href="https://www.youtube.com/watch?v=ebE4eqrZ8ic" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>11/7/2018</td>
+		<td>Seth Estrada's YouTube Channel</td>
+		<td>All about DIVI coin (with Nick Saponaro)</td>
+		<td>4,367 subs</td>
+		<td><a href="https://www.youtube.com/watch?v=okHOgTHZYoM" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>11/15/2018</td>
+		<td>Nodes of Value</td>
+		<td>Divi Project: Interview with CEO Geoff McCabe</td>
+		<td>---</td>
+		<td><a href="https://nodesofvalue.com/divi-cryptocurrency-made-easy/" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>11/15/2018</td>
+		<td>Kenn Bosak's YouTube Channel</td>
+		<td></td>
+		<td>Not Another Bitcoin Interview with Nick Saponaro of Divi Project</td>
+		<td><a href="https://www.youtube.com/watch?v=9MP9PdIq7YU" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>12/16/2018</td>
+		<td>Block Tribune</td>
+		<td>From ICO to Main Net Launch: Lessons Learned</td>
+		<td>15,000</td>
+		<td><a href="https://blocktribune.com/from-ico-to-main-net-launch-lessons-learned" rel="nofollow">View</a></td>
+	</tr>
+	<tr>
+		<td>12/30/2018</td>
+		<td>CoinPM Talks</td>
+		<td>Podcast interview with Michael Greenwood on SoundCloud</td>
+		<td>---</td>
+		<td><a href="https://soundcloud.com/coinpm/coinpm-talks-michael-greenwood" rel="nofollow">View</a></td>
+	</tr>
+
+
 </table>
 
 # Whitepaper
@@ -1943,7 +2052,7 @@ During the original token sale, our tokens were ERC20 compliant derivatives of t
 
 [Cryptopia Website](https://www.cryptopia.co.nz/Exchange/?market=DIVX_BTC) 
 
-On September 27th 2018, the conversion process began, whereby each DIVX can be converted to 100 DIVI on the official blockchain.  This process has no cut-off date.
+On September 27th 2018, the conversion process began, whereby each DIVX can be converted to 100 DIVI on the official blockchain.  
 
 Genesis block date: September 27, 2018
 Starting coin circulation: 617,160,700 DIVI
