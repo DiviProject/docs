@@ -235,6 +235,36 @@ A:
 
 A: When you create a new masternode, the funds are allocated in a transaction that is broadcast to the network. It will take a few confirmations for this transaction to be validated, after which time you will see your funds reappear minus the transaction fee.
 
+## MOCCI Hosting (PayPal Payment) FAQs 
+
+**Q: Why am I seeing "Redeployment Required?"**
+
+A: If you have been running a masternode for longer than 2 months, the version of Divi Core that is running in the cloud requires an update and must be redeployed.
+
+**Q: If I cancel my subscription early, do I receive a refund?**
+
+A: The subscriptions are non-refundable but will last through the final day of your billing period once canceled. 
+
+**Q: If I dismantle a MOCCI masternode, will I have to pay to deploy another one?**
+
+A: No, you can dismantle/deploy as many nodes of the same value as long as you do so within the same billing period.
+
+**Q: If I cancel my subscription via PayPal and not through the Desktop app, what will happen?**
+
+A: Your MOCCI masternode will remain active until the end of your billing period, and will be automatically dismantled at the end.
+
+**Q: Why are Copper and Silver $10/mo., while Gold, Platinum, and Diamond are $15/mo.?**
+
+A: While all the nodes can run with a similar amount of memory and CPU power, in the future the Gold, Platinum, and Diamond nodes will be used to carry and process metadata throughout the network. This upgrade will require more memory to maintain optimal throughput and scalability. Think of it as future-proofing the network.
+
+**Q: Copper and Silver nodes cost $10, what if I'm not seeing enough rewards to pay for the cost!**
+
+While the rewards for Copper and Silver should balance out to cover the cost hosting, if you are dissatisfied with the cost per performance of the lower tier nodes, we recommend staking your coins to continue earning Divi or [setting up your masternode manually](#masternode-setup-guide).
+
+**Q: Do I need a PayPal account to subscribe to MOCCI?**
+
+A: No. While you *can* use your existing PayPal account or create a new one, you can also use a credit or debit card to subscribe.
+
 ## Staking FAQs
 
 **Q: Does my wallet need to be open to receiving staking rewards?**
