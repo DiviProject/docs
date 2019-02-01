@@ -539,7 +539,7 @@ This section of the documentation assumes that the user is familiar with using a
 ## OSX Setup
 
 ### 1. Getting started
-* Download the latest [CORE build](https://github.com/Divicoin/Divi/releases/tag/1.0.0)
+* Download the latest [CORE build](https://github.com/Divicoin/Divi/releases/tag/1.0.3-CLI)
 * Unzip the package
 * `cd` into the unzipped file
 * `cd` into the bin directory
