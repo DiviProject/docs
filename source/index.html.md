@@ -1520,27 +1520,19 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<th>KYC required</th>
 	<tr>
 	<tr>
-		<td>DIVX</td>
+		<td>DIVI</td>
 		<td></td>
-		<td>SIMEX</td>
-		<td><a href="https://simex.global/en/exchange/divx/btc" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/simex/" target="_blank">Go now</a></td>
-		<td>true</td>
-	</tr>
-	<tr>
-		<td>DIVX</td>
-		<td></td>
-		<td>Cryptopia</td>
-		<td><a href="https://www.cryptopia.co.nz/Exchange?market=DIVX_BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/cryptopia/" target="_blank">Go now</a></td>
+		<td>Exrates</td>
+		<td><a href="https://exrates.me/dashboard" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/exrates/" target="_blank">Go now</a></td>
 		<td>false</td>
 	</tr>
 	<tr>
-		<td>DIVX</td>
+		<td>DIVI</td>
 		<td></td>
-		<td>Bleutrade</td>
-		<td><a href="https://bleutrade.com/exchange/DIVX/BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
+		<td>Vinex</td>
+		<td><a href="https://vinex.network/trading/advanced/BTC_DIVI" target="_blank">Go now</a></td>
+		<td><a href="#/" target="_blank">Coming Soon</a></td>
 		<td>false</td>
 	</tr>
 	<tr>
@@ -1559,14 +1551,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td><a href="https://coinmarketcap.com/exchanges/simex/" target="_blank">Go now</a></td>
 		<td>true</td>
 	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td></td>
-		<td>Cryptopia</td>
-		<td><a href="https://www.cryptopia.co.nz/Exchange?market=DIVI_BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/cryptopia/" target="_blank">Go now</a></td>
-		<td>false</td>
-	</tr>
+
 </table>
 
 # Media Placements
