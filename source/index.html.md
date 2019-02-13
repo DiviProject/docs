@@ -1530,6 +1530,14 @@ DIVX/DIVI is currently listed on the following exchanges:
 	<tr>
 		<td>DIVI</td>
 		<td></td>
+		<td>Crex24</td>
+		<td><a href="https://crex24.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/crex24/" target="_blank">Go now</a></td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
+		<td></td>
 		<td>CoinExchange</td>
 		<td><a href="https://www.coinexchange.io/market/DIVI/BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/coinexchange/" target="_blank">Go now</a></td>
