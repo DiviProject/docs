@@ -1513,59 +1513,67 @@ DIVX/DIVI is currently listed on the following exchanges:
 <table>
 	<tr>
 		<th>Ticker</th>
-		<th>Date listed</th>
 		<th>Exchange name</th>
 		<th>Exchange link</th>
 		<th>CMC link</th>
 		<th>KYC required</th>
+		<th>Decentralized</th>
 	<tr>
 	<tr>
 		<td>DIVI</td>
-		<td></td>
-		<td>Exrates</td>
-		<td><a href="https://exrates.me/dashboard" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/exrates/" target="_blank">Go now</a></td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td></td>
 		<td>Crex24</td>
 		<td><a href="https://crex24.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/crex24/" target="_blank">Go now</a></td>
 		<td>false</td>
+		<td>false</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
-		<td></td>
+		<td>Exrates</td>
+		<td><a href="https://exrates.me/dashboard" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/exrates/" target="_blank">Go now</a></td>
+		<td>false</td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
+		<td>BlockDX</td>
+		<td><a href="https://blocknet.co/divi/block-dx/" target="_blank">Go now</a></td>
+		<td>n/a</td>
+		<td>false</td>
+		<td>true</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
 		<td>CoinExchange</td>
 		<td><a href="https://www.coinexchange.io/market/DIVI/BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/coinexchange/" target="_blank">Go now</a></td>
 		<td>false</td>
+		<td>false</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
-		<td></td>
 		<td>Vinex</td>
 		<td><a href="https://vinex.network/trading/advanced/BTC_DIVI" target="_blank">Go now</a></td>
 		<td><a href="#/" target="_blank">Coming Soon</a></td>
 		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td></td>
-		<td>Bleutrade</td>
-		<td><a href="https://bleutrade.com/exchange/DIVI/BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
 		<td>false</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
-		<td></td>
+		<td>Bleutrade</td>
+		<td><a href="https://bleutrade.com/exchange/DIVI/BTC" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
+		<td>false</td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
 		<td>SIMEX</td>
 		<td><a href="https://simex.global/en/exchange/divi/btc" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/simex/" target="_blank">Go now</a></td>
 		<td>true</td>
+		<td>false</td>
 	</tr>
 
 </table>
