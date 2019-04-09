@@ -1508,6 +1508,8 @@ Divi uses PoS tail emission which means coins are always generated, no matter ho
 
 # Exchanges
 
+<aside class="warning">Divi does not officially endorse any of the following exchanges. Do your own research and trade at your own risk. **NEVER** leave your coins on an exchange for longer than it takes to make a trade.</aside>
+
 DIVX/DIVI is currently listed on the following exchanges:
 
 <table>
@@ -1518,12 +1520,14 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<th>CMC link</th>
 		<th>KYC required</th>
 		<th>Decentralized</th>
+		<th>Fiat on-ramp</th>
 	<tr>
 	<tr>
 		<td>DIVI</td>
 		<td>Crex24</td>
 		<td><a href="https://crex24.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/crex24/" target="_blank">Go now</a></td>
+		<td>false</td>
 		<td>false</td>
 		<td>false</td>
 	</tr>
@@ -1534,6 +1538,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td><a href="https://coinmarketcap.com/exchanges/exrates/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
+		<td>false</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
@@ -1542,12 +1547,32 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>n/a</td>
 		<td>false</td>
 		<td>true</td>
+		<td>false</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
 		<td>CoinExchange</td>
 		<td><a href="https://www.coinexchange.io/market/DIVI/BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/coinexchange/" target="_blank">Go now</a></td>
+		<td>false</td>
+		<td>false</td>
+		<td>false</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
+		<td>CryptoWolf</td>
+		<td><a href="https://cryptowolf.eu/" target="_blank">Go now</a></td>
+		<td>N/A</td>
+		<td>false</td>
+		<td>false</td>
+		<td>true</td>
+	</tr>
+	<tr>
+		<td>DIVI</td>
+		<td>Equicex</td>
+		<td><a href="https://www.equicex.io/" target="_blank">Go now</a></td>
+		<td>N/A</td>
+		<td>false</td>
 		<td>false</td>
 		<td>false</td>
 	</tr>
@@ -1558,12 +1583,14 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td><a href="#/" target="_blank">Coming Soon</a></td>
 		<td>false</td>
 		<td>false</td>
+		<td>false</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
 		<td>Bleutrade</td>
 		<td><a href="https://bleutrade.com/exchange/DIVI/BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
+		<td>false</td>
 		<td>false</td>
 		<td>false</td>
 	</tr>
@@ -1574,8 +1601,8 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td><a href="https://coinmarketcap.com/exchanges/simex/" target="_blank">Go now</a></td>
 		<td>true</td>
 		<td>false</td>
+		<td>true</td>
 	</tr>
-
 </table>
 
 # Media Placements
