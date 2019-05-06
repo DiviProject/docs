@@ -1578,9 +1578,9 @@ DIVX/DIVI is currently listed on the following exchanges:
 	</tr>
 	<tr>
 		<td>DIVI</td>
-		<td>Vinex</td>
-		<td><a href="https://vinex.network/trading/advanced/BTC_DIVI" target="_blank">Go now</a></td>
-		<td><a href="#/" target="_blank">Coming Soon</a></td>
+		<td>Altilly</td>
+		<td><a href="https://www.altilly.com/market/DIVI_BTC" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/altilly/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
