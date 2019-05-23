@@ -1031,6 +1031,57 @@ walletpassphrasechange "oldpassphrase" "newpassphrase"
 
 // TODO
 
+# Testnet
+
+To connect to the test network that mimics Divi's current main network (version 1.0.5) on Divi Desktop, simply access the settings panel, choose the Network tab, and select "Testnet." The daemon will restart and you will be connected to the test network. 
+
+If you'd like to install and run the test network and use it via the CLI, first stop the daemon. Then, open `divi.conf` and add `testnet=1`. Restart the daemon with the `-testnet` flag. 
+
+# SegWit Testnet
+
+Public testing for the post-fork, SegWit-enabled test network is now live. Follow these steps to get your node up and running. 
+
+**Note: For now, Linux is the only operating system on which this build is available.**
+
+Download the latest build
+
+`wget https://divi-blockchain.ams3.cdn.digitaloceanspaces.com/beta/TESTNET-1.0.8/divi-1.0.8-x86_64-linux-gnu.tar.gz`
+
+Unzip the tarball
+
+`tar -xzvf divi-1.0.8-x86_64-linux-gnu.tar.gz`
+
+Create a configuration file
+
+`mkdir .divi && sudo nano ~/.divi/divi.conf`
+
+Add config details
+
+```shell
+# Example config details
+rpcuser=USERNAME
+rpcpassword=PASSWORD
+daemon=1
+testnet=1
+```
+
+Save and close the editor
+
+Enter the executable directory and start the daemon
+
+`cd divi-1.0.8/bin`
+
+`./divid -testnet`
+
+Connect to the fixed seed nodes
+
+`./divi-cli addnode 178.128.249.200 onetry`
+
+`./divi-cli addnode 178.128.241.240 onetry`
+
+You are now up and running a Divi SegWit test network full node! All of the same steps for [deploying a masternode](#masternode-setup-guide) can be taken.
+
+
 # RESTful Blockchain APIs
 
 Divi offers a [suite of blockchain APIs](https://github.com/Divicoin/diviscan-api) that can be hosted and utilized for development.
@@ -1042,7 +1093,7 @@ Divi offers a [suite of blockchain APIs](https://github.com/Divicoin/diviscan-ap
 | Endpoint          | Params                    | Response  
 | --------          | ------                    | --------                          	|
 | `/accountaddress` | `account`                 | address of account                	|
-| `/address/`		| `address`					| transaction, balance, and delta info	|
+| `/address/`				| `address`									| transaction, balance, and delta info|
 | `/addrsbyaccount` | `account`                 | all addresses of specified account	|
 | `/balance`        | `account`                 | get balance of account            	|
 | `/block/`         | `hash`                    | block object                      	|
