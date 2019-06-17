@@ -1577,7 +1577,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 	<tr>
 		<td>DIVI</td>
 		<td>DIVI/BTC</td>
-		<td>Crex24</td>
+		<td>Bitrue</td>
 		<td><a href="https://www.bitrue.com/trade/divi_btc" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/bitrue/" target="_blank">Go now</a></td>
 		<td>false</td>
@@ -1587,7 +1587,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 	<tr>
 		<td>DIVI</td>
 		<td>DIVI/XRP</td>
-		<td>Crex24</td>
+		<td>Bitrue</td>
 		<td><a href="https://www.bitrue.com/trade/divi_xrp" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/bitrue/" target="_blank">Go now</a></td>
 		<td>false</td>
