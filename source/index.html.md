@@ -167,7 +167,11 @@ A: Not if you’re using our MOCCI. Once your masternode is deployed remotely (t
 
 **Q: How much should I expect to make with my masternode?**
 
-A: You can view our [Masternode calculator](https://divi-masternode-calculator.herokuapp.com/) for an estimate. 
+A: You can view one of our community masternode calculators for an estimate
+
+[Slater Masternode Calculator](https://slater.bubbleapps.io)
+[Masternodes Online](https://masternodes.online)
+[OriZ Calculator](https://docs.google.com/spreadsheets/d/1UD4Nh4JstM3fYsq2PG6cK0j3k0vkIEl6tp8UMfKdZfI/edit?usp=sharing)
 
 **Q: Where can I track the profitability of various types of masternodes?**
 
@@ -1313,9 +1317,11 @@ We have built the most advanced governance system in the blockchain space.   Mas
 
 **Masternode calculator**
 
-Quickly and easily get an estimate on potential earnings with Divi masternodes. This will calculate all of the different types of nodes.   
+Quickly and easily get an estimate on potential earnings with Divi masternodes. You can view one of our community masternode calculators for an estimate.
 
-https://diviproject.org/calculator
+[Slater Masternode Calculator](https://slater.bubbleapps.io)
+[Masternodes Online](https://masternodes.online)
+[OriZ Calculator](https://docs.google.com/spreadsheets/d/1UD4Nh4JstM3fYsq2PG6cK0j3k0vkIEl6tp8UMfKdZfI/edit?usp=sharing)
 
 # Rewards
 
