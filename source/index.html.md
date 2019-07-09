@@ -2600,9 +2600,11 @@ Treasury Funds Created by Governance System, assuming 1 DIVI is US$0.02
 
 **Masternodes?  How much will I earn?**  
 
-Use our masternode calculator to get an estimate
+Use one of the community masternode calculators to get an estimate
 
-[Masternode Calculator](https://www.diviproject.org/calculator)
+[Slater Masternode Calculator](https://slater.bubbleapps.io)
+[Masternodes Online](https://masternodes.online)
+[OriZ Calculator](https://docs.google.com/spreadsheets/d/1UD4Nh4JstM3fYsq2PG6cK0j3k0vkIEl6tp8UMfKdZfI/edit?usp=sharing)
 
 ## Disclaimer
 
