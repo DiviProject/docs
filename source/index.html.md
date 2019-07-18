@@ -16,7 +16,6 @@ toc_footers:
   - <a href='https://github.com/divicoin/divi'>Divi Project GitHub</a>
 
 includes:
-  - errors
 
 search: true
 ---
