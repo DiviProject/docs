@@ -12,7 +12,7 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - typescript
 
 toc_footers:
-  - <a href='https://github.com/divicoin/docs'>Contribute to this wiki</a>
+  - <a href='https://github.com/diviproject/docs'>Contribute to this wiki</a>
   - <a href='https://github.com/diviproject'>Divi Project GitHub</a>
 
 includes:
