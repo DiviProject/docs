@@ -2733,3 +2733,10 @@ So just be excellent to each other.  Patience, kindness, and gratitude are the D
 
 ## Anonymity
 Anonymous commenting is allowed.  However, the Divi team will be much more tolerant of comments from users who are known to us.  If it appears that a user is hiding behind a cloak of anonymity in order to start trouble, we may choose to remove that person.  The founders of Divi are known people, and if we are to be attacked we reserve the right to know who is doing it.
+
+# Branding Guidelines
+
+See details about the Divi brands [here](https://blog.diviproject.org/divi-brands/)
+
+* [Divi Logos](https://divi-files.sfo2.digitaloceanspaces.com/divi_logos.zip)
+* [Ridivi Logos](https://divi-files.sfo2.digitaloceanspaces.com/rd_logos.zip)
