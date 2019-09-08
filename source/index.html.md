@@ -2736,7 +2736,10 @@ Anonymous commenting is allowed.  However, the Divi team will be much more toler
 
 # Branding Guidelines
 
-See details about the Divi brands [here](https://blog.diviproject.org/divi-brands/)
+See details about the Divi brands [here](https://blog.diviproject.org/divi-brands/).
+
+## Logos
+Logos should only be used for promotional purposes and not for profit.
 
 * [Divi Logos](https://divi-files.sfo2.digitaloceanspaces.com/divi_logos.zip)
 * [Ridivi Logos](https://divi-files.sfo2.digitaloceanspaces.com/rd_logos.zip)
