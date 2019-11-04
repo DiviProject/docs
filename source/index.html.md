@@ -822,10 +822,12 @@ getblockhash index
 getblockheader <hash>
 getchaintips
 getdifficulty
+getexpandedstatistics
 getmempoolinfo
 getrawmempool
 gettxout <txid> n ( includemempool )
 gettxoutsetinfo
+totalinputsforblock <blockHeight>
 verifychain ( numblocks )
 ```
 
@@ -866,6 +868,9 @@ Returns the branch tips from all your node's known branches.
 **`getdifficulty`**
 Returns the current difficulty in finding a hash below a given target. 
 
+**`getexpandedstatistics`**
+Returns some staking metrics, 24h transaction metrics and block sizes, UTXO set counts as well as useless UXTO counts. Also total burned fees for blocks (excluding treasury and lottery blocks)
+
 **`getrawmempool`**
 Returns the current mempool array.
 
@@ -873,7 +878,10 @@ Returns the current mempool array.
 Returns details about an unspent transaction output.
 
 **`gettxoutsetinfo`**
-Returns statistics about the database of unspent transaction outputs maintained by the node.
+Returns statistics about the database of unspent transaction outputs maintained by the node. Note: the distribution of UTXOs binned by magnitude in increasing order from top to bottom. The topmost bin covers the range from 10^-8 to 10^-7 and each bin is one order of magnitude higher. Also includes a couple of metrics quantifying a portion of the bytes being spent for storing UTXOs (both useless and useful, i.e. value > 0)
+
+**`totalinputsforblock <blockHeight>`**
+Adds up the total of input amounts for the block at that height
 
 **`verifychain`**
 Returns true or false value based on the validity of the blockchain the node is hosting.
