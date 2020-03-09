@@ -1599,26 +1599,26 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>true</td>
 	</tr>
-	<tr>
+  	<tr>
 		<td>DIVI</td>
-		<td>Crex24</td>
+		<td>LATOKEN</td>
 		<td>DIVI/BTC</td>
-		<td><a href="https://crex24.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/crex24/" target="_blank">Go now</a></td>
+		<td><a href="https://latoken.com" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/latoken/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
+		<td>false</td> 
+  </tr>  
+  	<tr>
 		<td>DIVI</td>
-		<td>Exrates</td>
+		<td>STEX</td>
 		<td>DIVI/BTC</td>
-		<td><a href="https://exrates.me/dashboard" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/exrates/" target="_blank">Go now</a></td>
+		<td><a href="https://www.stex.com" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/stex/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
-		<td>false</td>
-	</tr>
+		<td>false</td> 
+  </tr>  
 	<tr>
 		<td>DIVI</td>
 		<td>BlockDX</td>
@@ -1627,68 +1627,8 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>n/a</td>
 		<td>false</td>
 		<td>true</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>CoinExchange</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://www.coinexchange.io/market/DIVI/BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/coinexchange/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>CryptoWolf</td>
-		<td>DIVI/ANYTHING</td>
-		<td><a href="https://cryptowolf.eu/" target="_blank">Go now</a></td>
-		<td>N/A</td>
-		<td>false</td>
-		<td>false</td>
-		<td>true</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>Equicex</td>
-		<td>N/A</td>
-		<td><a href="https://www.equicex.io/" target="_blank">Go now</a></td>
-		<td>N/A</td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>Altilly</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://www.altilly.com/market/DIVI_BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/altilly/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>Bleutrade</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://bleutrade.com/exchange/DIVI/BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>SIMEX</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://simex.global/en/exchange/divi/btc" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/simex/" target="_blank">Go now</a></td>
-		<td>true</td>
-		<td>false</td>
-		<td>true</td>
-	</tr>
+		<td>false</td> 
+  </tr>  
 </table>
 
 # Media Placements
