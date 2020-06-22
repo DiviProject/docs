@@ -705,6 +705,9 @@ masternode=1
 externalip=your_unique_public_ip_address 
 masternodeprivkey=private_key_from_step_3.
 ```
+
+Copy the configuration line from the result of `fundmasternode` and paste it into `masternode.conf`. 
+
 After this, the node is configured. 
 
 <aside class="notice">
