@@ -1681,19 +1681,6 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 	</tr>
 	<tr>
-<<<<<<< Updated upstream
-		<td>DIVI</td>
-		<td>Bleutrade</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://bleutrade.com/exchange/DIVI/BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
-=======
->>>>>>> Stashed changes
 		<td>DIVI</td>
 		<td>SIMEX</td>
 		<td>DIVI/BTC</td>
