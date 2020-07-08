@@ -1599,6 +1599,16 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>true</td>
 	</tr>
+		<tr>
+		<td>DIVI</td>
+		<td>Bithumb Global</td>
+		<td>DIVI/BTC</td>
+		<td><a href="https://www.bithumb.pro/en-us/spot/trade?q=DIVI-BTC" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/bithumb-global/" target="_blank">Go now</a></td>
+		<td>false</td>
+		<td>false</td>
+		<td>false</td>
+	</tr>
 	<tr>
 		<td>DIVI</td>
 		<td>Crex24</td>
@@ -1665,16 +1675,6 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>DIVI/BTC</td>
 		<td><a href="https://www.altilly.com/market/DIVI_BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/altilly/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>Bleutrade</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://bleutrade.com/exchange/DIVI/BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
