@@ -1614,27 +1614,17 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>DIVI</td>
 		<td>STEX</td>
 		<td>DIVI/BTC</td>
-		<td><a href="https://app.stex.com/en/trade/pair/BTC/DIVI/1D" target="_blank">Go now</a></td>
+		<td><a href="https://app.stex.com/en/trade/pair/BTC/DIVI/" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/stex/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>STEX</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://app.stex.com/en/trade/pair/BTC/DIVI" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/stex/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>true</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
 		<td>Crex24</td>
 		<td>DIVI/USDT</td>
-		<td><a href="https://app.stex.com/en/trade/pair/USDT/DIVI/1D" target="_blank">Go now</a></td>
+		<td><a href="https://app.stex.com/en/trade/pair/USDT/DIVI/" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/stex/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
