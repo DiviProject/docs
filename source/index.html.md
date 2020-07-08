@@ -1643,7 +1643,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>DIVI</td>
 		<td>CryptoWolf</td>
 		<td>DIVI/ANYTHING</td>
-		<td><a href="https://cryptowolf.eu/" target="_blank">Go now</a></td>
+		<td>Under Review</td>
 		<td>N/A</td>
 		<td>false</td>
 		<td>false</td>
