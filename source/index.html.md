@@ -1622,10 +1622,20 @@ DIVX/DIVI is currently listed on the following exchanges:
 	</tr>
 	<tr>
 		<td>DIVI</td>
-		<td>Crex24</td>
+		<td>STEX</td>
 		<td>DIVI/USDT</td>
 		<td><a href="https://app.stex.com/en/trade/pair/USDT/DIVI/" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/stex/" target="_blank">Go now</a></td>
+		<td>false</td>
+		<td>false</td>
+		<td>false</td>
+	</tr>
+		<tr>
+		<td>DIVI</td>
+		<td>CREX24</td>
+		<td>DIVI/BTC</td>
+		<td><a href="https://crex24.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/crex24/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
