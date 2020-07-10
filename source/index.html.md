@@ -1601,7 +1601,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		</tr>
 		<tr>
 		<td>DIVI</td>
-		<td>STEX</td>
+		<td>Bithumb Global</td>
 		<td>DIVI/BTC</td>
 		<td><a href="https://www.bithumb.pro/en-us/spot/trade?q=DIVI-BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/bithumb-global/" target="_blank">Go now</a></td>
