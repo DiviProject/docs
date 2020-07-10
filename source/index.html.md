@@ -1598,20 +1598,41 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 		<td>true</td>
+		</tr>
+		<tr>
+		<td>DIVI</td>
+		<td>STEX</td>
+		<td>DIVI/BTC</td>
+		<td><a href="https://www.bithumb.pro/en-us/spot/trade?q=DIVI-BTC" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/bithumb-global/" target="_blank">Go now</a></td>
+		<td>false</td>
+		<td>false</td>
+		<td>false</td>
+	</tr>
+	</tr>
+		<tr>
+		<td>DIVI</td>
+		<td>STEX</td>
+		<td>DIVI/BTC</td>
+		<td><a href="https://app.stex.com/en/trade/pair/BTC/DIVI/" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/stex/" target="_blank">Go now</a></td>
+		<td>false</td>
+		<td>false</td>
+		<td>false</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
 		<td>STEX</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://app.stex.com/en/trade/pair/BTC/DIVI" target="_blank">Go now</a></td>
+		<td>DIVI/USDT</td>
+		<td><a href="https://app.stex.com/en/trade/pair/USDT/DIVI/" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/stex/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
-		<td>true</td>
+		<td>false</td>
 	</tr>
-	<tr>
+		<tr>
 		<td>DIVI</td>
-		<td>Crex24</td>
+		<td>CREX24</td>
 		<td>DIVI/BTC</td>
 		<td><a href="https://crex24.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/crex24/" target="_blank">Go now</a></td>
@@ -1641,19 +1662,9 @@ DIVX/DIVI is currently listed on the following exchanges:
 	</tr>
 	<tr>
 		<td>DIVI</td>
-		<td>CoinExchange</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://www.coinexchange.io/market/DIVI/BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/coinexchange/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
 		<td>CryptoWolf</td>
 		<td>DIVI/ANYTHING</td>
-		<td><a href="https://cryptowolf.eu/" target="_blank">Go now</a></td>
+		<td>Under Review</td>
 		<td>N/A</td>
 		<td>false</td>
 		<td>false</td>
@@ -1675,16 +1686,6 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>DIVI/BTC</td>
 		<td><a href="https://www.altilly.com/market/DIVI_BTC" target="_blank">Go now</a></td>
 		<td><a href="https://coinmarketcap.com/exchanges/altilly/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>Bleutrade</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://bleutrade.com/exchange/DIVI/BTC" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/bleutrade/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
@@ -2742,6 +2743,7 @@ Our community channels operate under a 3-strike policy. Offenders will receive a
 So just be excellent to each other.  Patience, kindness, and gratitude are the Divi way.
 
 ## Anonymity
+<<<<<<< Updated upstream
 Anonymous commenting is allowed.  However, the Divi team will be much more tolerant of comments from users who are known to us.  If it appears that a user is hiding behind a cloak of anonymity in order to start trouble, we may choose to remove that person.  The founders of Divi are known people, and if we are to be attacked we reserve the right to know who is doing it.
 
 # Branding Guidelines
@@ -2753,3 +2755,6 @@ Logos should only be used for promotional purposes and not for profit.
 
 * [Divi Logos](https://divi-files.sfo2.digitaloceanspaces.com/divi_logos.zip)
 * [Ridivi Logos](https://divi-files.sfo2.digitaloceanspaces.com/rd_logos.zip)
+=======
+Anonymous commenting is allowed.  However, the Divi team will be much more tolerant of comments from users who are known to us.  If it appears that a user is hiding behind a cloak of anonymity in order to start trouble, we may choose to remove that person.  The founders of Divi are known people, and if we are to be attacked we reserve the right to know who is doing it.
+>>>>>>> Stashed changes
