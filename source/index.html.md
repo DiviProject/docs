@@ -22,7 +22,7 @@ search: true
 
 # Introduction
 
-Welcome to the Divi Project documentation repository! This service provides a comprehensive overview of everything in the Divi ecosystem. Use the navigation pane at the left side of this page to select the documentation you would like to read. 
+Welcome to the Divi Project documentation repository! This service provides a comprehensive overview of everything in the Divi ecosystem. Use the navigation pane at the left side of this page to select the documentation you would like to read.
 
 # Contribute
 
@@ -48,7 +48,7 @@ Do not, we repeat, _do not_, store your encryption password or mnemonic seed phr
 
 Members of the Divi team will never request access to your `wallet.dat` or any other file deemed proprietary to your account. If a member of the community or someone claiming to be a Divi team member makes an attempt to access this data, please report them immediately to an Admin.
 
-# FAQ / Troubleshooting 
+# FAQ / Troubleshooting
 
 ## General FAQs
 
@@ -132,7 +132,7 @@ A: Try [these instructions](#gui-is-stuck-syncing)
 
 **Q: Where are my wallet and other critical files stored?**
 
-A: 
+A:
 
 * Windows: C:\Users\<your-username>\AppData\Roaming\DIVI
 * OSX: ~/Library/Application\ Support/DIVI
@@ -150,7 +150,7 @@ A: Try exiting the application and restarting. If you’re still having issues, 
 
 A: If you're using a Windows wallet, try going into Users\<your_username>\AppData\Roaming\DIVI, if you see both `wallet.dat` and `wallet.dat.rewrite` remove `wallet.dat` and rename `wallet.dat.rewrite` to `wallet.dat`
 
-**Q: I don't see `wallet.dat.rewrite` but I see `wallet.dat` & `wallet.<numbers>.bak` or some equivalent.** 
+**Q: I don't see `wallet.dat.rewrite` but I see `wallet.dat` & `wallet.<numbers>.bak` or some equivalent.**
 
 A: Stop the wallet. Move all `wallet.<numbers>.bak` and `wallet.dat` files to your desktop. Enter the `backups` directory and pull out one of the `wallet.dat` backup files into the main DIVI directory. Rename the file to `wallet.dat` and restart the wallet.
 
@@ -174,7 +174,7 @@ A: You can view one of our community masternode calculators for an estimate
 
 **Q: Where can I track the profitability of various types of masternodes?**
 
-A: [Masternodes.online](http://masternodes.online) 
+A: [Masternodes.online](http://masternodes.online)
 
 **Q: How long until my masternode is eligible for awards?**
 
@@ -224,11 +224,11 @@ A: No. Each Masternode requires a unique, static IP address in its own droplet.
 
 **Q: Should I create a new wallet address for each incoming transaction?**
 
-A: It is a best practice to do this but it is not necessary. 
+A: It is a best practice to do this but it is not necessary.
 
 **Q: Support asked me to submit a copy of my log file. Where is this file located?**
 
-A: 
+A:
 
 * Windows: C:\Users\<your-username>\AppData\Roaming\DIVI\debug.log
 * OSX: ~/Library/Application\ Support/DIVI/debug.log
@@ -238,7 +238,7 @@ A:
 
 A: When you create a new masternode, the funds are allocated in a transaction that is broadcast to the network. It will take a few confirmations for this transaction to be validated, after which time you will see your funds reappear minus the transaction fee.
 
-## MOCCI Hosting (PayPal Payment) FAQs 
+## MOCCI Hosting (PayPal Payment) FAQs
 
 **Q: Why am I seeing "Redeployment Required?"**
 
@@ -246,7 +246,7 @@ A: If you have been running a masternode for longer than 2 months, the version o
 
 **Q: If I cancel my subscription early, do I receive a refund?**
 
-A: The subscriptions are non-refundable but will last through the final day of your billing period once canceled. 
+A: The subscriptions are non-refundable but will last through the final day of your billing period once canceled.
 
 **Q: If I dismantle a MOCCI masternode, will I have to pay to deploy another one?**
 
@@ -280,7 +280,7 @@ A: 10,000 DIVI and they must not be funding a masternode already.
 
 **Q: How do I know my wallet is actively staking?**
 
-A: You can check if your wallet is staking by opening the console in the top right corner of the GUI and typing `getstakingstatus`. You will see a response showing relevant information about your staking status that should look like this if all is good: 
+A: You can check if your wallet is staking by opening the console in the top right corner of the GUI and typing `getstakingstatus`. You will see a response showing relevant information about your staking status that should look like this if all is good:
 
 ```shell
 ## Staking active
@@ -327,9 +327,9 @@ A. Once you receive enough from a masternode to start staking, your wallet may b
 
 A.Check your firewall software (or Voodoo Shield) and make sure there’s an exception for:
 
-* Divid.exe
-* Divi-cli.exe
-* divi desktop.exe. 
+* divid.exe
+* divi-cli.exe
+* divi desktop.exe.
 
 On windows the first two are in `c:\users\username\appdata\roaming\divi desktop\divid\unpacked\divi_win_64` and the latter is in `c:\program files\divi desktop`
 
@@ -362,7 +362,7 @@ A. Your balance may fluctuate if your wallet is actively staking.
 
 A. Your spendable balance may be fluctuating due to staking, and as a result, you may have insufficient funds to deploy a masternode until the UTXO returns from staking.
 
-## GUI is Stuck Syncing 
+## GUI is Stuck Syncing
 
 If the wallet is stuck syncing you can force it to sync by following these steps:
 
@@ -380,7 +380,7 @@ If the wallet is stuck syncing you can force it to sync by following these steps
 
 Click Apply and Ok.
 
-**Step 5:** Start your wallet 
+**Step 5:** Start your wallet
 
 * It will resync all your folders anew
 * This will take some time
@@ -408,7 +408,7 @@ It is recommended that Windows users follow Digital Ocean's [official guide](htt
 
 ### OSX & Linux
 
-* Type `ssh-keygen` into your terminal. 
+* Type `ssh-keygen` into your terminal.
 
 * Assign a filepath. If this is your first time generating an SSH keypair, you can just press `ENTER` to proceed.
 
@@ -478,7 +478,7 @@ The key's randomart image is:
   * Private networking
   * IPv6
   * Monitoring
-* Add your SSH key from above. 
+* Add your SSH key from above.
 * Create a hostname for the droplet. You can name it whatever you like, for example "my-copper-masternode"
 
 It will take a moment for your droplet to deploy. Once it does you will see a brand new IP address has been created. This will be used in the next steps.
@@ -486,7 +486,7 @@ It will take a moment for your droplet to deploy. Once it does you will see a br
 ## Login and secure your Droplet
 
 * Click the Droplet's IP to automatically copy it to your clipboard.
-* In your terminal, type `ssh root@dropletIP` 
+* In your terminal, type `ssh root@dropletIP`
 
 ```shell
 ## Result of ssh root@dropletip
@@ -495,7 +495,7 @@ ECDSA key fingerprint is SHA256:QTRtA7PVlexEVEfHpM17HPZ5lWA+AJjGkyywo8+cxBI.
 Are you sure you want to continue connecting (yes/no)?
 ```
 
-* Type `yes` 
+* Type `yes`
 * Enter the password you created when setting up your SSH key
 
 You are now logged in as the `root` user. The `root` user has the most administrative privileges and, for security reasons, it is recommended that you create a new user.
@@ -511,7 +511,7 @@ Next, setup a secure firewall on the server.
 
 * Type `ufw app list` to show available firewall applications
 * Type `ufw allow OpenSSH`
-* Then enable the firewall by typing `ufw enable` 
+* Then enable the firewall by typing `ufw enable`
   * Type `y` and press `ENTER`
 
 Now if you type `ufw status` you will see that SSH connections have been enabled and all other connections will be blocked.
@@ -562,13 +562,13 @@ The data directory can be found at its default path:
 
 The default configuration looks like [this](#default-configuration)
 
-* Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step. 
+* Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step.
 * Add the fixed seed node IPs and any other peers you wish to manually connect to on startup.
 * Make sure to include `daemon=1` to the bottom of your configuration file.
 * If you prefer the node not stake, set `staking=0` in the configuration file.
 
 ### 3. Start the daemon
-Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter. 
+Before starting the daemon, it may be helpful to keep your debug log running to note any potential errors you might encounter.
 
 * To keep a persistent log, open a new terminal and type `tail -f ~/Library/Application\ Support/DIVI/debug.log`
 * Back on the original terminal window, run `./divid` again.
@@ -598,7 +598,7 @@ The data directory can be found at its default path:
 
 The default configuration looks like [this](#default-configuration)
 
-* Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step. 
+* Edit the configuration file to include the `rpcuser` and `rpcpassword` returned by the previous step.
 * Add the fixed seed node IPs and any other peers you wish to manually connect to on startup
 * Make sure to include `daemon=1` to the bottom of your configuration file
 
@@ -617,7 +617,7 @@ There are two nodes that take part in starting a Masternode. Controller and Remo
 ## Configure the control node
 
 <aside class="notice">
-Make sure that you have enough funds for the Masternode level you want to set up. 
+Make sure that you have enough funds for the Masternode level you want to set up.
 </aside>
 
 1. Create a collateral transaction
@@ -628,7 +628,7 @@ allocatefunds <purpose> <alias> <tier>
 ## Output
 <collateral_hash>
 ```
-Via the command line, call rpc method `allocatefunds` to create a collateral transaction. 
+Via the command line, call rpc method `allocatefunds` to create a collateral transaction.
 
 `allocatefunds` takes **three arguments:**
 
@@ -660,9 +660,9 @@ The collateral transaction requires 15 confirmations to take effect and allow fo
 
 2. Fund the masternode
 
-Once you receive your `collateral_hash` and the collateral transaction has gone through 15 confirmations, you can fund the masternode. 
+Once you receive your `collateral_hash` and the collateral transaction has gone through 15 confirmations, you can fund the masternode.
 
-Call `fundmasternode` from the command line and pass the relevant arguments. 
+Call `fundmasternode` from the command line and pass the relevant arguments.
 
 `fundmasternode` takes **four arguments:**
 
@@ -679,7 +679,7 @@ The result of this call will be a configuration line in the format: `alias ip:po
 
 Stop the daemon with `./divi-cli stop`
 
-Copy the configuration line and paste it into `masternode.conf`. 
+Copy the configuration line and paste it into `masternode.conf`.
 
 <aside class="notice">
 Save the `private_key`. You will need it to configure the remote node.
@@ -692,20 +692,20 @@ At this point controller node is configured and the remote node can be configure
 To configure remote node, open `divi.conf` and edit it so that it resembles the configuration.
 
 ```bash
-## divi.conf 
+## divi.conf
 
-rpcuser=random_username 
+rpcuser=random_username
 rpcpassword=long_random_password
-rpcallowip=127.0.0.1 
-server=1 
-daemon=1 
-logtimestamps=1 
-maxconnections=256 
-masternode=1 
-externalip=your_unique_public_ip_address 
+rpcallowip=127.0.0.1
+server=1
+daemon=1
+logtimestamps=1
+maxconnections=256
+masternode=1
+externalip=your_unique_public_ip_address
 masternodeprivkey=private_key_from_step_3.
 ```
-After this, the node is configured. 
+After this, the node is configured.
 
 <aside class="notice">
 It is now safe to start both nodes again.
@@ -765,23 +765,23 @@ Data dir location can be changed on startup using `-datadir=path/to/dir` startup
 ## Files description
 
 - `backups`: folder for automatic wallet backups
-- `blocks`: folder that contains database of blocks that were downloaded from p2p network. 
+- `blocks`: folder that contains database of blocks that were downloaded from p2p network.
 - `chainstate`: folder that contains database of blocks index which is needed to navigate blocks
-- `debug.log`: debug prints from client. Usually is needed to solve some problem. 
-- `divi.conf`: special file which holds startup configuration. Instead of using startup arguments when calling divid, better approach is to put them into divi.conf, line by line. 
+- `debug.log`: debug prints from client. Usually is needed to solve some problem.
+- `divi.conf`: special file which holds startup configuration. Instead of using startup arguments when calling divid, better approach is to put them into divi.conf, line by line.
 - `fee_estimates.dat`: cache of latest fees that were paid on the blockchain, needed for smart-fee estimation.
 - `masternode.conf`: stores configuration for masternodes that are controlled by this wallet. This file needs to be filled if users is willing to run a masternode.
 - `mncache.dat`: database that stores information about masternodes that are known to this node. Used to prevent spamming network with masternode requests on each run.
 - `mnpayments.dat`: database that stores information about masternode payments. Used to verify & confirm that masternode payment is valid.
-- `netfulfilled.dat`: local cache of completed network requests. 
+- `netfulfilled.dat`: local cache of completed network requests.
 - `peers.dat`: database that stores information about peers in p2p network. Used by client to quikly connect to well known peers.
-- `sporks`: folder that contains database of sporks that were synced from p2p network. 
-- `testnet3`: optional folder that contains same folder structure as mainnet folder but has data for testnet. 
+- `sporks`: folder that contains database of sporks that were synced from p2p network.
+- `testnet3`: optional folder that contains same folder structure as mainnet folder but has data for testnet.
 - `wallet.dat`: the most important file. Stores private keys for your addresses. Losing this automatically means losing access to all of yours divi coins.
 
 # Divi CLI
 
-The DIVI CLI commands listed here are the methods with which you can speak to the DIVI RPC client. 
+The DIVI CLI commands listed here are the methods with which you can speak to the DIVI RPC client.
 
 <aside class="notice">
 Note: You must call all of these commands with a preceding `divi-cli`
@@ -798,7 +798,7 @@ When you set up your wallet initially, always encrypt your wallet and dump your 
 ```
 This will return a seed phrase that you can use later to recover your funds.
 
-Should you need to recover your wallet: 
+Should you need to recover your wallet:
 1. Make sure your `divid` is shut down.
 2. Make sure any other `wallet.dat` file is removed from the data directory.
 
@@ -864,12 +864,12 @@ Example response:
 Returns the branch tips from all your node's known branches.
 
 **`getdifficulty`**
-Returns the current difficulty in finding a hash below a given target. 
+Returns the current difficulty in finding a hash below a given target.
 
 **`getrawmempool`**
 Returns the current mempool array.
 
-**`gettxout <txid>`** 
+**`gettxout <txid>`**
 Returns details about an unspent transaction output.
 
 **`gettxoutsetinfo`**
@@ -898,9 +898,9 @@ Cleanly stop `divid`
 
 ```shell
 allocatefunds <purpose> <alias> <tier>
-fundmasternode <alias> <tier> <collateral_hash> <masternode_ip> 
+fundmasternode <alias> <tier> <collateral_hash> <masternode_ip>
 startmasternode
-getmasternodecount 
+getmasternodecount
 getmasternodestatus
 getmasternodewinners
 listmasternodes <filter>
@@ -960,7 +960,7 @@ Manually connect to a peer using the counterparty's IP address.
 | 3					| `<onetry>` 		| // todo
 
 **`getaddednodeinfo`
-A boolean (true/false) argument must be passed to returns information about the given added node, or all added nodes. 
+A boolean (true/false) argument must be passed to returns information about the given added node, or all added nodes.
 
 **`getconnectioncount`**
 Returns the number of peer-to-peer connections the node has.
@@ -1036,13 +1036,13 @@ walletpassphrasechange "oldpassphrase" "newpassphrase"
 
 # Testnet
 
-To connect to the test network that mimics Divi's current main network (version 1.0.5) on Divi Desktop, simply access the settings panel, choose the Network tab, and select "Testnet." The daemon will restart and you will be connected to the test network. 
+To connect to the test network that mimics Divi's current main network (version 1.0.5) on Divi Desktop, simply access the settings panel, choose the Network tab, and select "Testnet." The daemon will restart and you will be connected to the test network.
 
-If you'd like to install and run the test network and use it via the CLI, first stop the daemon. Then, open `divi.conf` and add `testnet=1`. Restart the daemon with the `-testnet` flag. 
+If you'd like to install and run the test network and use it via the CLI, first stop the daemon. Then, open `divi.conf` and add `testnet=1`. Restart the daemon with the `-testnet` flag.
 
 # SegWit Testnet
 
-Public testing for the post-fork, SegWit-enabled test network is now live. Follow these steps to get your node up and running. 
+Public testing for the post-fork, SegWit-enabled test network is now live. Follow these steps to get your node up and running.
 
 **Note: For now, Linux is the only operating system on which this build is available.**
 
@@ -1118,15 +1118,15 @@ Developers can use and contribute to the [divid-rpc library](https://github.com/
 
 # Divi Coin Specs
 
-Ticker: 		DIVI 
-CMC:			[Divi on CoinMarketCap](https://coinmarketcap.com/currencies/divi) 
+Ticker: 		DIVI
+CMC:			[Divi on CoinMarketCap](https://coinmarketcap.com/currencies/divi)
 
 Github:		[Divi Github](https://github.com/Divicoin/Divi)
-Blockchain Code:	C++ 
+Blockchain Code:	C++
 Forked From:		PIVX.  Also includes code from Bitcoin, Dash, and Peercoin
 Blockchain Explorers:	[Diviscan](http://diviscan.io) & [Divi Explorer](https://explorer.diviproject.org)
 DIVI Top-100 Wallets: [Richlist](https://explorer.diviproject.org/richlist)
-Blockchain APIs: [Divi APIs](https://blog.diviproject.org/divi-beta-notes-divi-cli-commands) 
+Blockchain APIs: [Divi APIs](https://blog.diviproject.org/divi-beta-notes-divi-cli-commands)
 
 
 2MB Block Size/Height
@@ -1137,10 +1137,10 @@ Consensus Algorithm:		100% Proof of Stake (PoS)
 **Genesis Block:**
 
 * Date:	Sept 27, 2018
-* Starting coin circulation:  617,160,700 DIVI 
+* Starting coin circulation:  617,160,700 DIVI
 * Maxium coin circulation: No Limit set, controlled by Governance Vote
 
-**Reward System Payout:** 
+**Reward System Payout:**
 
 * 1250 coins minted per block first 2 years
 * 1150 Year 2020
@@ -1154,12 +1154,12 @@ Consensus Algorithm:		100% Proof of Stake (PoS)
 * 350 Year 2028
 * 250 Year 2029
 
-50 coins from every block accumulate for the weekly lottery block fund. 
+50 coins from every block accumulate for the weekly lottery block fund.
 The community will be able to vote to reduce the rate of inflation.
 
-* Masternodes (45%) 
-* Staking (38%) 
-* Treasury for Development and Marketing (9%) 
+* Masternodes (45%)
+* Staking (38%)
+* Treasury for Development and Marketing (9%)
 * Treasury for Exchanges, Liquidity, Platform Support (7%)
 * Charity (1%)
 
@@ -1184,7 +1184,7 @@ Diamond   | 10,000,000 DIVI  | +20% better
 
 Other Features:
 
-* MOCCI : Masternode One Click Cloud Installer	
+* MOCCI : Masternode One Click Cloud Installer
 * One-Click Desktop Install
 
 **Token Sale Details:**
@@ -1215,14 +1215,14 @@ Democratizing Participation Through Affordability:  The Divi Project offers five
 * **Gold:**  1,000,000 DIVI	(+10% )
 * **Platinum:**  3,000,000 DIVI	(+15%)
 * **Diamond:**  10,000,000 DIVI	(+20%)
- 
+
 Participants choose the masternode(s) that they're able to afford, and commit to support Divi's network.  More expensive masternodes may also require more commitment of resources, and may do more to support the network, especially as the Divi ecosystem evolves and new features are added.
 
 ## Definitions
 
 __Masternodes__ are computers that run a Divi wallet and perform utility functions for the network such as storing metadata and processing special transactions.
 
-__Masternode collateral__ amount that is needed to run a masternode. Each masternode wallet needs to lock a certain amount of DIVI in the wallet in order to register as a masternode in the network. 
+__Masternode collateral__ amount that is needed to run a masternode. Each masternode wallet needs to lock a certain amount of DIVI in the wallet in order to register as a masternode in the network.
 
 __Masternode tier__ is the type of masternode, there are 5 types of masternodes (Copper, Silver, Gold, Platinum, Diamond). Depending on the type, the owner will get more rewards and in future versions of the protocol, may provide different services to the network.
 
@@ -1236,8 +1236,8 @@ Every masternode forms a second layer of the network which enables the blockchai
 | Staking | 38 |
 | Masternode | 45 |
 | Treasury | 16 |
-| Proposals | 0 | 
-| Charity | 1 | 
+| Proposals | 0 |
+| Charity | 1 |
 
 Payments allocations can be changed by DVS sporks.
 
@@ -1248,11 +1248,11 @@ Masternode payments in Divi are determined using a decentralized random selectio
 
 ## Winner selection
 
-When a new block is added to the network, every masternode submits a vote for the winner, which appears in 10 blocks in future. Voting is a probabilistic process of selecting masternode winner. 
+When a new block is added to the network, every masternode submits a vote for the winner, which appears in 10 blocks in future. Voting is a probabilistic process of selecting masternode winner.
 
-__Score__ is a double SHA256 of the funding transaction hash and ticket index for all masternodes in the selection pool. The score is compared with the block hash 100 blocks ago. The masternode with the closest numeric hash value to that block hash receives the payment. 
+__Score__ is a double SHA256 of the funding transaction hash and ticket index for all masternodes in the selection pool. The score is compared with the block hash 100 blocks ago. The masternode with the closest numeric hash value to that block hash receives the payment.
 
-__Ticket__ is a number that represents one try to create a score. 
+__Ticket__ is a number that represents one try to create a score.
 
 Whoever gets the maximum hash wins the selection process. Each masternode tries to produce a maximum allowed score (hash) based on their masternode tier. In practice it means that it tries several times to hash to maximize the chances of winning.  
 
@@ -1262,21 +1262,21 @@ We build a pool of tickets for every masternode and select masternode with close
 
 Masternodes have different chances to win depending on their tier:
 
-| Tier | Number of tickets | 
+| Tier | Number of tickets |
 | ----- | ----------------- |
-| Copper | 20 | 
-| Silver | 63 | 
-| Gold | 220 | 
-| Platinum | 690 | 
-| Diamond | 2400 | 
+| Copper | 20 |
+| Silver | 63 |
+| Gold | 220 |
+| Platinum | 690 |
+| Diamond | 2400 |
 
-In practice it means that Platinum node produces 690 scores(hashes) and select one score that maximizes chances for winning. 
+In practice it means that Platinum node produces 690 scores(hashes) and select one score that maximizes chances for winning.
 
 Find the code that calculates the score here: `masternode.cpp:212`
 
 ## Supporting the Divi Network
 
-What is a masternode, really?   It's just a piece of software.  It's an app that's already built into the Divi desktop wallet.  You launch the app, "fund" it with some of your DIVI coins, and it will go to work once it's connected with enough other nodes.  Those other nodes are owned by other DIVI masternode holders around the world, who have gone through the same process. 
+What is a masternode, really?   It's just a piece of software.  It's an app that's already built into the Divi desktop wallet.  You launch the app, "fund" it with some of your DIVI coins, and it will go to work once it's connected with enough other nodes.  Those other nodes are owned by other DIVI masternode holders around the world, who have gone through the same process.
 
 What does a masternode actually do?  Divi's masternodes remain in constant contact with other nodes in the network.   Through this communication they verify and process transactions and keep everything secure, while continuously maintaining an up-to-date copy of the ledger.  Approximately every minute, one of the masternodes wins the right to rewards from the latest block to the Divi blockchain.  Simultaneously, a staking wallet wins as well, and each is paid in DIVI.  The staker writes these two transactions into the beginning of the next block in what's referred to as a "Coinbase Transaction".  Other masternodes verify everything, and if all is good, the blockchain grows.  
 
@@ -1300,11 +1300,11 @@ For the reasons of maintenance and stopping/starting, many people will opt to ho
 
 **Lottery Blocks** - Approximately once per week, eleven lucky DIVI network supporters who have at least 10,000 DIVI staked will share a lottery block.  50 DIVI is added to the lottery fund every minute and winners happen weekly.  This helps keep people in our system and adds excitement to our community.
 
-**Improved Efficiency, Scalability, and Sustainability** - We delineated the work performed by each tier of masternode, eliminating huge amounts of redundant processing. 
+**Improved Efficiency, Scalability, and Sustainability** - We delineated the work performed by each tier of masternode, eliminating huge amounts of redundant processing.
 
-We enhanced our seesaw algorithm so that it adjusts the relative populations of the various types of masternodes to maintain maximum efficiency as the demand for each type's functionality fluctuates. 
+We enhanced our seesaw algorithm so that it adjusts the relative populations of the various types of masternodes to maintain maximum efficiency as the demand for each type's functionality fluctuates.
 
-The fees for this new functionality not only fund increased returns for masternode holders, but also drive increased participation in the Divi netowrk and ecosystem, adding additional value for all participants. 
+The fees for this new functionality not only fund increased returns for masternode holders, but also drive increased participation in the Divi netowrk and ecosystem, adding additional value for all participants.
 
 ## Earning an Income
 
@@ -1332,10 +1332,10 @@ __Superblock__ is a special block which creates a payment to treasury or lottery
 
 | Block height | Subsidy |
 | ------------ | --------- |
-| 0 - 1051200  | 1250 | 
-| 1051200 - 2102400 | 1050 | 
-| 2102400 - 3153600 | 850 | 
-| ... | ... | 
+| 0 - 1051200  | 1250 |
+| 1051200 - 2102400 | 1050 |
+| 2102400 - 3153600 | 850 |
+| ... | ... |
 
 The subsidy decreases every two years (1051200 blocks) by 200 DIVI, unless spork is not activated, which explicitly controls subsidy.
 Minimum block reward is 100 DIVI, so no matter how much time passes minimum reward will be 100.
@@ -1353,7 +1353,7 @@ If there are masternodes that are ready to get paid, they get 45% of the block.
 
 1% is reserved for payment to the charity fund
 
-50 coins are reserved for the lottery pool. 
+50 coins are reserved for the lottery pool.
 
 All of those values can be changed by DVS spork.
 
@@ -1383,7 +1383,7 @@ static bool IsValidTreasuryBlockHeight(int nBlockHeight)
 }
 ```
 
-If it's the appropriate time for treasury payment, we calculate treasury payment for the whole cycle and pay to treasury address. 
+If it's the appropriate time for treasury payment, we calculate treasury payment for the whole cycle and pay to treasury address.
 
 ```cpp
 static int64_t GetTreasuryReward(const CBlockRewards &rewards)
@@ -1441,7 +1441,7 @@ Each online wallet tries to create a stake, by scanning through its UTXOs and tr
 It's required to be online during staking because otherwise, you are not able to sync to peers.
 
 ## Coin Age
-Coin Age is a property of each UTXO; it's time that has passed from the moment of a UTXO's creation. 
+Coin Age is a property of each UTXO; it's time that has passed from the moment of a UTXO's creation.
 
 ### Example
 Imagine today is Monday, and I receive 1000 DIVI from Alice. On Tuesday, that UTXO has a Coin Age of 24 hours. Now, let's say I want to send 200 DIVI to Bob, but since I am sending my 1000 Divi UTXO, my Coin Age resets, and I get a new UTXO that is worth 800 DIVI.
@@ -1470,7 +1470,7 @@ __Lottery cycle__ is how many blocks need to be minted to trigger new lottery.
 
 ## How it works
 
-### General 
+### General
 
 Let's pickup random values to show this on example:
 
@@ -1482,11 +1482,11 @@ Total lottery pool = LC * LR = 200 * 50 = 10000 divi
 
 Let's pretend that we are on block 200, and it's the end of last lottery cycle and the start of new lottery cycle. The algorithm behaves like this:
 
-1. In every block, we calculate the score using the hash of coin stake and the hash of the last lottery. 
-2. After calculating the score, we save it in `CBlockIndex` together with 11 other winners. 
-3. At the end of the lottery cycle, block 400 in this example, minter needs to pay to the winners of the lottery. 
+1. In every block, we calculate the score using the hash of coin stake and the hash of the last lottery.
+2. After calculating the score, we save it in `CBlockIndex` together with 11 other winners.
+3. At the end of the lottery cycle, block 400 in this example, minter needs to pay to the winners of the lottery.
 
-Any peer looking on the blockchain can do the same math and tell if lottery winner is valid or no, this is important, peers can reach consensus in a decentralized way looking on their local blockchains. 
+Any peer looking on the blockchain can do the same math and tell if lottery winner is valid or no, this is important, peers can reach consensus in a decentralized way looking on their local blockchains.
 
 ### What is the 'score' and how is it calculated?
 
@@ -1505,11 +1505,11 @@ static uint256 CalculateLotteryScore(const uint256 &hashCoinbaseTx, const uint25
 ### What happens when a new block is generated?
 When a new block is generated we calculate the score for this block, compare it with 11(or less) scores that are already saved and add it to the list in case it's bigger than minimum score. The new winners list is saved in `vLotteryWinnersCoinstakes` in `CBlockIndex`
 
-## Lottery participation 
-To participate in the lottery, all you need is to stake with UTXO that is > 10000 Divi. This value can be updated by DVS (multivalue sporks.) 
+## Lottery participation
+To participate in the lottery, all you need is to stake with UTXO that is > 10000 Divi. This value can be updated by DVS (multivalue sporks.)
 
 ## Lottery winners
-The Current model supports 11 winners.  The biggest hash gets half of the pool, and the other 10 winners are distributed another 5% each. 
+The Current model supports 11 winners.  The biggest hash gets half of the pool, and the other 10 winners are distributed another 5% each.
 
 ## Where to look?
 Everything related to the lottery is in file `masternode-payments.cpp`.
@@ -1518,15 +1518,15 @@ Everything related to the lottery is in file `masternode-payments.cpp`.
 
 ## Definition
 
-__Transaction fee__ is the amount that is paid for processing a transaction. 
+__Transaction fee__ is the amount that is paid for processing a transaction.
 
 ## Fee calculation
 
-Divi uses a flexible approach depending on the transaction amount, size and global network modifiers. 
+Divi uses a flexible approach depending on the transaction amount, size and global network modifiers.
 
 We use this formula to calculate fees: ` Fee = (TV * TVM) * TS / TSM `
 
-In this formula: 
+In this formula:
 
 `TV:` Transaction value in DIVI
 
@@ -1534,13 +1534,13 @@ In this formula:
 
 `TVM:` Transaction value multiplier - global value for network
 
-`TSM:` Transaction size multiplier - global value for network 
+`TSM:` Transaction size multiplier - global value for network
 
 ## Global transaction fee modifiers
 
-To be as flexible as possible we introduce TVM and TSM which are values that are selected using a spork. Changing those values allows us to change the fee for the whole network. 
+To be as flexible as possible we introduce TVM and TSM which are values that are selected using a spork. Changing those values allows us to change the fee for the whole network.
 
-Default values are: 
+Default values are:
 
 `TVM = 0.0001`
 
@@ -1552,19 +1552,19 @@ The minimum possible fee that can be processed by the network(though with lower 
 
 ## Maximum possible fee
 
-The maximum fee is controlled by spork, default maximum fee is 100 DIVI. 
+The maximum fee is controlled by spork, default maximum fee is 100 DIVI.
 
 ## Fee deduction
 
-The fee is paid automatically and is calculated as `Fee = (TxIn - TxOut)`, so the fee is paid in spendable outputs(inputs) of the transaction. 
+The fee is paid automatically and is calculated as `Fee = (TxIn - TxOut)`, so the fee is paid in spendable outputs(inputs) of the transaction.
 
 ## Burning
 
-Divi uses PoS tail emission which means coins are always generated, no matter how long it runs in contrast to bitcoin where the supply is limited. To control the inflation we burn fees, this way no one gets the fee, and with every transaction, the fee that was paid gets burnt reducing total coin supply. 
+Divi uses PoS tail emission which means coins are always generated, no matter how long it runs in contrast to bitcoin where the supply is limited. To control the inflation we burn fees, this way no one gets the fee, and with every transaction, the fee that was paid gets burnt reducing total coin supply.
 
 # Exchanges
 
-<aside class="warning">Divi does not officially endorse any of the following exchanges. Do your own research and trade at your own risk. **NEVER** leave your coins on an exchange for longer than it takes to make a trade.</aside>
+<aside class="warning">Divi is a decentralized blockchain just like Bitcoin, and therefore cannot officially endorse any exchange, listed or unlisted. The listings below are an example of Exchanges that offer DIVI for trading. Before you trade, do personal research for every exchange service. Trading is at your own risk. **NEVER** leave your coins on an exchange longer than it takes to make a trade.</aside>
 
 DIVX/DIVI is currently listed on the following exchanges:
 
@@ -1599,6 +1599,16 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>true</td>
 		</tr>
+    <tr>
+      <td>DIVI</td>
+      <td>Bitrue</td>
+      <td>DIVI/US</td>
+      <td><a href="https://www.bitrue.com/trade/divi_usdt" target="_blank">Go now</a></td>
+      <td><a href="https://coinmarketcap.com/exchanges/bitrue/" target="_blank">Go now</a></td>
+      <td>false</td>
+      <td>false</td>
+      <td>true</td>
+      </tr>
 		<tr>
 		<td>DIVI</td>
 		<td>Bithumb Global</td>
@@ -1640,6 +1650,16 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 	</tr>
+  <tr>
+    <td>DIVI</td>
+    <td>LATOKEN</td>
+    <td>DIVI/BTC</td>
+    <td><a href="https://latoken.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
+    <td><a href="https://coinmarketcap.com/exchanges/latoken/" target="_blank">Go now</a></td>
+    <td>false</td>
+    <td>false</td>
+    <td>false</td>
+  </tr>
 	<tr>
 		<td>DIVI</td>
 		<td>Exrates</td>
@@ -1658,26 +1678,6 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>n/a</td>
 		<td>false</td>
 		<td>true</td>
-		<td>false</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>CryptoWolf</td>
-		<td>DIVI/ANYTHING</td>
-		<td>Under Review</td>
-		<td>N/A</td>
-		<td>false</td>
-		<td>false</td>
-		<td>true</td>
-	</tr>
-	<tr>
-		<td>DIVI</td>
-		<td>Equicex</td>
-		<td>N/A</td>
-		<td><a href="https://www.equicex.io/" target="_blank">Go now</a></td>
-		<td>N/A</td>
-		<td>false</td>
-		<td>false</td>
 		<td>false</td>
 	</tr>
 	<tr>
@@ -2081,7 +2081,7 @@ Currently unique in crypto, once per week one of our masternode holders or stake
 
 **Crypto Banking**
 
-Divi’s Smart Wallet™ has many new ways to manage money, such as protecting your transactions more securely by requiring the receiver to confirm  a PIN code.  It will have features to help you save, share, collect and track taxes.  Our Vaulting features allows you store money on the blockchain so nobody, not even yourself, can remove it until a predetermined date, which is more secure than brick-and-mortar banks, and also good for long-term savings, such as college funds.  With over two billion people in the world who don’t have a bank account, there’s a great opportunity for the services Divi can offer. 
+Divi’s Smart Wallet™ has many new ways to manage money, such as protecting your transactions more securely by requiring the receiver to confirm  a PIN code.  It will have features to help you save, share, collect and track taxes.  Our Vaulting features allows you store money on the blockchain so nobody, not even yourself, can remove it until a predetermined date, which is more secure than brick-and-mortar banks, and also good for long-term savings, such as college funds.  With over two billion people in the world who don’t have a bank account, there’s a great opportunity for the services Divi can offer.
 
 **Multi Coin System**
 
@@ -2105,7 +2105,7 @@ Within several years, billions of people, businesses, and devices will be using 
 
 **Advanced Governance System**
 
-We are building what may be the most innovative governance system in the cryptocurrency world.  Coin holders will be able to vote to modify parts of the blockchain itself, such as the inflation rate, fee amounts, and even turn some features on or off.  Eventually they will be able to elect some of Divi’s leadership and vote for funding proposals too. 
+We are building what may be the most innovative governance system in the cryptocurrency world.  Coin holders will be able to vote to modify parts of the blockchain itself, such as the inflation rate, fee amounts, and even turn some features on or off.  Eventually they will be able to elect some of Divi’s leadership and vote for funding proposals too.
 
 ## Organizational Structure
 
@@ -2124,7 +2124,7 @@ DIVI is currently traded on various exchanges, and a legal opinion analysis was 
 
 ## Team
 
-Divi’s development team have on average 20+ years of experience building and delivering world-class software on time and on budget. 
+Divi’s development team have on average 20+ years of experience building and delivering world-class software on time and on budget.
 
 ### Leadership
 
@@ -2134,23 +2134,23 @@ Michael Greenwood started at Microsoft as a senior developer at age 19, and rose
 The Divi team includes four different advisers who speak frequently on the national circuit.  This includes former Yahoo Chief Solutions Officer Tim Sanders, and noted futurist Ramez Naam, winner of last year’s Philip K Dick award for best Sci Fi novel. According to Naam, "Divi is the future. It's simple enough for everyone. It's cryptocurrency's Netscape, iPhone, or Tesla moment."  Other well-known advisers include former Coin Telegraph CEO Toni Lane Casserly and Doug Scott, former President of Ogilvy Entertainment.  
 
 Top blockchain architect and former Google software developer Daniel Kraft has also joined as a technical advisor.  Daniel was the lead developer for Namecoin and is now CTO of Xaya.  He is one of the world’s leading authorities on the “Names and Metadata” blockchain technology Divi needs to accomplish its goals.
- 
+
 
 ### Business and Management
 
 **Geoff McCabe, CEO, Divi co-founder**
 New Technology Visionary, Management, SEO, Marketing, Sustainability
-[linkedin](https://www.linkedin.com/in/geoffmccabe) 
+[linkedin](https://www.linkedin.com/in/geoffmccabe)
 
 **Tim Sanders, Advisor/Operations**
 Former Chief Solutions Officer, Yahoo Inc
 [linkedin](https://www.linkedin.com/in/sanderssays)
 
 ### Technical Development
-	
+
 **Michael Greenwood, Co-Founder and CTO**
 UX Expert, Security, AI, Ex-Microsoft Team Leader
-[linkedin](https://www.linkedin.com/profinder/pro/michaelgreenwood)	
+[linkedin](https://www.linkedin.com/profinder/pro/michaelgreenwood)
 
 **Nick Saponaro, Co-Founder and General Manager**
 Lead Full Stack Developer
@@ -2159,7 +2159,7 @@ Lead Full Stack Developer
 **Yuri Oleksyshyn**
 Blockchain Engineer
 [linkedin](https://www.linkedin.com/in/yurii-oleksyshyn-71574675)
-	
+
 **Preston Thornburg**
 Senior Penetration Tester.  Founder - Gambit Security
 [linkedin](https://www.linkedin.com/in/prestonthornburg)
@@ -2169,7 +2169,7 @@ Senior Penetration Tester.  Founder - Gambit Security
 **Regina Bauzaite**
 Marketing Director
 [linkedin](https://www.linkedin.com/in/regina-bauzaite)
-		
+
 **Edwina Bull**
 Marketing and Operations
 [linkedin](https://www.linkedin.com/mynetwork/invite-sent/edwina-bull-7009284a)
@@ -2200,7 +2200,7 @@ Author, Speaker, Futurist, ex Program Manager, Microsoft
 Legal Advisor
 Riverstone Law
 [linkedin](http://www.linkedin.com/in/cottrellnick)
-	
+
 **Mohsan Farid**
 Blockchain security engineer
 [linkedin](https://www.linkedin.com/in/mohsan-farid-cissp-ceh-lpt-93bb486)
@@ -2213,7 +2213,7 @@ Divi is a decentralized ecosystem utilizing a cryptocurrency (DIVI) that is mint
 
 During the original token sale, our tokens were ERC20 compliant derivatives of the Ethereum blockchain, and have been tradable on Cryptopia, with ticker DIVX:
 
-[Cryptopia Website](https://www.cryptopia.co.nz/Exchange/?market=DIVX_BTC) 
+[Cryptopia Website](https://www.cryptopia.co.nz/Exchange/?market=DIVX_BTC)
 
 On September 27th 2018, the conversion process began, whereby each DIVX can be converted to 100 DIVI on the official blockchain.  
 
@@ -2223,9 +2223,9 @@ PoS - Proof of Stake with Masternodes
 
 Block rewards payout
 
-* Masternodes (45%) 
-* Staking (38%) 
-* Treasury for Development and Marketing (9%) 
+* Masternodes (45%)
+* Staking (38%)
+* Treasury for Development and Marketing (9%)
 * Treasury for Exchanges, Liquidity, Platform Support (7%)
 * Charity (1%)
 
@@ -2245,7 +2245,7 @@ The block rewards will be changed by community vote every 6 months based on curr
 * 350 Year 2028
 * 250 Year 2029
 
-Note: 50 coins from every block accumulate for the weekly lottery block fund. 
+Note: 50 coins from every block accumulate for the weekly lottery block fund.
 
 Divi is rolling out new features and updates every two weeks, which we believe will keep our community excited, loyal, growing, and participating in the Divi ecosystem.
 
@@ -2257,10 +2257,10 @@ Divi is designed so that its primary function is as a currency.  However, it als
 2. Earning more with masternodes:  Using the software and resources we will provide, users are able to earn more coins.  The masternode software users install on their computer becomes a useful part of the overall network maintaining, updating, and securing the Divi blockchain.  The coins earned are payment for use of your time, computer, electricity, and internet bandwidth.
 3. Earn coins with a staked wallet:  Users who keep their coins in the Divi wallet will earn more each week.  The wallet also supports the Divi network in different ways than the masternodes do.  Like them, this takes time and resources.
 4. Participate in our Names/DNS System:  DIVI coins can be used to purchase custom names that are used as your wallet addresses.
- 
+
 ## User-Friendly “Smart Wallet”
 
-Divi’s solution stores names and metadata along with transaction data.  Because of these improvements, Divi’s User Interface is easier to learn and use than any other cryptocurrency. 
+Divi’s solution stores names and metadata along with transaction data.  Because of these improvements, Divi’s User Interface is easier to learn and use than any other cryptocurrency.
 
 In order to send money to someone, a user only needs to know the counterparty’s name, email, phone number, helping to eliminate the possibility of loss of funds from sending to an incorrect address.
 
@@ -2293,9 +2293,9 @@ Benefits:
 * Suitable for people with multiple businesses
 * Save money for various projects
 * Separate money for multiple family members
-* Set pockets to pay out or request subscriptions or loans 
+* Set pockets to pay out or request subscriptions or loans
 
-**MultiSig Capable** - This simply means that a wallet or pocket will need two or more people to create and verify transactions. 
+**MultiSig Capable** - This simply means that a wallet or pocket will need two or more people to create and verify transactions.
 
 **Multi-Coin Wallet** - In addition to DIVI, will soon be able to hold their Bitcoin and Ethereum in our wallet.  We’re working on partnerships with other cryptocurrencies to add them as well in the future.  The best part is that users will be able to transact in a user-friendly way with these cryptocurrencies, and swap them with each other nearly instantly.
 
@@ -2329,11 +2329,11 @@ Masternodes replace miners in our blockchain ecosystem.  Our Proof of Stake syst
 
 **2. mMOCCI:**  Mobile MOCCI - Set up and check your masternodes from mobile devices.
 
-**3. Layered Masternode System:**  Divi invented the tiered masternode system, offering higher rewards to those who accumulate more coins for their nodes. 
+**3. Layered Masternode System:**  Divi invented the tiered masternode system, offering higher rewards to those who accumulate more coins for their nodes.
 
 **4. User Interface:**  All current masternode clients use a very similar boring interface that’s plain, non-intuitive and lacking in features.    Divi’s team includes Michael Greenwood a world-class UX/UI expert, and we have designed a user-friendly interface making the process easy and fun.  
 
-**5. Info and Stats:** Another one of the most requested masternode features is a user-friendly way to view masternode stats from within the masternode and mobile application.  We are rolling out easy-to-view stats such as earnings history, current block, coins in circulation, total global masternodes, coin value in USD/BTC, community proposals, voting % approved, and more. 
+**5. Info and Stats:** Another one of the most requested masternode features is a user-friendly way to view masternode stats from within the masternode and mobile application.  We are rolling out easy-to-view stats such as earnings history, current block, coins in circulation, total global masternodes, coin value in USD/BTC, community proposals, voting % approved, and more.
 
 **6. Masternode Map:** We will create a map, showing all the masternodes and how they’re connected.  Participants will be able to see basic contact details and a photo/logo of other node holders, if they chose to provide it.  The goal is connection, participation, and fun, but we realize that many people will prefer to keep their anonymity and that will be an option too.
 
@@ -2361,7 +2361,7 @@ We believe that that our system offers the following benefits to Divi’s networ
 
 * Increased stakeholding, which creates scarcity.
 * Discourages holding massive numbers of masternodes by single entities.
-* Gamifies proof of stake in a way that appeals to many demographics, who will want to save their DIVI to reach the next layer. 
+* Gamifies proof of stake in a way that appeals to many demographics, who will want to save their DIVI to reach the next layer.
 
 More information about Divi’s Masternodes: [More on Masternodes](https://medium.com/diviproject/divi-masternodes-explained-f1fe24d8dab5)
 
@@ -2376,8 +2376,8 @@ Divi is excited to present a new, original feature called “lottery blocks”. 
 * Coin holders are eligible to win unlimited times.
 * Masternode coins aren't eligible and neither are coins held on an exchange.
 
-More Info: [More on Lottery Blocks](https://medium.com/diviproject/divis-lottery-blocks-8c323e3b0b4b) 
-	
+More Info: [More on Lottery Blocks](https://medium.com/diviproject/divis-lottery-blocks-8c323e3b0b4b)
+
 ### Multi Coin Wallet
 
 Many users dislike the wallets that are currently available on the market, and they want a user-friendly way to handle their Bitcoin and other cryptocurrencies.  So we’re doing that.  Both Bitcoin and Ethereum, will be included in our Smart Wallet.  Our users will be able to store and check their balances of these coins, and send/receive them too.
@@ -2424,7 +2424,7 @@ The first stage of governance will allow the community to vote on various settin
 * Fee Amounts
 * Inflation Rate
 * Blockchain metrics
-* Features on/off 
+* Features on/off
 
 Some of these settings will adjust automatically based on the result of the vote.  Others will require a software upgrade before they can be changed.  Some, such as the inflation rate, may be one-way dials that can only be adjusted downwards.
 
@@ -2471,9 +2471,9 @@ We expect authoritarian regimes and banks will use this as an excuse to try to b
 
 **Name Registration**  Users who registering a name and verify their identities will open up the best features of the Smart Wallet, and be able to transfer unlimited amounts of DIVI.
 
-**Private Send**  We’ll ship with coin-mixing technology. Although this scheme has been deemed to theoretically be crackable by huge organizations such as the NSA, it provides a level of privacy sufficient for almost every user. 
+**Private Send**  We’ll ship with coin-mixing technology. Although this scheme has been deemed to theoretically be crackable by huge organizations such as the NSA, it provides a level of privacy sufficient for almost every user.
 
-## Other Technology 
+## Other Technology
 
 **Atomic Swaps** - Using “hash time-locked smart contracts” is vitally important to Divi.  With this new technology, our users will be able to pay in DIVI while on the other side of the transaction, they receive any compatible cryptocurrency. Both Atomic Swaps and DEXs are still being tested and rapidly improved.  
 
@@ -2506,7 +2506,7 @@ Rest assured, we are aware that in order to achieve mass adoption and use by 50 
 Mass adoption of cryptocurrencies is a long-term goal, expected to take 3-7 years.   There are several things that need to happen to achieve this
 
 * User Friendly Wallet Technology
-* Security Improvements 
+* Security Improvements
 * Government clarification of laws
 * Marketplaces of buyers and sellers
 * Atom Swaps and blockchain interoperability
@@ -2529,7 +2529,7 @@ During the build phase, we airdropped 3000 DIVX per week into the wallet of DIVX
 
 ## Target Groups
 
-**The Crypto Curious** 
+**The Crypto Curious**
 
 Bitcoin and cryptos are in the news every day, and millions of people are hearing about them.  Despite their negative portrayal in mainstream media, everyone has a friend who ignored the news and got rich.  These crypto-evangelists are sending millions of people looking for answers.  Divi must provide educational resources to these newbies, to teach them all about crypto, becoming a trusted source of information, and an easy path get into the crypto world.
 
@@ -2537,11 +2537,11 @@ Bitcoin and cryptos are in the news every day, and millions of people are hearin
 
 Crypto mining is wasting massive amounts of electricity, and the future of blockchains is Masternodes and Proof of Stake.  This is one of the reasons why so many people are interested in Masternodes.  The problem with them for most people is that they’re too difficult to set up.  Divi’s one-click solutions are sure to appeal to those who want the continual stream of income that comes from a masternode.  Our job is to make sure they know about us.
 
-**Millennials** 
+**Millennials**
 
 The largest generation, this includes people from ages 18-35.  They already make up 67% of visitors to the Divi website and the majority of cryptocurrency enthusiasts and investors.  On average, they have the least wealth of the various generations, because they’re the youngest.  But because millenials were early crypto adopter, there are tens of thousands of them that have made a fortune off the big gains in cryptos in 2017.  All these factors make them the most important group for Divi to focus on.
 
-**The Unbanked** 
+**The Unbanked**
 
 More than two billion people in the world don’t have a birth certificate and can’t ever open a bank account.  Many are illiterate, but have smartphones.  Divi’s easy-to-use wallet and crypto-banking solution is ideal for this market.
 
@@ -2606,7 +2606,7 @@ DIVI Created Per Year
   2020-2021 -	551,880,000 per year
   2022-2023 -	446,760,000 per year
   2024+ -	341,640,000 per year
-		
+
 Treasury Funds Created by Governance System, assuming 1 DIVI is US$0.02
 
   2018-2019 -	$105,120 per month
@@ -2653,7 +2653,7 @@ Our 100% PoS masternode technology is leagues ahead of anyone else.  For the fir
 
 **Stage 2: User Friendly Smart Wallet**
 
-Our new blockchain allows us to socialize and humanize financial experiences by hiding the “crypto” underneath a sweet User Interface. This “Smart Wallet” is being designed to remove all the “pain points” that currently prevent ordinary people from getting excited about cryptocurrencies. Think of it this way: cryptos currently are like MS Dos in the early 1980’s. The Divi Project is bringing the user experience of Apple with the social genius of Facebook in its blockchain/smart-wallet system. 
+Our new blockchain allows us to socialize and humanize financial experiences by hiding the “crypto” underneath a sweet User Interface. This “Smart Wallet” is being designed to remove all the “pain points” that currently prevent ordinary people from getting excited about cryptocurrencies. Think of it this way: cryptos currently are like MS Dos in the early 1980’s. The Divi Project is bringing the user experience of Apple with the social genius of Facebook in its blockchain/smart-wallet system.
 
 **Stage 3: Mass Adoption of Digital Currencies**
 
@@ -2679,7 +2679,7 @@ Divi Team Details: [Team](https://diviproject.org/#team)
 
 **Lottery Blocks:** Also the first crytpo to have this. Once per week a lottery block is mined that awards a few lucky Divi stakers a jackpot.
 
-**Security:** Security is greatly improved when social interactions between sender and receiver are available. We’ll have a multi-faceted security system that allows users to build a security solution  that they’re comfortable with, and can range from “casual” to Ft Knox. 
+**Security:** Security is greatly improved when social interactions between sender and receiver are available. We’ll have a multi-faceted security system that allows users to build a security solution  that they’re comfortable with, and can range from “casual” to Ft Knox.
 
 **Be Your Own Bank:** Much more than just a wallet, our “bank in a box” has many innovative new features to help people save, protect, earn, or send money to friends, family, businesses, and charities. We have a piggy bank feature, security vaulting, subscription payments, auto-splitting of payments between partners, and even a way to collect and send off taxes. You can send transaction to someone’s email and encrypt it yourself with a PIN code. You’ll never need or want a brick-and-mortar bank again.
 
@@ -2700,16 +2700,16 @@ Purchasers of Divi coins should be able to rest easy, knowing we’re doing our 
 The Divi Project had a successful token sale during Sept-Nov of 2017.  8.33% of tokens generated went to the founders and the rest were used for operations or ICO participants.  Starting as an ERC20 token called DIVX, a token swap of 1 DIVX to 100 DIVI was started in late June of 2018 that included full KYC/AML to screen out United States residents, in compliance with U.S. SEC requirements.
 
 ## Contact and Connect
- 
+
 Website: [https://diviproject.org](https://diviproject.org)
 Email: info@diviproject.org
 
 Articles: [https://medium.com/diviproject](https://medium.com/diviproject)
-Facebook: [https://www.facebook.com/diviproject](https://www.facebook.com/diviproject) 
+Facebook: [https://www.facebook.com/diviproject](https://www.facebook.com/diviproject)
 Reddit: [https://www.reddit.com/r/DiviProject](https://www.reddit.com/r/DiviProject)
-Telegram: [https://t.me/diviproject](https://t.me/diviproject) 
-Twitter: [https://twitter.com/diviproject](https://twitter.com/diviproject) 
-YouTube: [https://www.youtube.com/TheDiviProject](https://www.youtube.com/TheDiviProject) 
+Telegram: [https://t.me/diviproject](https://t.me/diviproject)
+Twitter: [https://twitter.com/diviproject](https://twitter.com/diviproject)
+YouTube: [https://www.youtube.com/TheDiviProject](https://www.youtube.com/TheDiviProject)
 
 # Community Guidelines
 
