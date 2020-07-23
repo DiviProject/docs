@@ -1602,7 +1602,7 @@ DIVX/DIVI is currently listed on the following exchanges:
     <tr>
       <td>DIVI</td>
       <td>Bitrue</td>
-      <td>DIVI/US</td>
+      <td>DIVI/USDT</td>
       <td><a href="https://www.bitrue.com/trade/divi_usdt" target="_blank">Go now</a></td>
       <td><a href="https://coinmarketcap.com/exchanges/bitrue/" target="_blank">Go now</a></td>
       <td>false</td>
@@ -2316,7 +2316,7 @@ We want our Smart Wallet to be able to work in a way that’s already familiar t
 
 **Request Money / Billing** - Send or schedule messages within the wallet with a link so a contact can easily pay you, and even pre-decide what pocket you want the money deposited into.
 
-**Auto Split** - When money comes in, you can have have it automatically re-distributed to other wallets or pockets according to preset percentages.  Great for business partners.
+**Auto Split** - When money comes in, you can have it automatically re-distributed to other wallets or pockets according to preset percentages.  Great for business partners.
 
 **Tax Separation** - Using the Auto Split feature, you can have the taxes for the products you sell automatically split off into a separate pocket.
 
