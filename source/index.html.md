@@ -2725,36 +2725,39 @@ We love that you are here to help us build a community and support us in our goa
 In an effort to keep conversation productive, Divi requires that the following guidelines be followed when communicating in our telegram. Failure to follow these guidelines will result in temporary restriction from posting, or in extreme cases permanent removal from the channel.
 
 ## General Rules
-Our community channels operate under a 3-strike policy. Offenders will receive a warning for each offense. On the third offense, offenders will be automatically removed from the channel. The rules are upheld by a group of administrators and the Guardbot. Rules include but are not limited to:
+* For most rules, our community channels operate under a 3-strike policy. Offenders will receive a warning for each offense. Third offenses result in automatic removal from the channel. Our group of administrators and bots uphold all rules. Rules include but are not limited to:
 
-1. Search the channel before you post a question to find out if your question was answered.
+1. Be proactive in searching the channel for questions previously answered.
 2. Debates should be scholarly and fact-oriented. Baseless claims with no proof of claim do not make for a sound argument and will receive a warning. “My friend is an expert, and I trust his assessment more than you” does not gain any ground in an argument. Let your friend advance their argument if that is what they believe.
-3. Argue the idea or position not the person. “You are stupid” not only is an ineffective argument, but also will receive a warning for hostility toward another user.
-4. Misogyny: we absolutely do not want or tolerate a “bro” culture typical in many crypto and tech groups. Gender-based attacks, sexualization and objectification, etc, will get you kicked out fast.  Besides the fact that Divi wants to appeal to women, and bringing more women into the blockchain space is essential for mass adoption, this kind of talk is just stupid, wrong, and embarrassing.  Time to grow up.
-5. Users are prohibited from demeaning or otherwise insulting other users on the basis of race, nationality, ethnicity, religion, sexual orientation, or financial status. Depending on the severity of the offense, this will receive a warning or insta-ban.
-6. Outside links to pump & dump groups, other channels, airdrop scams, pornographic websites, etc... are forbidden, will be automatically removed and receive a warning.
-7. Incessant provocation (trolling) of other members is prohibited and will result in a warning. For example, making comments in a post either direct or implied toward another member that are purposely designed to upset, antagonize, make fun of, belittle, harass, insult or otherwise instigate an argument that takes away from the personal enjoyment of the channel by others.
-8. Excessive restating of a point of view after a reasonable explanation and/or discussion has taken place will result in a warning.
-9. Some subjects can invite a flame war. Be careful discussing things where emotions run high (e.g. politics, religion and which team will win the world cup). Show respect for those who have different beliefs than yours.
-10. Posting any files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of another’s computer will result in a warning or ban.
-11. Posting any information obtained or originally transmitted in confidence or with the implied belief that the message was to be kept in confidence without the express permission of the original author of the communication will result in a warning. Additionally any private, direct communication between administrators and a member is strictly prohibited from being posted or retransmitted in any way.
-12. **The golden rule** is “Do unto others as you would have them do unto you,” but here the reverse is even more true:  “Don’t do unto others what you wouldn’t want them to do to you!”  
+3. Argue the idea or position, not the person. “You are stupid” is a weak argument and will receive a warning for hostility toward another user.
+4. Misogyny: we do not want or tolerate a “bro” culture typical in many crypto and tech groups. Gender-based attacks, sexualization and objectification, etc., will get you kicked out fast.  Besides the fact that Divi wants to appeal to women, and bringing more women into the blockchain space is essential for mass adoption, this kind of talk is just stupid, wrong, and embarrassing.  Time to grow up.
+5. Users may not demean or otherwise insult other users based on race, nationality, ethnicity, religion, sexual orientation, or financial status.
+6. Outside links to pump & dump groups, other channels, airdrop scams, pornographic websites, etc. are forbidden and will be automatically removed and may result in an immediate ban.
+7. Price conversations are, in general, discouraged, especially when related to the encouragement of creating pumps in volume or value.  We believe value is a result **not** a strategy.
+8. Incessant provocation (trolling) of other members is prohibited and will result in a warning. For example, making comments in a post either direct or implied toward another member purposely designed to upset, antagonize, make fun of, belittle, harass, insult or otherwise instigate an argument that takes away from the personal enjoyment of the channel by others.
+9. Excessive restating of a point of view after a reasonable explanation and discussion will result in a warning.
+10. Some subjects can invite a flame war. Be careful discussing things where emotions run high (e.g., politics, religion, even which team will win the world cup). Show respect for those who have different beliefs than yours.
+11. Posting any files that contain viruses, corrupted files, or any other similar software or programs that may damage the operation of another’s computer will almost certainly result in immediate removal for the protection of the community.
+12. Posting any information obtained or transmitted initially in confidence or with the implied belief that the message was in confidence without the express permission of the original author of the communication will result in a warning and removal of the post. Additionally, members are prohibited from sharing or reposting any private, direct communication between administrators.
+13. **The golden rule** is “Do unto others as you would have them do unto you.” However, you may also apply **The silver rule** of  “Do not do unto others as you would not have them do unto you.”
 
 So just be excellent to each other.  Patience, kindness, and gratitude are the Divi way.
 
+* All rules can be broken with degrees of severity. Depending on the severity of the offense, an offense may result an instant ban in the most severe cases for the protection and preservation of the community.
+
 ## Anonymity
-<<<<<<< Updated upstream
-Anonymous commenting is allowed.  However, the Divi team will be much more tolerant of comments from users who are known to us.  If it appears that a user is hiding behind a cloak of anonymity in order to start trouble, we may choose to remove that person.  The founders of Divi are known people, and if we are to be attacked we reserve the right to know who is doing it.
+
+Pseudo Anonymous commenting is allowed.  However, the Divi team will be much more tolerant of comments from users known to us.  If it appears that a user is hiding behind a cloak of anonymity to start trouble, we may choose to remove that person.  The founders of Divi are known people, and if we are to be attacked we reserve the right to know who is doing it.
 
 # Branding Guidelines
 
-See details about the Divi brands [here](https://blog.diviproject.org/divi-brands/).
+See details about the [Divi Brands](https://blog.diviproject.org/divi-brands/).
 
 ## Logos
 Logos should only be used for promotional purposes and not for profit.
 
-* [Divi Logos](https://divi-files.sfo2.digitaloceanspaces.com/divi_logos.zip)
-* [Ridivi Logos](https://divi-files.sfo2.digitaloceanspaces.com/rd_logos.zip)
-=======
-Anonymous commenting is allowed.  However, the Divi team will be much more tolerant of comments from users who are known to us.  If it appears that a user is hiding behind a cloak of anonymity in order to start trouble, we may choose to remove that person.  The founders of Divi are known people, and if we are to be attacked we reserve the right to know who is doing it.
->>>>>>> Stashed changes
+[Divi Logos](https://divi-files.sfo2.digitaloceanspaces.com/divi_logos.zip)
+
+[RiDivi Logos](https://divi-files.sfo2.digitaloceanspaces.com/rd_logos.zip)
+
+==============
