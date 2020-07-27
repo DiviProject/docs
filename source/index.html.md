@@ -38,15 +38,16 @@ Upon first opening the Divi Desktop Smart Wallet &trade;, you will be prompted t
 
 ## Backup your wallet with a mnemonic seed phrase
 
-Divi does not have access to any indivdual accounts and cannot recover funds if they are lost. To prevent loss of funds, it is recommended that you take advantage of our HD Mnemonic Seed Phrase feature. This feature will generate a random, 24-word phrase that can be used to recover your wallet should you lose access to it.
+Divi does not have access to any individual accounts and cannot recover funds if they are lost. To prevent loss of funds, it is recommended that you take advantage of our HD Mnemonic Seed Phrase feature. This feature will generate a random, 24-word phrase that can be used to recover your wallet should you lose access to it.
 
 ## Keep your passwords and seed phrase offline
 
-Do not, we repeat, _do not_, store your encryption password or mnemonic seed phrase online. In fact, it is recommended that you keep this information completely analog. This means, do not store your private information in a Word document on a computer that connects to the internet. The best practice is to write your password and mnemonic down on a piece of paper and store it somewhere safe, like a safe.
+Do not, we repeat, _do not_, store your encryption password or mnemonic seed phrases in online storage services.  The best practice is to keep a copy of your password and mnemonic in separate secure locations that only you have access too. Never store your password or seed phrase in the same computer as your Divi Desktop Smart Wallet, in a  text document, or piece of paper that may be accessible by others.
 
-## Never share your wallet files with anyone
+## Never allow access or share your wallet files with anyone
 
-Members of the Divi team will never request access to your `wallet.dat` or any other file deemed proprietary to your account. If a member of the community or someone claiming to be a Divi team member makes an attempt to access this data, please report them immediately to an Admin.
+Members of the Divi team will never request access to your `wallet.dat` or any other file that may reveal access to your keys or coins. If a member of the community or someone claiming to be a Divi team member makes an attempt to access this data, please report them immediately to an Admin. **Admin and Support will never ask for access to your computer.**
+
 
 # FAQ / Troubleshooting
 
@@ -144,7 +145,12 @@ A: You can find all our current exchange listings [here](https://wiki.diviprojec
 
 **Q: What if my Divi wallet fails to start?**
 
-A: Try exiting the application and restarting. If you’re still having issues, restart your computer and reopen Divi Desktop.  If you had an older version of the wallet, that may need to be completely removed before installing the new one.  On PC, check-in `/users/[yourname]/appdata/roaming` and delete the DIVI folders you see there.
+Almost all tools are available in your wallet in the Settings area under Maintenance.
+
+A: First try exiting the application and restarting. If you’re still having issues, restart your computer and reopen Divi Desktop
+
+B: Second try the "Clear Cache" button to fix most sync issues. You should see sync begin within 1 - 5 minutes. Standard sync can take 40 minutes to 8 hours with a fair internet connection.
+
 
 **Q: My balance is 0. What happened to my funds?**
 
@@ -158,7 +164,7 @@ A: Stop the wallet. Move all `wallet.<numbers>.bak` and `wallet.dat` files to yo
 
 **Q: Am I able to host masternodes on my home computer without the need for cloud services?**
 
-A: While it is important that you follow the Controller/Remote node structure, you can use a VM (Virtual Machine) in tandem with your standard machine to run a Masternode locally.
+A: Technically, yes, it is possible, though not suggested. Many internet services offer dynamic IP addresses or semi-static IP addresses. You must set this IP when following the self-supported masternode process. Every time the provider changes the IP, your masternode will stop, and you will need to reconfigure.
 
 **Q: Do I need to keep my home computer turned on to receive masternode rewards?**
 
@@ -182,7 +188,7 @@ A: The formula is 2.6 * # of Masternodes in the Network, in minutes.  So if ther
 
 **Q: Am I required to use Digital Ocean to create my cloud-based Masternodes?**
 
-A: If you choose to use the MOCCI, the node will be deployed to Digital Ocean. You can, however, set up a Masternode manually using [our guide](#masternode-setup-guide).
+A: If you choose to use the MOCCI, the node will be deployed to a distributed network of hosting providers. If you choose the self supported method you can review [our guide](#masternode-setup-guide).
 
 **Q: How do masternodes work in layman’s terms?**
 
@@ -198,21 +204,27 @@ A: The cost of the server is a flat fee and not based on usage. Each month is pa
 
 **Q. Do I need to set up a VPS account for my masternode?**
 
-A. You don’t NEED to do this.  If you deploy your masternode with MOCCI then we do it for you and you don’t need to do anything.  You can save yourself $5/month by doing it all yourself on your own VPS account.  You can even do it manually on your own home computer.
+A. MOCCI allows users with little or no blockchain knowledge, minimal computer skills, and a debit or credit card to launch a masternode. You only need a VPS if using the self-supported method.
 
 **Q. Can I deploy more than one masternode from the same local wallet?**
 
-A. Yes, but only one at a time.  You have to wait until one is completely finished deploying before starting the next one.
+A. You can deploy as many masternodes as you would like from the Divi Desktop Application and MOCCI.
 
 **Q. How can I make sure my masternode has been deployed successfully?**
 
-A. Try checking on https://diviscan.io/masternodes to find it there. Or, if you manually deployed, you can run `./divi-cli getmasternodestatus` from the command line on the machine where your Masternode is hosted.
+A. Click your overview in Divi Desktop Smart Wallet, then click the masternode tab. This will display information about your masternode running status.
 
 ## MOCCI FAQs
 
-**Q. Why does it cost $15 to deploy a masternode?**
+**Q. What is MOCCI
 
-A. We pay Digital Ocean $10/month and the $5 is left over to cover overhead, etc.
+**Q. What is the cost to deploy a masternode?**
+
+A. The cost of the hosting ranges from $10 to $15 depending upon the tier of masternode.
+
+**Q. Where do the fees go for MOCCI hosting?**
+
+A. The payments are made to Divi Labs.
 
 **Q: My incoming masternode reward status has turned green. Why does my balance not reflect the reward?**
 
@@ -542,7 +554,7 @@ This section of the documentation assumes that the user is familiar with using a
 ## OSX Setup
 
 ### 1. Getting started
-* Download the latest [CORE build](https://github.com/Divicoin/Divi/releases/tag/1.0.3-CLI)
+* Download the latest [CORE build](https://github.com/DiviProject/Divi/releases/tag/v1.1.2)
 * Unzip the package
 * `cd` into the unzipped file
 * `cd` into the bin directory
@@ -705,7 +717,9 @@ masternode=1
 externalip=your_unique_public_ip_address
 masternodeprivkey=private_key_from_step_3.
 ```
-After this, the node is configured.
+Close and save.
+
+After this, take a copy of the `masternode.conf` from step 3. Place the copy of the masternode.conf in the same directory as your divi.conf.
 
 <aside class="notice">
 It is now safe to start both nodes again.
@@ -1640,6 +1654,16 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 	</tr>
+  <tr>
+    <td>DIVI</td>
+    <td>XBTPro</td>
+    <td>DIVI/BTC</td>
+    <td><a href="https://trade.xbtpro.com/?symbol=DIVI-BTC/" target="_blank">Go now</a></td>
+    <td>n/a</a></td>
+    <td>false</td>
+    <td>false</td>
+    <td>false</td>
+  </tr>
 		<tr>
 		<td>DIVI</td>
 		<td>CREX24</td>
