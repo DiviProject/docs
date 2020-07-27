@@ -164,7 +164,7 @@ A: Stop the wallet. Move all `wallet.<numbers>.bak` and `wallet.dat` files to yo
 
 **Q: Am I able to host masternodes on my home computer without the need for cloud services?**
 
-A: Technically, yes, it is possible, though not suggested. Many internet services offer dynamic IP addresses or semi-static IP addresses. You must set this IP when creating your masternode. Every time the provider changes the IP, your masternode will stop, and you will need to reconfigure.
+A: Technically, yes, it is possible, though not suggested. Many internet services offer dynamic IP addresses or semi-static IP addresses. You must set this IP when following the self-supported masternode process. Every time the provider changes the IP, your masternode will stop, and you will need to reconfigure.
 
 **Q: Do I need to keep my home computer turned on to receive masternode rewards?**
 
@@ -224,7 +224,7 @@ A. The cost of the hosting ranges from $10 to $15 depending upon the tier of mas
 
 **Q. Where do the fees go for MOCCI hosting?**
 
-A. The payments are made to Divi Labs. 
+A. The payments are made to Divi Labs.
 
 **Q: My incoming masternode reward status has turned green. Why does my balance not reflect the reward?**
 
