@@ -1592,7 +1592,19 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<th>KYC required</th>
 		<th>Decentralized</th>
 		<th>Fiat on-ramp</th>
+		<th>US Investors</th>
 	<tr>
+	<tr>
+		<td>DIVI</td>
+		<td>BitMax</td>
+		<td>DIVI/USDT</td>
+		<td><a href="https://bitmax.io/en/basic/cashtrade-spottrading/usdt/divi" target="_blank">Go now</a></td>
+		<td><a href="https://coinmarketcap.com/exchanges/bitmax/" target="_blank">Go now</a></td>
+		<td>false</td>
+		<td>false</td>
+		<td>true</td>
+		<td>false</td>
+	</tr>
 	<tr>
 		<td>DIVI</td>
 		<td>Bitrue</td>
@@ -1601,6 +1613,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td><a href="https://coinmarketcap.com/exchanges/bitrue/" target="_blank">Go now</a></td>
 		<td>false</td>
 		<td>false</td>
+		<td>true</td>
 		<td>true</td>
 	</tr>
 	<tr>
@@ -1612,17 +1625,19 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 		<td>true</td>
+		<td>true</td>
 		</tr>
     <tr>
-      <td>DIVI</td>
-      <td>Bitrue</td>
-      <td>DIVI/USDT</td>
-      <td><a href="https://www.bitrue.com/trade/divi_usdt" target="_blank">Go now</a></td>
-      <td><a href="https://coinmarketcap.com/exchanges/bitrue/" target="_blank">Go now</a></td>
-      <td>false</td>
-      <td>false</td>
-      <td>true</td>
-      </tr>
+      	<td>DIVI</td>
+      	<td>Bitrue</td>
+     	<td>DIVI/USDT</td>
+     	<td><a href="https://www.bitrue.com/trade/divi_usdt" target="_blank">Go now</a></td>
+      	<td><a href="https://coinmarketcap.com/exchanges/bitrue/" target="_blank">Go now</a></td>
+      	<td>false</td>
+      	<td>false</td>
+      	<td>true</td>
+	  	<td>true</td>
+    </tr>
 		<tr>
 		<td>DIVI</td>
 		<td>Bithumb Global</td>
@@ -1632,6 +1647,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
+		<td>true</td>
 	</tr>
 	</tr>
 		<tr>
@@ -1643,6 +1659,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
+		<td>true</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
@@ -1653,18 +1670,31 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
+		<td>true</td>
 	</tr>
-  <tr>
-    <td>DIVI</td>
-    <td>XBTPro</td>
-    <td>DIVI/BTC</td>
-    <td><a href="https://trade.xbtpro.com/?symbol=DIVI-BTC/" target="_blank">Go now</a></td>
-    <td>n/a</a></td>
-    <td>false</td>
-    <td>false</td>
-    <td>false</td>
-  </tr>
 		<tr>
+		<td>DIVI</td>
+		<td>InstaSwap</td>
+		<td>DIVI/ANYTHING</td>
+		<td><a href="https://app.instaswap.io/?&giveCoin=BTC&getCoin=DIVI" target="_blank">Go now</a></td>
+		<td>n/a</td>
+		<td>false</td>
+		<td>true</td>
+		<td>fiat/pairs</td>
+		<td>true</td>
+	</tr>
+	<tr>
+    	<td>DIVI</td>
+    	<td>XBTPro</td>
+    	<td>DIVI/BTC</td>
+    	<td><a href="https://trade.xbtpro.com/?symbol=DIVI-BTC/" target="_blank">Go now</a></td>
+    	<td>n/a</a></td>
+    	<td>false</td>
+    	<td>false</td>
+    	<td>false</td>
+		<td>true</td>
+	</tr>
+	<tr>
 		<td>DIVI</td>
 		<td>CREX24</td>
 		<td>DIVI/BTC</td>
@@ -1673,26 +1703,18 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
+		<td>false</td>
 	</tr>
-  <tr>
-    <td>DIVI</td>
-    <td>LATOKEN</td>
-    <td>DIVI/BTC</td>
-    <td><a href="https://latoken.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
-    <td><a href="https://coinmarketcap.com/exchanges/latoken/" target="_blank">Go now</a></td>
-    <td>false</td>
-    <td>false</td>
-    <td>false</td>
-  </tr>
-	<tr>
-		<td>DIVI</td>
-		<td>Exrates</td>
-		<td>DIVI/BTC</td>
-		<td><a href="https://exrates.me/dashboard" target="_blank">Go now</a></td>
-		<td><a href="https://coinmarketcap.com/exchanges/exrates/" target="_blank">Go now</a></td>
-		<td>false</td>
-		<td>false</td>
-		<td>false</td>
+  	<tr>
+    	<td>DIVI</td>
+    	<td>LATOKEN</td>
+    	<td>DIVI/BTC</td>
+    	<td><a href="https://latoken.com/exchange/DIVI-BTC" target="_blank">Go now</a></td>
+    	<td><a href="https://coinmarketcap.com/exchanges/latoken/" target="_blank">Go now</a></td>
+    	<td>false</td>
+    	<td>false</td>
+    	<td>false</td>
+		<td>true</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
@@ -1703,6 +1725,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>true</td>
 		<td>false</td>
+		<td>true</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
@@ -1713,6 +1736,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>false</td>
 		<td>false</td>
 		<td>false</td>
+		<td>true</td>
 	</tr>
 	<tr>
 		<td>DIVI</td>
@@ -1722,6 +1746,7 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td><a href="https://coinmarketcap.com/exchanges/simex/" target="_blank">Go now</a></td>
 		<td>true</td>
 		<td>false</td>
+		<td>true</td>
 		<td>true</td>
 	</tr>
 </table>
@@ -2051,7 +2076,13 @@ DIVX/DIVI is currently listed on the following exchanges:
 		<td>---</td>
 		<td><a href="https://soundcloud.com/coinpm/coinpm-talks-michael-greenwood" rel="nofollow">View</a></td>
 	</tr>
-
+	<tr>
+		<td>07/20/2020</td>
+		<td>Newsbit</td>
+		<td>Wat is Divi?</td>
+		<td>---</td>
+		<td><a href="https://newsbit.nl/wat-is-divi/" rel="nofollow">View</a></td>
+	</tr>
 
 </table>
 
