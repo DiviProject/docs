@@ -2086,6 +2086,12 @@ DIVX/DIVI is currently listed on the following exchanges:
 
 </table>
 
+# Security Review
+
+A third-party security audit was performed by [LIFARS](https://lifars.com/) to ensure the safety and security of the DiviWallet users across all mobile operating systems. The results from this report can be found below.
+
+[Divi Security Review by LIFARS](pdfs/LIFARS_Divi_Penetration_Testing_Report.pdf)
+
 # Whitepaper
 
 Version 2.2 - Last Updated November 25, 2018
